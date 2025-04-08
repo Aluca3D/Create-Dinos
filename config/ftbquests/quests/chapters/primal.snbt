@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "primal"
+	group: "5F1A65E495DCB771"
+	icon: {
+		Count: 1
+		id: "alexscaves:primordial_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5CBD0A711A1B7EA2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44A85CCDBCEA1C8A"]
+			id: "00D94E537980A27C"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: {
+					Count: 1
+					id: "alexscaves:primordial_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "70162B4C2CE617E6"
+				title: "Dino Caves"
+				type: "biome"
+			}]
+			title: "Dino Caves!"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			dependency_requirement: "all_started"
+			id: "44A85CCDBCEA1C8A"
+			secret: true
+			size: 2.0d
+			tasks: [{
+				id: "2F3C7F9DBECCBBAC"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Collect an Primordial Cave Tablet"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00D94E537980A27C"]
+			icon: "alexscaves:limestone_spear"
+			id: "04E30BFBF78E5CC0"
+			tasks: [
+				{
+					entity: "alexscaves:subterranodon"
+					icon: "alexscaves:spawn_egg_subterranodon"
+					id: "76C39352219BAFC6"
+					title: "Subterranodon"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:vallumraptor"
+					icon: "alexscaves:spawn_egg_vallumraptor"
+					id: "0B417447C1A43738"
+					title: "Vallumraptor"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:grottoceratops"
+					icon: "alexscaves:spawn_egg_grottoceratops"
+					id: "28166B90936A4604"
+					title: "Grottoceratops"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:tremorsaurus"
+					icon: "alexscaves:spawn_egg_tremorsaurus"
+					id: "09D1C0701DE68649"
+					title: "Tremorsaurus"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:relicheirus"
+					icon: "alexscaves:spawn_egg_relicheirus"
+					id: "7A3B755685ADFD43"
+					title: "Relicheirus"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:atlatitan"
+					icon: "alexscaves:spawn_egg_atlatitan"
+					id: "11E0DF2451FD199A"
+					title: "Atlatitan"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Second Extinction"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00D94E537980A27C"]
+			icon: {
+				Count: 1
+				id: "alexscaves:extinction_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "36A8F862B9E44B99"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:spawn_egg_luxtructosaurus"
+				id: "1463067391E6865A"
+				title: "Luxtructosaurus"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Free the DINO CAVES!!"
+			x: -4.5d
+			y: -2.0d
+		}
+	]
+	title: "Primordial Caves"
+}

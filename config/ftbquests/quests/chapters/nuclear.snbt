@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nuclear"
+	group: "6C4920BA3B869E92"
+	icon: "createnuclear:enriched_yellowcake"
+	id: "568BEAA62D465215"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Nuclear"
+}

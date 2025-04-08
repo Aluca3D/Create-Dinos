@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guns"
+	group: "6C4920BA3B869E92"
+	icon: {
+		Count: 1
+		id: "cgs:revolver"
+		tag: {
+			AmmoCount: 6
+			variant: "default"
+		}
+	}
+	id: "3DC841EAF5D668F2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Guns"
+}

@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_caves"
+	group: "5F1A65E495DCB771"
+	icon: "alexsmobs:animal_dictionary"
+	id: "7560A3EAC4E3A093"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["561FDB28B26CA818"]
+			id: "429D2745C5F14C8C"
+			secret: true
+			size: 2.0d
+			tasks: [{
+				id: "0126744284E472C4"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Collect any cave tablet"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			id: "596D9B36979F00AB"
+			tasks: [
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: "alexscaves:submarine"
+					id: "046AFC397868C876"
+					title: "Abyssal Chasm"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:candy_cavity"
+					icon: "alexscaves:large_peppermint"
+					id: "6F0ECCFD3A4F2BDE"
+					title: "Candy Cavity"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:forlorn_hollows"
+					icon: "alexscaves:pure_darkness"
+					id: "00DE377F17465071"
+					title: "Forlorn Hollows"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:magnetic_caves"
+					icon: "alexscaves:scarlet_magnet"
+					id: "101E13947774CF02"
+					title: "Magnetic Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:primordial_caves"
+					icon: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1496E778B8DAB926"
+					title: "Primordial Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:toxic_caves"
+					icon: "alexscaves:waste_drum"
+					id: "6413FA7DE2E4AB32"
+					title: "Toxic Caves"
+					type: "biome"
+				}
+			]
+			title: "Visit all the Caves"
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	title: "Alex's Caves"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: ""
+	icon: "kubejs:cad_coin"
+	id: "6E446F0101A52E1E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Shop"
+}

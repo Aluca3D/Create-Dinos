@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magnetic_caves"
+	group: "5F1A65E495DCB771"
+	id: "5E088338E3DCBA49"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Magnetic Caves"
+}

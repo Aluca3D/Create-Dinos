@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electricity"
+	group: "6C4920BA3B869E92"
+	icon: "createaddition:electric_motor"
+	id: "038056AEACA7F8EC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Electricity"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "candy_cavity"
+	group: "5F1A65E495DCB771"
+	id: "342A83F8AD4A9D15"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Candy Cavity"
+}
