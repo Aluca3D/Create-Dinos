@@ -3,7 +3,7 @@ name: Bug report
 about: Modpack Bug
 title: "[BUG]"
 labels: bug
-assignees: Aluca3D
+assignees:
 
 ---
 
