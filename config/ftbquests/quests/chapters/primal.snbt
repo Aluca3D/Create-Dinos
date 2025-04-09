@@ -38,7 +38,7 @@
 			dependencies: ["429D2745C5F14C8C"]
 			dependency_requirement: "all_started"
 			id: "44A85CCDBCEA1C8A"
-			secret: true
+			invisible: true
 			size: 2.0d
 			tasks: [{
 				id: "2F3C7F9DBECCBBAC"

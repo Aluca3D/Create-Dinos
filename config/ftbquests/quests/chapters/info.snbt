@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["721A24CAFF05E200"]
 			description: [
 				"It is planned to add dinosaurs once &lFossils and Archeology: Revival&r has been ported to 1.20.1."
 				"Until then, have fun with the \"dinosaurs\" that &lAlex's Caves&r adds!"
@@ -21,10 +22,11 @@
 				title: "Dinos"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["721A24CAFF05E200"]
 			description: ["&lSteam 'n Rails&r will be added once it has been ported to Create 6.0.*."]
 			disable_toast: true
 			id: "4F936B8E26FFE8FF"
@@ -33,29 +35,9 @@
 				title: "Trains!!"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"04AD5250F99397CF"
-				"4F936B8E26FFE8FF"
-				"79ED0DE7AF94EC37"
-				"0823901E25F86EB8"
-			]
-			dependency_requirement: "one_started"
-			description: ["There will be more quests in the future."]
-			disable_toast: true
-			icon: "ftbquests:book"
-			id: "6A4A393C29E933ED"
-			size: 2.0d
-			tasks: [{
-				id: "15C591F4FD86E676"
-				title: "Quest Bock"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 0.0d
+			title: "More Trains!!"
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["721A24CAFF05E200"]
@@ -69,46 +51,20 @@
 				type: "checkmark"
 			}]
 			title: "Sandbox"
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			description: ["Recipes are subject to change in the future, along with the current mods and loot tables."]
-			disable_toast: true
-			id: "79ED0DE7AF94EC37"
-			tasks: [{
-				id: "197EC719C5E75759"
-				title: "Future Changes"
-				type: "checkmark"
-			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
-			description: [
-				"There is currently no way to contact me about questions or bugs other than leaving a comment on CurseForge."
-				"Other methods (like a Discord server) are not planned at this time."
-				""
-				"Please keep in mind that this is my first time creating something like this, so there may be a few bugs."
-			]
-			disable_toast: true
-			id: "0823901E25F86EB8"
-			tasks: [{
-				id: "7EEB72008DC528B5"
-				title: "Questions / Bugs"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6A4A393C29E933ED"]
+			dependencies: ["03140AF8A1ECB10A"]
+			dependency_requirement: "one_started"
 			description: [
 				"I don’t know what else to say besides:"
 				"Have fun playing! :)"
 			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
 			id: "721A24CAFF05E200"
-			secret: true
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "155016C714D07B27"
@@ -129,7 +85,7 @@
 			}]
 			title: "Exploration"
 			x: 0.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["721A24CAFF05E200"]
@@ -141,8 +97,8 @@
 				type: "checkmark"
 			}]
 			title: "Create"
-			x: 0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["721A24CAFF05E200"]
@@ -156,7 +112,28 @@
 			}]
 			title: "Shop"
 			x: -2.5d
-			y: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This modpack is a hobby project I created for myself and my friends, but I wanted to share it with more people so others can have fun with it!"
+				"This means it will probably only be maintained by me."
+				"As a result, there may be bugs or missing recipes, but I will be working to fix those and add the missing recipes."
+				""
+				"{@pagebreak}"
+				"If you find any bugs, or have any requests or ideas (For new Mods or Recipes), please post them to my GitHub (Link in Modpack Description)."
+				""
+				"(Keep in mind that I won't be able to fix or add everything all at once.)"
+			]
+			id: "03140AF8A1ECB10A"
+			tasks: [{
+				id: "2F585129C09BC1F8"
+				title: "About This Modpack"
+				type: "checkmark"
+			}]
+			title: "About This Modpack"
+			x: -1.0d
+			y: -5.0d
 		}
 	]
 	title: "Info"

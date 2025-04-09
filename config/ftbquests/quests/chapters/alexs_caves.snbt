@@ -10,8 +10,8 @@
 	quests: [
 		{
 			dependencies: ["561FDB28B26CA818"]
+			hide_until_deps_complete: true
 			id: "429D2745C5F14C8C"
-			secret: true
 			size: 2.0d
 			tasks: [{
 				id: "0126744284E472C4"
