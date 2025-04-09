@@ -2,7 +2,7 @@
 name: Bug report
 about: Modpack Bug
 title: "[BUG]"
-labels: bug
+labels: bug, question
 assignees: ''
 
 ---
