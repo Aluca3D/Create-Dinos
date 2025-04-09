@@ -10,8 +10,15 @@
 	quests: [
 		{
 			dependencies: ["2C983D6637730B04"]
+			description: ["Acquire 16x Andesite Alloy,"]
 			hide_until_deps_complete: true
 			id: "72D43E029A690563"
+			rewards: [{
+				count: 4
+				id: "22931DCBE3877919"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				count: 16L
@@ -25,20 +32,34 @@
 		}
 		{
 			dependencies: ["464A193277A6240F"]
+			description: [
+				"Acquire an Water Wheel for easy Stress generation."
+				"Upgrade it to an Large Water Wheel for more Stress."
+			]
 			id: "08E9CDB6BB22A2EF"
+			rewards: [{
+				id: "31D3467ECF383898"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44C784F37EA60FF2"
 				item: "create:water_wheel"
 				type: "item"
 			}]
 			title: "Stress"
-			x: 3.0d
-			y: -0.5d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["72D43E029A690563"]
-			description: ["Shaft"]
+			description: ["Acquire an Shaft."]
 			id: "464A193277A6240F"
+			rewards: [{
+				id: "6B74B6FA8DC5558A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3135EE33FC86EF80"
 				item: "create:shaft"
@@ -47,6 +68,347 @@
 			title: "Shaft"
 			x: 0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["72D43E029A690563"]
+			description: ["Acquire an Andesite Casing,"]
+			id: "6049F5674D838008"
+			rewards: [{
+				id: "030333C60C57744B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "100062D6E2FA6C1D"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6049F5674D838008"]
+			description: ["Acquire a Mechanical Press,"]
+			id: "2B4BBE38FEB7750D"
+			rewards: [{
+				count: 2
+				id: "7D3B3C72BE6E3B04"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D4EEDE2253B0547"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B4BBE38FEB7750D"]
+			description: ["Acquire an Mechanical Mixer,"]
+			id: "2FE5F1B565DD5ABD"
+			rewards: [{
+				count: 2
+				id: "0C87E9D9B2BB3E81"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DA54A13EB01BF9A"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B4BBE38FEB7750D"]
+			description: ["Acquire an Encased Fan,"]
+			id: "048B07B4D769DD38"
+			rewards: [{
+				count: 2
+				id: "2E935C847E55EFD9"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E9104F9568F38D"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["048B07B4D769DD38"]
+			description: ["Acquire all Fan Catalyst for easy Bulk Processing,"]
+			id: "2185B240AC5392EB"
+			rewards: [{
+				count: 16
+				id: "22C071D511CC89F0"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0BD7F227BAAAA394"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "6F42F3881C489D46"
+					item: "create_connected:fan_smoking_catalyst"
+					type: "item"
+				}
+				{
+					id: "59C83A3C4B408842"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+				{
+					id: "0F9DB98ED5581FC0"
+					item: "create_connected:fan_haunting_catalyst"
+					type: "item"
+				}
+			]
+			title: "Bulk Processing"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6F904021BB294BAC"
+				"2FE5F1B565DD5ABD"
+			]
+			id: "74C21071C8AA637C"
+			rewards: [{
+				count: 8
+				id: "0C126CFAB9AABF2E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "4CF28D7E9427C269"
+				item: { Count: 32, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C983D6637730B04"]
+			description: ["Acquire an Blaze Burner,"]
+			hide_until_deps_complete: true
+			id: "6F904021BB294BAC"
+			rewards: [{
+				count: 4
+				id: "113AA3B444DA60A0"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72223B55C192350F"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["464A193277A6240F"]
+			description: [
+				"Acquire a windmill and 8 windmill sails to create an easy stress generator."
+				"It can also be used as a simple automated farm."
+				""
+				"For example:"
+				"Add saws, chests, and deployers to turn it into an easy tree farm."
+			]
+			id: "4C8E5004BDC2F1B8"
+			rewards: [{
+				count: 2
+				id: "0C16E8874F06F704"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61E5775F0C95461F"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "10BEC850D940B4B5"
+					item: { Count: 8, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C8E5004BDC2F1B8"]
+			description: ["Acquire a Mechanical saw"]
+			id: "3AFE6DCB3A5E0A8F"
+			rewards: [{
+				count: 2
+				id: "77ED696F29D8D11E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BE2D0D5319545F5"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C983D6637730B04"]
+			hide_until_deps_complete: true
+			id: "419DFBDF491D6FA3"
+			rewards: [{
+				count: 2
+				id: "2622D5E349BE1037"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "7325F0B118D7A055"
+					item: { Count: 8, id: "create:rose_quartz" }
+					type: "item"
+				}
+				{
+					id: "269F81C9674F61C1"
+					item: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["419DFBDF491D6FA3"]
+			id: "1CB8196EA78219FC"
+			rewards: [{
+				id: "33004F45F71711FA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55D6F94D7EEEC3AB"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74C21071C8AA637C"]
+			id: "5F42E078BB6E2F37"
+			rewards: [{
+				count: 4
+				id: "007B2D474A0CD220"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0EEAC84100EEDEF5"
+				item: { Count: 16, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5F42E078BB6E2F37"
+				"1CB8196EA78219FC"
+			]
+			id: "3E854834E27D4DA4"
+			rewards: [{
+				count: 8
+				id: "08C2AF2C34850D8F"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 21L
+				id: "37B2C739C75440D4"
+				item: { Count: 21, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E854834E27D4DA4"]
+			description: ["Build a pair of mechanical crushers for better ore processing and more!"]
+			id: "6671F75100419696"
+			rewards: [{
+				count: 4
+				id: "3FC399D99568A04B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "382CD6EC2CA0656D"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C8E5004BDC2F1B8"]
+			description: ["Acquire a Mechanical Harvester"]
+			id: "446A983561CF1D9B"
+			rewards: [{
+				count: 2
+				id: "6B22CF16EF911E3B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31673FA72E213C7B"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB8196EA78219FC"]
+			description: ["A deployer can be used to automatically place blocks or use an item on another block or entity."]
+			id: "5CC94C0C3EB2D57B"
+			rewards: [{
+				count: 4
+				id: "113789A8F75FCC49"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56D14B2B1C43552A"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
 		}
 	]
 	title: "Basics"

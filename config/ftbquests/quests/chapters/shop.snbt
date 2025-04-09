@@ -7,6 +7,194 @@
 	id: "6E446F0101A52E1E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "buildinggadgets2:gadget_building"
+			id: "017ED5FE90455F54"
+			rewards: [
+				{
+					id: "028819822DB054C4"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "48375928D0AFDE7C"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0C35D1CB40DD11AA"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "54F7ADBC3B62A669"
+				item: { Count: 16, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Buy Gadget kit"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "7A1B3B659FBAAA7B"
+			rewards: [{
+				id: "7EBD80F063F6627C"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "626FFF7EC6E15A8D"
+				item: { Count: 4, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Buy a Diamond Wand"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			id: "3EF04C73A8E1B127"
+			rewards: [{
+				id: "3B78DC412EA5A73E"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "4DD934EB5FD0A2F4"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			title: "Buy an Infinity Wand"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			hide_until_deps_complete: true
+			icon: "cgs:round_7mm"
+			id: "7ABC147B38DCE7A2"
+			rewards: [{
+				count: 64
+				id: "1737908B50673ADC"
+				item: "cgs:round_7mm"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "76D9333860CE9FA7"
+				item: { Count: 16, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Ammo kit: 7mm"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			hide_until_deps_complete: true
+			icon: "cgs:round_10mm"
+			id: "52848555402B000E"
+			rewards: [{
+				count: 32
+				id: "067999C45DB10236"
+				item: "cgs:round_10mm"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7683DA9EAEC4831B"
+				item: { Count: 16, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Ammo kit: 10mm"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			hide_until_deps_complete: true
+			icon: "cgs:round_shotgun"
+			id: "2CEB3A8629C9CD69"
+			rewards: [{
+				count: 32
+				id: "4C417D27D4B79EE6"
+				item: "cgs:round_shotgun"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6D49C498A49975EA"
+				item: { Count: 16, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Ammo kit: Shotgun Round"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			hide_until_deps_complete: true
+			icon: "cgs:nail"
+			id: "320CF8910D4EC42D"
+			rewards: [{
+				count: 64
+				id: "14810F84D61C0550"
+				item: "cgs:nail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "431F941E758115CC"
+				item: { Count: 16, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Ammo kit: Nail's"
+			x: 1.5d
+			y: -2.5d
+		}
+	]
 	title: "Shop"
 }

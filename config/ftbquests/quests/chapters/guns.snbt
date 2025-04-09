@@ -14,6 +14,241 @@
 	id: "3DC841EAF5D668F2"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3E854834E27D4DA4"]
+			description: [
+				"Now that you have a mechanical crafter, you can build the best things..."
+				"Guns!!"
+				""
+				"{@pagebreak}"
+				""
+				"Standard Controls:"
+				"Y – Upgrades"
+				"I – Inspect"
+			]
+			icon: "create:mechanical_crafter"
+			id: "20378326C262FC5C"
+			shape: "gear"
+			size: 1.5d
+			title: "Mechanical Crafter"
+			x: -3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "285201D2E30F1DBC"
+			rewards: [{
+				count: 8
+				id: "6FAB72BCDB7930F3"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D77004399DAE208"
+				item: {
+					Count: 1
+					id: "cgs:revolver"
+					tag: {
+						AmmoCount: 6
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "7D37E96F1393A0D3"
+			rewards: [{
+				count: 8
+				id: "7154CC04D58DA42A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C4612E283DC3342"
+				item: {
+					Count: 1
+					id: "cgs:shotgun"
+					tag: {
+						AmmoCount: 2
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "6367ABB447D02ED5"
+			rewards: [{
+				count: 8
+				id: "0451B87C66510350"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "768FDC19636D2BE7"
+				item: {
+					Count: 1
+					id: "cgs:nailgun"
+					tag: {
+						AmmoCount: 40
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "102E5597D68B131D"
+			rewards: [{
+				count: 8
+				id: "2A858F9654F9C061"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C653CD147DBF4E0"
+				item: {
+					Count: 1
+					id: "cgs:gatling"
+					tag: {
+						AmmoCount: 100
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D37E96F1393A0D3"]
+			id: "4303EDB68E10558B"
+			rewards: [{
+				count: 8
+				id: "5A026BDF79AA2075"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CB4B42C63C990CD"
+					item: "cgs:shotgun_long_barrel"
+					type: "item"
+				}
+				{
+					id: "2C46733E4C8EA285"
+					item: {
+						Count: 1
+						id: "cgs:shotgun_pump"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6B2E53DA524E8BD3"
+					item: {
+						Count: 1
+						id: "cgs:shotgun_drum"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0586BD57BC1B4944"
+					item: "cgs:shotgun_spread_barrel"
+					type: "item"
+				}
+				{
+					id: "1FBF9636F86C6D7F"
+					item: "cgs:stock"
+					type: "item"
+				}
+			]
+			title: "Build All Shotgun Upgrades"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["285201D2E30F1DBC"]
+			id: "07890EFBB5F75B41"
+			rewards: [{
+				count: 8
+				id: "51BD4D52ECE4DD25"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7400F4300AED0327"
+					item: "cgs:scope"
+					type: "item"
+				}
+				{
+					id: "21313B3E1B9C3F1A"
+					item: "cgs:long_barrel"
+					type: "item"
+				}
+				{
+					id: "0352C9B8DF02CA3A"
+					item: "cgs:round_belt"
+					type: "item"
+				}
+				{
+					id: "0482B95DC767BD53"
+					item: "cgs:auto_fire"
+					type: "item"
+				}
+				{
+					id: "65F764779BCDD72F"
+					item: "cgs:stock"
+					type: "item"
+				}
+			]
+			title: "Build All Revolver Upgrades"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["102E5597D68B131D"]
+			id: "50C704B2418DCBBE"
+			rewards: [{
+				count: 8
+				id: "5D2B5AB0BD0AA076"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A6BE51770A821D1"
+					item: "cgs:gatling_drum"
+					type: "item"
+				}
+				{
+					id: "3907F1A3396822FD"
+					item: "cgs:iron_sight"
+					type: "item"
+				}
+				{
+					id: "59F854568DC33F21"
+					item: "cgs:steam_engine"
+					type: "item"
+				}
+			]
+			title: "Build All Gatlingun Upgrades"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	title: "Guns"
 }

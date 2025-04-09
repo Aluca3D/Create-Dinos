@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchantment_industry"
+	group: "6C4920BA3B869E92"
+	icon: "create_enchantment_industry:enchanting_guide"
+	id: "637E6BD8913406DA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Enchantment Industry"
+}

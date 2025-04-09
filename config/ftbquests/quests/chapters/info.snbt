@@ -1,5 +1,5 @@
 {
-	autofocus_id: "641C648C3A74DFB0"
+	autofocus_id: "721A24CAFF05E200"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "info"
@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["721A24CAFF05E200"]
 			description: [
 				"It is planned to add dinosaurs once &lFossils and Archeology: Revival&r has been ported to 1.20.1."
 				"Until then, have fun with the \"dinosaurs\" that &lAlex's Caves&r adds!"
@@ -26,7 +25,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["721A24CAFF05E200"]
 			description: ["&lSteam 'n Rails&r will be added once it has been ported to Create 6.0.*."]
 			disable_toast: true
 			id: "4F936B8E26FFE8FF"
@@ -40,8 +38,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["721A24CAFF05E200"]
-			description: ["Type &n/creative_sandbox enter&r to jump into a sandbox perfect for factory designing—and use &n/creative_sandbox leave&r when you're ready to head back!"]
+			description: [
+				"Type &n/creative_sandbox enter&r to jump into a sandbox perfect for factory designing"
+				"and use &n/creative_sandbox leave&r when you're ready to head back!"
+			]
 			disable_toast: true
 			icon: "create:creative_motor"
 			id: "246B4388B5FC7F7C"
@@ -55,13 +55,22 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["03140AF8A1ECB10A"]
-			dependency_requirement: "one_started"
+			dependencies: [
+				"03140AF8A1ECB10A"
+				"04AD5250F99397CF"
+				"4F936B8E26FFE8FF"
+				"2C983D6637730B04"
+				"46051E87D588209C"
+				"632D81AB275DDDE7"
+				"00879621921BF8D8"
+				"561FDB28B26CA818"
+				"246B4388B5FC7F7C"
+				"26914AA7B812A5EB"
+			]
 			description: [
 				"I don’t know what else to say besides:"
 				"Have fun playing! :)"
 			]
-			hide_until_deps_complete: true
 			icon: "ftbquests:book"
 			id: "721A24CAFF05E200"
 			shape: "gear"
@@ -75,7 +84,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["721A24CAFF05E200"]
 			icon: "alexsmobs:animal_dictionary"
 			id: "561FDB28B26CA818"
 			tasks: [{
@@ -88,7 +96,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["721A24CAFF05E200"]
 			icon: "create:large_cogwheel"
 			id: "2C983D6637730B04"
 			tasks: [{
@@ -101,8 +108,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["721A24CAFF05E200"]
-			description: ["You can buy items here."]
+			description: ["Finish Quests to acquire Cab Coins and use does to Buy things in the Shop."]
 			icon: "kubejs:cad_coin"
 			id: "26914AA7B812A5EB"
 			tasks: [{
@@ -134,6 +140,22 @@
 			title: "About This Modpack"
 			x: -1.0d
 			y: -5.0d
+		}
+		{
+			description: [
+				"The Quest Book is still a work in progress, so most of it is currently empty."
+				"Also, keep in mind that the current quests may change in the future."
+			]
+			icon: "ftbquests:book"
+			id: "46051E87D588209C"
+			tasks: [{
+				id: "40E1399AF5207855"
+				title: "Quest Book"
+				type: "checkmark"
+			}]
+			title: "Quest Book"
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	title: "Info"

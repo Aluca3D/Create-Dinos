@@ -17,6 +17,11 @@
 		{
 			dependencies: ["44A85CCDBCEA1C8A"]
 			id: "00D94E537980A27C"
+			rewards: [{
+				id: "1BC22061F86F8DA1"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			tasks: [{
 				biome: "alexscaves:primordial_caves"
 				icon: {
@@ -39,6 +44,12 @@
 			dependency_requirement: "all_started"
 			id: "44A85CCDBCEA1C8A"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "3AD1BBB6ACC3E9C1"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "2F3C7F9DBECCBBAC"
@@ -60,6 +71,12 @@
 			dependencies: ["00D94E537980A27C"]
 			icon: "alexscaves:limestone_spear"
 			id: "04E30BFBF78E5CC0"
+			rewards: [{
+				count: 16
+				id: "03B20A1644DDF296"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "alexscaves:subterranodon"
@@ -124,6 +141,12 @@
 				}
 			}
 			id: "36A8F862B9E44B99"
+			rewards: [{
+				count: 16
+				id: "329611868C1A8E5D"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
 				icon: "alexscaves:spawn_egg_luxtructosaurus"

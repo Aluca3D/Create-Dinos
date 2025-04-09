@@ -12,6 +12,12 @@
 			dependencies: ["561FDB28B26CA818"]
 			hide_until_deps_complete: true
 			id: "429D2745C5F14C8C"
+			rewards: [{
+				count: 4
+				id: "5F7DEBE8FE94A8E6"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0126744284E472C4"
@@ -31,6 +37,12 @@
 		{
 			dependencies: ["429D2745C5F14C8C"]
 			id: "596D9B36979F00AB"
+			rewards: [{
+				count: 64
+				id: "32EE61023546FFBE"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					biome: "alexscaves:abyssal_chasm"
