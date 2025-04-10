@@ -3,9 +3,67 @@
 	default_quest_shape: ""
 	filename: "abyssal_chasm"
 	group: "5F1A65E495DCB771"
+	icon: "alexscaves:submarine"
 	id: "61688C457ED5667E"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			dependency_requirement: "all_started"
+			description: ["Get the Correct Cave Tablet."]
+			id: "408474814E2B3CDB"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "1F1FCA07EC04CEF1"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7EF5ABDD5405B580"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Collect an Abyssal Chasm Tablet"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["408474814E2B3CDB"]
+			description: ["Find an Abyssal Chasm."]
+			id: "336EAE93E0269364"
+			rewards: [{
+				id: "05A5DE1AD3812DF9"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1
+					id: "alexscaves:primordial_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "789D05F39BA7B4B1"
+				title: "Fish!"
+				type: "biome"
+			}]
+			title: "The Deep"
+			x: -1.0d
+			y: 2.0d
+		}
+	]
 	title: "Abyssal Chasm"
 }

@@ -5,8 +5,23 @@
 	group: "6C4920BA3B869E92"
 	icon: "create_enchantment_industry:enchanting_guide"
 	id: "637E6BD8913406DA"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["50FD58A504CA2DA1"]
+		description: ["You now have everything you need to build an enchanting factory—and craft the best gear possible!"]
+		hide_until_deps_complete: true
+		icon: "create_enchantment_industry:enchanting_guide"
+		id: "3EC84B8241321539"
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "4177B52E458B299C"
+			title: "Enchanting"
+			type: "checkmark"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
 	title: "Enchantment Industry"
 }

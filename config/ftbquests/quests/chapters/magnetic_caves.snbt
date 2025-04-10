@@ -3,9 +3,61 @@
 	default_quest_shape: ""
 	filename: "magnetic_caves"
 	group: "5F1A65E495DCB771"
+	icon: "alexscaves:scarlet_magnet"
 	id: "5E088338E3DCBA49"
-	order_index: 4
+	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			dependency_requirement: "all_started"
+			description: ["Get the Correct Cave Tablet."]
+			id: "47CFAE6E174BE34A"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "541D4AC0B16C270D"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "579A968389731094"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Collect an Magnetic Cave Tablet"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47CFAE6E174BE34A"]
+			description: ["Find an Magnetic Cave."]
+			id: "2645F42556BDE02B"
+			rewards: [{
+				id: "12BED3B8D76D227F"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:azure_magnet"
+				id: "58C1032CA3FB0188"
+				title: "Magnetic"
+				type: "biome"
+			}]
+			title: "Magnets!!"
+			x: -9.0d
+			y: 3.0d
+		}
+	]
 	title: "Magnetic Caves"
 }

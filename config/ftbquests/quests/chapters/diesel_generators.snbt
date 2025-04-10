@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diesel_generators"
+	group: "6C4920BA3B869E92"
+	icon: "createdieselgenerators:diesel_engine"
+	id: "6C5636A7A5DF4503"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["0E77851447CE15E0"]
+		description: ["Welcome to the beginning of your yourney to extract Crude oil to Create Gasolin to Power your Diesel Engines."]
+		hide_until_deps_complete: true
+		icon: "createdieselgenerators:diesel_engine"
+		id: "73F6FAE84BD63A80"
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "209B37E6F1AD4ED4"
+			title: "Diesel"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+	title: "Diesel Generator's"
+}

@@ -3,9 +3,61 @@
 	default_quest_shape: ""
 	filename: "toxic_caves"
 	group: "5F1A65E495DCB771"
+	icon: "alexscaves:waste_drum"
 	id: "1116FED3437EA154"
-	order_index: 6
+	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["7B78BDC42AE1EF7B"]
+			description: ["Find an Toxic Cave."]
+			id: "1A8E56A55C0A1421"
+			rewards: [{
+				id: "771A848CB5F62736"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: "alexscaves:waste_drum"
+				id: "37CAD587D71DF41C"
+				title: "Toxic!"
+				type: "biome"
+			}]
+			title: "Toxic Ex."
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			dependency_requirement: "all_started"
+			description: ["Get the Correct Cave Tablet."]
+			id: "7B78BDC42AE1EF7B"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "4EAF7C17CB50B12A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7BE19122013E8352"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Collect an Toxic Cave Tablet"
+			x: -6.5d
+			y: 5.5d
+		}
+	]
 	title: "Toxic Caves"
 }

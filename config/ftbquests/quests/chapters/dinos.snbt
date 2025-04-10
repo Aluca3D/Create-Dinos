@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dinos"
+	group: "24631FA894EE36E8"
+	id: "4F46E251E4BB68BC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["04AD5250F99397CF"]
+		description: ["There will be new Queste here once &lFossils and Archeology: Revival&r has been ported to 1.20.1."]
+		id: "42CE91632CE49B46"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "76790374CC175495"
+			title: "Dinos?"
+			type: "checkmark"
+		}]
+		x: -2.0d
+		y: 0.5d
+	}]
+	title: "Dinos"
+}

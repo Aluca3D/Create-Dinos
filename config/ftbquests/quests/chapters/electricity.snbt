@@ -7,6 +7,21 @@
 	id: "038056AEACA7F8EC"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["73A997E9E4F7F6AD"]
+		description: ["Welcome to the beginning of your journey with electricity!"]
+		hide_until_deps_complete: true
+		icon: "createaddition:electric_motor"
+		id: "0E353ECAA316FA1A"
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "1FAF89DB727C3FE1"
+			title: "Electricity"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: 0.0d
+	}]
 	title: "Electricity"
 }

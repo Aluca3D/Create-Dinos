@@ -3,9 +3,61 @@
 	default_quest_shape: ""
 	filename: "forlorn_hollows"
 	group: "5F1A65E495DCB771"
+	icon: "alexscaves:pure_darkness"
 	id: "087752874984985F"
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			dependency_requirement: "all_started"
+			description: ["Get the Correct Cave Tablet."]
+			id: "749361D42FF1362C"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "2AA0A9C4B015018E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "615C9074DA1EE875"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Collect an Forlorn Hollows Tablet"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["749361D42FF1362C"]
+			description: ["Find an Forlorn Hollows cave."]
+			id: "6B18D14A6D2BC1B5"
+			rewards: [{
+				id: "10FF9325893A04AB"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:pure_darkness"
+				id: "1A89084CA7101B53"
+				title: "Its Dark here"
+				type: "biome"
+			}]
+			title: "Darkness"
+			x: -9.0d
+			y: 3.0d
+		}
+	]
 	title: "Forlorn Hollows"
 }

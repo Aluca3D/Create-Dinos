@@ -112,6 +112,7 @@
 			y: -2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["20378326C262FC5C"]
 			hide_until_deps_complete: true
 			icon: "cgs:round_7mm"
@@ -129,10 +130,11 @@
 				type: "item"
 			}]
 			title: "Ammo kit: 7mm"
-			x: 0.5d
-			y: -2.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["20378326C262FC5C"]
 			hide_until_deps_complete: true
 			icon: "cgs:round_10mm"
@@ -150,10 +152,11 @@
 				type: "item"
 			}]
 			title: "Ammo kit: 10mm"
-			x: 0.5d
-			y: -1.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["20378326C262FC5C"]
 			hide_until_deps_complete: true
 			icon: "cgs:round_shotgun"
@@ -171,10 +174,11 @@
 				type: "item"
 			}]
 			title: "Ammo kit: Shotgun Round"
-			x: 1.5d
-			y: -1.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["20378326C262FC5C"]
 			hide_until_deps_complete: true
 			icon: "cgs:nail"
@@ -192,8 +196,8 @@
 				type: "item"
 			}]
 			title: "Ammo kit: Nail's"
-			x: 1.5d
-			y: -2.5d
+			x: -2.0d
+			y: -0.5d
 		}
 	]
 	title: "Shop"

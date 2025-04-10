@@ -3,9 +3,61 @@
 	default_quest_shape: ""
 	filename: "candy_cavity"
 	group: "5F1A65E495DCB771"
+	icon: "alexscaves:large_peppermint"
 	id: "342A83F8AD4A9D15"
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			dependency_requirement: "all_started"
+			description: ["Get the Correct Cave Tablet."]
+			id: "6066B3C4BF11600E"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "1010FFCB4641336A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5A4AD529C93910C0"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:candy_cavity"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Collect an Candy Cavity Tablet"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6066B3C4BF11600E"]
+			description: ["Find an Candy Cavity Cave."]
+			id: "0E6278974808D6BF"
+			rewards: [{
+				id: "710224D0A708B557"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: "alexscaves:large_peppermint"
+				id: "57A3A98BFD0F2405"
+				title: "Dino Caves"
+				type: "biome"
+			}]
+			title: "Sugar"
+			x: -9.0d
+			y: 3.0d
+		}
+	]
 	title: "Candy Cavity"
 }

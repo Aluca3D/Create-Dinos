@@ -11,11 +11,12 @@
 		}
 	}
 	id: "5CBD0A711A1B7EA2"
-	order_index: 5
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["44A85CCDBCEA1C8A"]
+			description: ["Find an Primordial Cave."]
 			id: "00D94E537980A27C"
 			rewards: [{
 				id: "1BC22061F86F8DA1"
@@ -36,12 +37,13 @@
 				type: "biome"
 			}]
 			title: "Dino Caves!"
-			x: -3.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["429D2745C5F14C8C"]
 			dependency_requirement: "all_started"
+			description: ["Get the Correct Cave Tablet."]
 			id: "44A85CCDBCEA1C8A"
 			invisible: true
 			rewards: [{
@@ -50,6 +52,7 @@
 				item: "kubejs:cad_coin"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "2F3C7F9DBECCBBAC"
@@ -69,6 +72,10 @@
 		}
 		{
 			dependencies: ["00D94E537980A27C"]
+			description: [
+				"Hunt down every type of dinosaur in the Primordial Caves."
+				"Only then will you become the apex predator of this age once more."
+			]
 			icon: "alexscaves:limestone_spear"
 			id: "04E30BFBF78E5CC0"
 			rewards: [{
@@ -128,11 +135,12 @@
 				}
 			]
 			title: "Second Extinction"
-			x: -2.5d
-			y: -2.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["00D94E537980A27C"]
+			description: ["Kill an Luxtructosaurus."]
 			icon: {
 				Count: 1
 				id: "alexscaves:extinction_spear"
@@ -156,8 +164,65 @@
 				value: 1L
 			}]
 			title: "Free the DINO CAVES!!"
-			x: -4.5d
+			x: -3.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["00D94E537980A27C"]
+			description: [
+				"Bunga."
+				"(Get a Full set of Primordial Armor)"
+			]
+			id: "2A573D2F3FDF88FA"
+			tasks: [
+				{
+					id: "54D517F6B7C7759F"
+					item: {
+						Count: 1
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4714A1A9D4F3142A"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A51028A7D9D3550"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AD67ECD79155B06"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Unga"
+			x: -3.0d
+			y: 1.0d
 		}
 	]
 	title: "Primordial Caves"

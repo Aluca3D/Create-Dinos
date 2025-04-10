@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "5F1A65E495DCB771"
+	icon: "minecraft:dragon_head"
+	id: "5378AF6CAE2A92E3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["561FDB28B26CA818"]
+			description: ["Travel to the End and discover the new biomes scattered across the outer islands."]
+			icon: "minecraft:end_stone"
+			id: "7F62746987282A44"
+			secret: true
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "378ECD275629EF79"
+				type: "dimension"
+			}]
+			title: "Exploration"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F62746987282A44"]
+			description: ["Free the End."]
+			icon: "minecraft:dragon_head"
+			id: "1924BF13626CF87C"
+			rewards: [{
+				count: 16
+				id: "7DC544CEDC8AEF00"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "53AB49F6583ACAFF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "End"
+}

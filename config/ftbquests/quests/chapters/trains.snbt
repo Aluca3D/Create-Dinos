@@ -5,8 +5,23 @@
 	group: "6C4920BA3B869E92"
 	icon: "create:schedule"
 	id: "524A97DEF9EFBC22"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34173B3401C40BEC"]
+		description: ["Welcome to the beginning of your epic train network!"]
+		hide_until_deps_complete: true
+		icon: "create:schedule"
+		id: "68F3B99469FB5287"
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "5158AA73F008BFD4"
+			title: "Train"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: -1.0d
+	}]
 	title: "Trains"
 }

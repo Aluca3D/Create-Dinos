@@ -5,8 +5,130 @@
 	group: "6C4920BA3B869E92"
 	icon: "createnuclear:enriched_yellowcake"
 	id: "568BEAA62D465215"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5C77C12FEFA3D71A"]
+			description: [
+				"Build a nuclear reactor—the ultimate way to generate stress."
+				"With the correct configuration, it can produce up to 2 million stress units."
+				"But be careful... it can explode!"
+			]
+			id: "718343A3F8ACCFA4"
+			rewards: [
+				{
+					count: 16
+					id: "0FE993B3B20B2188"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "181032B27A3F0A2F"
+					item: "createnuclear:graphite_rod"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "40B15C467A774BE6"
+					item: "createnuclear:uranium_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 129L
+					id: "40EF807304DA00DE"
+					item: { Count: 129, id: "createnuclear:reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "101D110D9936001B"
+					item: { Count: 20, id: "createnuclear:reactor_cooler" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "6F9B09B04FAEE8B9"
+					item: { Count: 18, id: "createnuclear:reactor_frame" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "255E68345E9C1EE0"
+					item: { Count: 5, id: "createnuclear:reactor_core" }
+					type: "item"
+				}
+				{
+					id: "6BF870C4A0337FF1"
+					item: "createnuclear:reactor_input"
+					type: "item"
+				}
+				{
+					id: "0836027AB622CF3F"
+					item: "createnuclear:reactor_output"
+					type: "item"
+				}
+				{
+					id: "6F789AFE66E50A09"
+					item: "createnuclear:reactor_controller"
+					type: "item"
+				}
+				{
+					id: "3E35FC6D929128E2"
+					item: "createnuclear:reactor_blueprint_item"
+					type: "item"
+				}
+			]
+			title: "Nuclear Reactor"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2EB48BCFEF7C97A3"]
+			description: ["Welcome to the beginning of your first (of many) Nuclear Reactors!"]
+			hide_until_deps_complete: true
+			icon: "createnuclear:uranium_rod"
+			id: "739E5BAA7797D9FF"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0927B1F9114784D8"
+				title: "Reactor"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["739E5BAA7797D9FF"]
+			description: ["Build an automated factory to produce enough uranium and graphite rods to fuel a nuclear reactor."]
+			id: "5C77C12FEFA3D71A"
+			rewards: [{
+				count: 16
+				id: "4FA7C63BAEDE3455"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "22BA9E9C6C363522"
+					item: { Count: 16, id: "createnuclear:graphite_rod" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "152863E9196AB43D"
+					item: { Count: 32, id: "createnuclear:uranium_rod" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+	]
 	title: "Nuclear"
 }
