@@ -61,4 +61,13 @@ ServerEvents.recipes(event => {
     immersive_aircraft.forEach(immersive => {
         event.remove({ output: `immersive_aircraft:${immersive}` })
     })
+
+    event.remove({ output: "constructionwand:infinity_wand" })
+    event.remove({ output: "naturescompass:naturescompass" })
+    event.remove({ output: "explorerscompass:explorerscompass" })
+
+    event.remove("createnuclear:crushing/charcoal" )
+    event.remove("createnuclear:crushing/coal" )
+    event.remove("createnuclear:mixing/steel" )
+    event.remove("createnuclear:pressing/graphene" )
 })

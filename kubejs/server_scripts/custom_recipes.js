@@ -6,6 +6,16 @@ ServerEvents.recipes(event => {
     // Blasting
     event.blasting('createnuclear:lead_ingot', 'create:crushed_raw_lead')
 
+    // Stonecutting
+    event.stonecutting('morelights:pyle_headlight', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:skinny_tube_light', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:small_armored_light', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:small_cage_light', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:small_edison_bulb', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:small_green_sconce', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:small_light_with_reflector', 'createaddition:small_light_connector')
+    event.stonecutting('morelights:small_tube_light', 'createaddition:small_light_connector')
+
     // Crafting
     event.shaped(
         Item.of("minecraft:stick", 16),

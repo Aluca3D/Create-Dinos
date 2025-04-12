@@ -5,4 +5,11 @@ StartupEvents.registry('item', event => {
     .maxStackSize(64)
     .texture('cad:item/cad_coin') // This texture would be located at kubejs/assets/cad/textures/item/cad_coin.png
 
+  event.create('nh_sticker')
+    .maxStackSize(1)
+    .texture('cad:item/nh_sticker')
+
+  event.create('incomplete_compas')
+    .maxStackSize(1)
+    .texture('cad:item/incomplete_compas')
 })

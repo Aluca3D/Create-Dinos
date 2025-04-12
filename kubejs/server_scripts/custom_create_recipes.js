@@ -53,18 +53,39 @@ ServerEvents.recipes(event => {
     ], "minecraft:deepslate"
     ).processingTime(350)
 
+    event.recipes.create.crushing([
+        Item.of("createsifter:dust").withChance(1)
+    ], "minecraft:sand"
+    ).processingTime(350)
+
+    // Pressing
+    event.recipes.create.pressing('createnuclear:graphene', 'create_ironworks:coal_dust')
+
     // Haunting
     event.recipes.create.haunting('minecraft:soul_campfire', 'minecraft:campfire')
     event.recipes.create.haunting('minecraft:coal', 'minecraft:charcoal')
     event.recipes.create.haunting('minecraft:basalt', 'minecraft:netherrack')
+    event.recipes.create.haunting('createnuclear:steel_ingot', 'create_ironworks:steel_ingot')
+
 
     // Milling
     event.recipes.create.milling([Item.of('minecraft:wither_skeleton_skull').withChance(0.01)], 'minecraft:blackstone')
     event.recipes.create.milling([Item.of('minecraft:cobbled_deepslate').withChance(1)], 'minecraft:deepslate')
+    event.recipes.create.milling([Item.of('createsifter:dust').withChance(1)], 'minecraft:sand')
 
     // Mixing
     event.recipes.create.mixing('minecraft:dripstone_block', ['minecraft:calcite', Fluid.water(200)])
     event.recipes.create.mixing('minecraft:wither_rose', ['minecraft:poppy', Fluid.of('create_enchantment_industry:ink', 250)])
+
+    // Sive
+    event.recipes.createsifterSifting([
+            Item.of('minecraft:glowstone_dust').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.1),
+            Item.of('createnuclear:uranium_powder').withChance(0.05),
+            Item.of("minecraft:blaze_powder").withChance(0.15),
+            Item.of("alexscaves:sulfur_dust").withChance(0.25),
+        ], ['createsifter:dust','createsifter:advanced_brass_mesh']
+    )
 
     // Mechanical Crafting
     event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [
@@ -113,4 +134,48 @@ ServerEvents.recipes(event => {
             H: "immersive_aircraft:hull"
         }
     )
+
+    event.recipes.create.mechanical_crafting("constructionwand:infinity_wand", [
+        " S ",
+        "SAS",
+        " B ",
+        " H ",
+        " X "
+    ],
+        {
+            S: "#forge:glass",
+            A: "#forge:nether_stars",
+            B: "create:precision_mechanism",
+            X: "create:brass_ingot",
+            H: "#forge:obsidian",
+        }
+    )
+
+    // Sequenced Assembly
+    let inter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
+	
+    event.recipes.create.sequenced_assembly([
+		Item.of('explorerscompass:explorerscompass').withChance(16.0), // this is the item that will appear in JEI as the result
+		Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
+		
+	], 'minecraft:compass', [ // the input
+		event.recipes.createPressing(inter, inter),
+		// like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+		event.recipes.createDeploying(inter, [inter, "minecraft:cobweb"]),
+		event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
+		event.recipes.createDeploying(inter, [inter, "minecraft:cracked_stone_bricks"]),
+	]).transitionalItem(inter).loops(1)
+
+    event.recipes.create.sequenced_assembly([
+		Item.of('naturescompass:naturescompass').withChance(16.0), // this is the item that will appear in JEI as the result
+		Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
+		
+	], 'minecraft:compass', [ 
+        event.recipes.createCutting(inter, inter),
+		event.recipes.createDeploying(inter, [inter, "#minecraft:saplings"]),
+		event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
+		event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
+	]).transitionalItem(inter).loops(1)
+
+    // 
 })
