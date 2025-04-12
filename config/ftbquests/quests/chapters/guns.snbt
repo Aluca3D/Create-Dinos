@@ -27,6 +27,7 @@
 				"Y – Upgrades"
 				"I – Inspect"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "cgs:revolver"
@@ -49,12 +50,20 @@
 		{
 			dependencies: ["20378326C262FC5C"]
 			id: "285201D2E30F1DBC"
-			rewards: [{
-				count: 8
-				id: "6FAB72BCDB7930F3"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "6FAB72BCDB7930F3"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "030CB847CB4BEB2F"
+					item: "cgs:round_10mm"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2D77004399DAE208"
 				item: {
@@ -73,12 +82,20 @@
 		{
 			dependencies: ["20378326C262FC5C"]
 			id: "7D37E96F1393A0D3"
-			rewards: [{
-				count: 8
-				id: "7154CC04D58DA42A"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7154CC04D58DA42A"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E1D5D4FC02DF392"
+					item: "cgs:round_shotgun"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6C4612E283DC3342"
 				item: {
@@ -97,12 +114,20 @@
 		{
 			dependencies: ["20378326C262FC5C"]
 			id: "6367ABB447D02ED5"
-			rewards: [{
-				count: 8
-				id: "0451B87C66510350"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "0451B87C66510350"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "125E72DF2BA5264B"
+					item: "cgs:nail"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "768FDC19636D2BE7"
 				item: {
@@ -121,12 +146,20 @@
 		{
 			dependencies: ["20378326C262FC5C"]
 			id: "102E5597D68B131D"
-			rewards: [{
-				count: 8
-				id: "2A858F9654F9C061"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "2A858F9654F9C061"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "365D36752EE4BC3B"
+					item: "cgs:round_7mm"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4C653CD147DBF4E0"
 				item: {

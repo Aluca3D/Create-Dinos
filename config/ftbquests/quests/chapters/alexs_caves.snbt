@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["457E88FA69FEAAEB"]
+			dependencies: ["38E2C77193302925"]
 			id: "429D2745C5F14C8C"
 			rewards: [{
 				count: 4
@@ -29,8 +29,8 @@
 				type: "item"
 			}]
 			title: "Collect any cave tablet"
-			x: -2.5d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["429D2745C5F14C8C"]
@@ -92,8 +92,8 @@
 				}
 			]
 			title: "Visit all the Caves"
-			x: -0.5d
-			y: -2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["561FDB28B26CA818"]
@@ -110,6 +110,26 @@
 			}]
 			title: "Exploration"
 			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["457E88FA69FEAAEB"]
+			description: ["...Underground?"]
+			id: "38E2C77193302925"
+			rewards: [{
+				count: 2
+				id: "6BD04EEF9F0F0218"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:spelunkery_table"
+				id: "3546DB3E8F10EAEC"
+				structure: "alexscaves:underground_cabin"
+				title: "Find a Cabin..."
+				type: "structure"
+			}]
+			x: -2.0d
 			y: 0.0d
 		}
 	]

@@ -124,9 +124,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "76D9333860CE9FA7"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: "kubejs:cad_coin"
 				type: "item"
 			}]
 			title: "Ammo kit: 7mm"
@@ -146,9 +147,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "7683DA9EAEC4831B"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: "kubejs:cad_coin"
 				type: "item"
 			}]
 			title: "Ammo kit: 10mm"
@@ -168,9 +170,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "6D49C498A49975EA"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: "kubejs:cad_coin"
 				type: "item"
 			}]
 			title: "Ammo kit: Shotgun Round"
@@ -190,14 +193,105 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 16L
 				id: "431F941E758115CC"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: "kubejs:cad_coin"
 				type: "item"
 			}]
 			title: "Ammo kit: Nail's"
 			x: -2.0d
 			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20378326C262FC5C"]
+			hide_until_deps_complete: true
+			icon: "kubejs:nh_sticker"
+			id: "701CCA184C54A2F1"
+			rewards: [{
+				id: "1BD34BC2A89886A9"
+				item: "kubejs:nh_sticker"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0B636CA59356656C"
+				item: "kubejs:nh_sticker"
+				type: "item"
+			}]
+			title: "Ammo kit: 10mm"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "create_sa:large_filling_tank"
+				tag: { }
+			}
+			id: "6928671414EB8A2B"
+			rewards: [{
+				id: "22B2BFF43A5DEFBA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2337A4CA74561337"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			title: "Buy an Infinity Wand"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2FDD119969C64910"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "create_sa:large_fueling_tank"
+				tag: { }
+			}
+			id: "70EE81F88CFADAAD"
+			rewards: [{
+				id: "4EE18167B35A0869"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "36694D26A98C1949"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			title: "Buy an Infinity Wand"
+			x: -3.0d
+			y: -3.5d
 		}
 	]
 	title: "Shop"

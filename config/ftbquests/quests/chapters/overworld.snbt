@@ -53,6 +53,26 @@
 			x: 3.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["1A646FAC6DE176F4"]
+			icon: "minecraft:fletching_table"
+			id: "364DA289A79C3903"
+			rewards: [{
+				count: 2
+				id: "5899DC7B3D394892"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5070EFA4175DB4BD"
+				structure: "#minecraft:village"
+				title: "Village"
+				type: "structure"
+			}]
+			title: "Find a Village"
+			x: 1.0d
+			y: 1.5d
+		}
 	]
 	title: "Overworld"
 }

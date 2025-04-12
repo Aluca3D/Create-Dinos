@@ -42,8 +42,102 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Kill the Dragon"
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1924BF13626CF87C"]
+			description: ["Collect the Dragon Egg."]
+			id: "70133F989636E7BB"
+			rewards: [{
+				count: 4
+				id: "0FB451B56CF63B10"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FE77E8D4CC1B4F9"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1924BF13626CF87C"]
+			description: ["Discover the mysterious new End biomes brought to life by &lUnusual End&r!"]
+			icon: "unusualend:gloopy_endstone"
+			id: "630339A42A549F70"
+			rewards: [{
+				count: 4
+				id: "03DD69F8EE6B89AA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "unusualend:gloopstone_lands"
+					icon: "unusualend:gloopy_endstone"
+					id: "6A89C68B751610A0"
+					title: "Gloopstone"
+					type: "biome"
+				}
+				{
+					biome: "unusualend:warped_reef"
+					icon: "unusualend:warped_end_stone"
+					id: "003E2853044C44F7"
+					title: "Warped Reef"
+					type: "biome"
+				}
+			]
+			title: "New Biomes"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1924BF13626CF87C"]
+			description: ["Seek out an End City, and if you're lucky, claim your very own Elytra!"]
+			id: "20765AD3F6584C27"
+			rewards: [{
+				count: 2
+				id: "13817C8C1DDBA87F"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:purpur_pillar"
+				id: "176F94819DD6FF80"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "End City"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20765AD3F6584C27"]
+			description: ["Fly like a Bird."]
+			id: "12B2B50030EB7BCA"
+			rewards: [{
+				count: 8
+				id: "110E60DAD27F94AA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3862937F85BA623B"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
 		}
 	]
 	title: "End"
