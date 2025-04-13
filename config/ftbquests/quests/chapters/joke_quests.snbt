@@ -7,127 +7,172 @@
 	id: "30F125B45744EB03"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["58856B97390DE6BB"]
-		description: [
-			"aber waren Sie schon mal in Baden-Württemberg?"
-			""
-			"(Nice here, but have you ever been to Baden-Württemberg?)"
-		]
-		icon: "kubejs:nh_sticker"
-		id: "539581C6E3D6B241"
-		invisible: true
-		rewards: [
-			{
+	quests: [
+		{
+			dependencies: ["58856B97390DE6BB"]
+			description: [
+				"aber waren Sie schon mal in Baden-Württemberg?"
+				""
+				"(Nice here, but have you ever been to Baden-Württemberg?)"
+			]
+			icon: "kubejs:nh_sticker"
+			id: "539581C6E3D6B241"
+			invisible: true
+			rewards: [
+				{
+					count: 64
+					id: "1E0D8EA29CBB5651"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					id: "5784304BD2A060A2"
+					item: "kubejs:nh_sticker"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [
+				{
+					biome: "minecraft:basalt_deltas"
+					icon: "minecraft:basalt"
+					id: "50D2BD68BA9F326B"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:crimson_forest"
+					icon: "minecraft:crimson_stem"
+					id: "12FA0584C144ED68"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:warped_forest"
+					icon: "minecraft:warped_stem"
+					id: "2E6636938355E643"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:soul_sand_valley"
+					icon: "minecraft:soul_sand"
+					id: "74B53CCE0C745601"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:nether_wastes"
+					icon: "minecraft:netherrack"
+					id: "64877AEDABDD21AC"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: "alexscaves:submarine"
+					id: "69FE39E461F03C0B"
+					title: "Abyssal Chasm"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:candy_cavity"
+					icon: "alexscaves:large_peppermint"
+					id: "2D0D044478E96286"
+					title: "Candy Cavity"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:forlorn_hollows"
+					icon: "alexscaves:pure_darkness"
+					id: "4AE0DDAE12FAC99E"
+					title: "Forlorn Hollows"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:magnetic_caves"
+					icon: "alexscaves:scarlet_magnet"
+					id: "365B86E2F17F1C30"
+					title: "Magnetic Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:primordial_caves"
+					icon: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1C6CD022B9E5230F"
+					title: "Primordial Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:toxic_caves"
+					icon: "alexscaves:waste_drum"
+					id: "21DB8435C902003C"
+					title: "Toxic Caves"
+					type: "biome"
+				}
+				{
+					biome: "unusualend:gloopstone_lands"
+					icon: "unusualend:gloopy_endstone"
+					id: "6CFD391B22CE416A"
+					title: "Gloopstone"
+					type: "biome"
+				}
+				{
+					biome: "unusualend:warped_reef"
+					icon: "unusualend:warped_end_stone"
+					id: "3A0BD5CDDAFA6A8E"
+					title: "Warped Reef"
+					type: "biome"
+				}
+				{
+					biome: "galosphere:pink_salt_caves"
+					icon: "galosphere:pink_salt"
+					id: "231BCD9272E3EF25"
+					title: "Pink Salt Cave"
+					type: "biome"
+				}
+				{
+					biome: "galosphere:crystal_canyons"
+					icon: "galosphere:allurite_block"
+					id: "451B01B2B88B9164"
+					title: "Crystal Canyons"
+					type: "biome"
+				}
+				{
+					biome: "galosphere:lichen_caves"
+					icon: "galosphere:lichen_moss"
+					id: "0FA6556F2B516033"
+					title: "Lichen Caves"
+					type: "biome"
+				}
+			]
+			title: "Nett hier,"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58856B97390DE6BB"]
+			description: ["go to Bed alredy!"]
+			icon: "minecraft:clock"
+			id: "3D37068F83CE4DAD"
+			invisible: true
+			rewards: [{
 				count: 64
-				id: "1E0D8EA29CBB5651"
+				id: "62E6C17A989FA8B1"
 				item: "kubejs:cad_coin"
 				type: "item"
-			}
-			{
-				id: "5784304BD2A060A2"
-				item: "kubejs:nh_sticker"
-				type: "item"
-			}
-		]
-		secret: true
-		tasks: [
-			{
-				biome: "minecraft:basalt_deltas"
-				icon: "minecraft:basalt"
-				id: "50D2BD68BA9F326B"
-				type: "biome"
-			}
-			{
-				biome: "minecraft:crimson_forest"
-				icon: "minecraft:crimson_stem"
-				id: "12FA0584C144ED68"
-				type: "biome"
-			}
-			{
-				biome: "minecraft:warped_forest"
-				icon: "minecraft:warped_stem"
-				id: "2E6636938355E643"
-				type: "biome"
-			}
-			{
-				biome: "minecraft:soul_sand_valley"
-				icon: "minecraft:soul_sand"
-				id: "74B53CCE0C745601"
-				type: "biome"
-			}
-			{
-				biome: "minecraft:nether_wastes"
-				icon: "minecraft:netherrack"
-				id: "64877AEDABDD21AC"
-				type: "biome"
-			}
-			{
-				biome: "alexscaves:abyssal_chasm"
-				icon: "alexscaves:submarine"
-				id: "69FE39E461F03C0B"
-				title: "Abyssal Chasm"
-				type: "biome"
-			}
-			{
-				biome: "alexscaves:candy_cavity"
-				icon: "alexscaves:large_peppermint"
-				id: "2D0D044478E96286"
-				title: "Candy Cavity"
-				type: "biome"
-			}
-			{
-				biome: "alexscaves:forlorn_hollows"
-				icon: "alexscaves:pure_darkness"
-				id: "4AE0DDAE12FAC99E"
-				title: "Forlorn Hollows"
-				type: "biome"
-			}
-			{
-				biome: "alexscaves:magnetic_caves"
-				icon: "alexscaves:scarlet_magnet"
-				id: "365B86E2F17F1C30"
-				title: "Magnetic Caves"
-				type: "biome"
-			}
-			{
-				biome: "alexscaves:primordial_caves"
-				icon: {
-					Count: 1
-					id: "alexscaves:primordial_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "1C6CD022B9E5230F"
-				title: "Primordial Caves"
-				type: "biome"
-			}
-			{
-				biome: "alexscaves:toxic_caves"
-				icon: "alexscaves:waste_drum"
-				id: "21DB8435C902003C"
-				title: "Toxic Caves"
-				type: "biome"
-			}
-			{
-				biome: "unusualend:gloopstone_lands"
-				icon: "unusualend:gloopy_endstone"
-				id: "6CFD391B22CE416A"
-				title: "Gloopstone"
-				type: "biome"
-			}
-			{
-				biome: "unusualend:warped_reef"
-				icon: "unusualend:warped_end_stone"
-				id: "3A0BD5CDDAFA6A8E"
-				title: "Warped Reef"
-				type: "biome"
-			}
-		]
-		title: "Nett hier,"
-		x: -2.0d
-		y: -2.0d
-	}]
+			}]
+			secret: true
+			tasks: [{
+				elapsedTime: 36000L
+				id: "5D8F5E30268F96E8"
+				type: "questsadditions:time"
+			}]
+			title: "No Life"
+			x: -0.5d
+			y: -2.0d
+		}
+	]
 	title: "Joke Quests"
 }

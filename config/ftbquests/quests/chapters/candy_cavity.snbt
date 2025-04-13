@@ -13,7 +13,6 @@
 			dependency_requirement: "all_started"
 			description: ["Get the Correct Cave Tablet."]
 			id: "6066B3C4BF11600E"
-			invisible: true
 			rewards: [{
 				count: 4
 				id: "1010FFCB4641336A"
@@ -39,7 +38,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6066B3C4BF11600E"]
+			dependencies: [
+				"6066B3C4BF11600E"
+				"429D2745C5F14C8C"
+			]
+			dependency_requirement: "one_started"
 			description: ["Find an Candy Cavity Cave."]
 			id: "0E6278974808D6BF"
 			rewards: [{
@@ -57,6 +60,211 @@
 			title: "Sugar"
 			x: -9.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0E6278974808D6BF"]
+			id: "3C6488C6CC1E189F"
+			rewards: [{
+				count: 4
+				id: "7F16F190CCBAAB04"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: "alexscaves:sharpened_candy_cane"
+				id: "4552E7C148CD2BA1"
+				title: "Maniac"
+				type: "kill"
+				value: 10L
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E6278974808D6BF"]
+			id: "4BC2AAE5E85F100A"
+			rewards: [{
+				count: 8
+				id: "304302248FC6F839"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				icon: "alexscaves:sweet_tooth"
+				id: "34072BCCE9C422F7"
+				title: "Sweet Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BC2AAE5E85F100A"]
+			description: ["Fill it with Food."]
+			id: "374A2704B5C96770"
+			rewards: [{
+				count: 4
+				id: "3778355B92249CA1"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FA6BA416E8D3205"
+				item: {
+					Count: 1
+					id: "alexscaves:sack_of_sating"
+					tag: {
+						ChewTimestamp: 118132L
+						FeedTimestamp: 119904L
+						HungerValue: 388
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E6278974808D6BF"]
+			id: "6C29B3BFB925C49C"
+			rewards: [{
+				count: 8
+				id: "31B682DD29D5359C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: "alexscaves:radiant_essence"
+				id: "198E5448E4E97DD8"
+				title: "Sweet Worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Witch"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C29B3BFB925C49C"]
+			description: ["Use these to Turn a smal area into antother Biome."]
+			id: "37372508DE1D00B2"
+			rewards: [{
+				count: 4
+				id: "66E40F0701BDFD6D"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "02B7CBAFBB17C690"
+					item: "alexscaves:conversion_crucible"
+					type: "item"
+				}
+				{
+					id: "6D9B91B85A179998"
+					item: {
+						Count: 1
+						id: "alexscaves:biome_treat"
+						tag: {
+							CaveBiome: "biomeswevegone:temperate_grove"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E6278974808D6BF"]
+			id: "0FF7AEF90F08986D"
+			rewards: [{
+				count: 4
+				id: "6E758115EE7966F4"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "219D8FF6F61A2747"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68F201DE12A01F1C"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CFB9D70540EAED2"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02A658B3194DAD9A"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sweet Armor"
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E6278974808D6BF"]
+			description: ["Sweet Shoot"]
+			id: "0F72A3D8BA54FAEF"
+			rewards: [{
+				count: 4
+				id: "5058D93A65B3DF27"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22BB80D64279A3DE"
+				item: {
+					Count: 1
+					id: "alexscaves:shot_gum"
+					tag: {
+						CrankAngle: 1080.0f
+						PrevCrankAngle: 1080.0f
+						PrevShootTime: 0
+						ShootTime: 0
+						Shooting: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
 		}
 	]
 	title: "Candy Cavity"

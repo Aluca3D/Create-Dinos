@@ -13,7 +13,6 @@
 			dependency_requirement: "all_started"
 			description: ["Get the Correct Cave Tablet."]
 			id: "749361D42FF1362C"
-			invisible: true
 			rewards: [{
 				count: 4
 				id: "2AA0A9C4B015018E"
@@ -39,7 +38,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["749361D42FF1362C"]
+			dependencies: [
+				"749361D42FF1362C"
+				"429D2745C5F14C8C"
+			]
+			dependency_requirement: "one_started"
 			description: ["Find an Forlorn Hollows cave."]
 			id: "6B18D14A6D2BC1B5"
 			rewards: [{
@@ -57,6 +60,233 @@
 			title: "Darkness"
 			x: -9.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["6B18D14A6D2BC1B5"]
+			description: ["Get an Underzeloth to grab a Gloomoth using a torch to transform it into a Watcher."]
+			id: "1098B52D460A56CF"
+			rewards: [{
+				count: 8
+				id: "5975D8DF28DFC05E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "648D82651BA4D2E1"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			title: "Transformation"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B18D14A6D2BC1B5"]
+			description: ["Kill 30 Underzeloth's."]
+			id: "40677104C4FFD93E"
+			rewards: [{
+				count: 8
+				id: "3C6A2FB61935968E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				icon: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5774723063185C89"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Cult Cutting"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1098B52D460A56CF"]
+			description: ["Get an Underzeloth to grab a Vesper to transform it into something Worse."]
+			id: "798F3CAD528A5CD6"
+			rewards: [{
+				count: 16
+				id: "6ABC3EB19BE82F3D"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7659ED170E29F9B8"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			title: "Transformation 2.0"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1098B52D460A56CF"]
+			description: ["Kill 10 Watcher's"]
+			id: "6440AFFB7B5C98BE"
+			rewards: [{
+				count: 8
+				id: "4BE41F99925AF19C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: "alexscaves:occult_gem"
+				id: "758966873B787306"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Pervert's"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B18D14A6D2BC1B5"]
+			description: [""]
+			id: "29038BEBE6D0A24A"
+			rewards: [{
+				count: 8
+				id: "123E506A5A73CF7E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "55217742CD28963B"
+				item: { Count: 16, id: "alexscaves:burrowing_arrow" }
+				type: "item"
+			}]
+			title: "Drilling teeth"
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1098B52D460A56CF"]
+			description: ["Slap a Mob to controle it."]
+			id: "6ECD3EC8549BBA7D"
+			rewards: [{
+				count: 8
+				id: "12D2E5B23DE0BA27"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C5B1782BB2EB583"
+				item: {
+					Count: 1
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Possesion Time"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1098B52D460A56CF"]
+			description: [
+				"Kill the Forsaken..."
+				"probably more than once."
+			]
+			id: "538449909D45D6EA"
+			rewards: [{
+				count: 16
+				id: "6F612377916C7769"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:pure_darkness"
+				id: "7924945C5BF31452"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Monster"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["538449909D45D6EA"]
+			description: ["It looks at me."]
+			id: "18AE985E54CB8ADD"
+			rewards: [{
+				count: 8
+				id: "187D533311F83D81"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E0B496B73565280"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bow..."
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["538449909D45D6EA"]
+			description: ["Wear the armor and activate its ability to be cast into darkness. Use the Darkened Apple to prolong the effect."]
+			id: "39E1A31C0A7CE080"
+			rewards: [{
+				count: 8
+				id: "68D282A7F9C7B926"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E75BC7F80E69125"
+					item: {
+						Count: 1
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0058DE8157E24757"
+					item: {
+						Count: 1
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							CanCharge: 1b
+							CloakCharge: 288
+							Damage: 0
+							LastEquipMessageTime: 207527L
+							LastLightTimestamp: 209064L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B93C198F05C884E"
+					item: "alexscaves:darkened_apple"
+					type: "item"
+				}
+			]
+			title: "Darkness"
+			x: -3.5d
+			y: 4.0d
 		}
 	]
 	title: "Forlorn Hollows"

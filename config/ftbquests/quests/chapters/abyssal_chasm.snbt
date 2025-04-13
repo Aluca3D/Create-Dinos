@@ -13,7 +13,6 @@
 			dependency_requirement: "all_started"
 			description: ["Get the Correct Cave Tablet."]
 			id: "408474814E2B3CDB"
-			invisible: true
 			rewards: [{
 				count: 4
 				id: "1F1FCA07EC04CEF1"
@@ -39,7 +38,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["408474814E2B3CDB"]
+			dependencies: [
+				"408474814E2B3CDB"
+				"429D2745C5F14C8C"
+			]
+			dependency_requirement: "one_started"
 			description: ["Find an Abyssal Chasm."]
 			id: "336EAE93E0269364"
 			rewards: [{
@@ -49,13 +52,7 @@
 			}]
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
-				icon: {
-					Count: 1
-					id: "alexscaves:primordial_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "alexscaves:submarine"
 				id: "789D05F39BA7B4B1"
 				title: "Fish!"
 				type: "biome"
@@ -63,6 +60,193 @@
 			title: "The Deep"
 			x: -1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["336EAE93E0269364"]
+			description: ["Enter an Submarin."]
+			id: "52AE569AE139A62C"
+			rewards: [{
+				count: 4
+				id: "609FB94680B9FC5F"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "6A57DDBC897B7E99"
+				type: "advancement"
+			}]
+			title: "Submarin"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["336EAE93E0269364"]
+			description: ["Trade with the Deep Ones by offering pearls at an Abyssal Altar."]
+			id: "043C3CBDAE6F2960"
+			rewards: [{
+				count: 4
+				id: "708A4438A4D59C88"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1427A6981978EBB6"
+				item: "alexscaves:abyssal_altar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["043C3CBDAE6F2960"]
+			id: "477AD36A36E09A01"
+			rewards: [{
+				count: 4
+				id: "25BB7CEB3065C187"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DACB6BE38BF1432"
+				item: {
+					Count: 1
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["043C3CBDAE6F2960"]
+			id: "1B6A6F85144EAB45"
+			rewards: [{
+				count: 4
+				id: "6C134B51F5884DB0"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A9EC0F47D10DAE9"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["336EAE93E0269364"]
+			description: ["Get the Full Diving set."]
+			id: "1593ECF4054C7624"
+			rewards: [{
+				count: 4
+				id: "5D32B011A57D8BB0"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "02D18B5234DA5DE0"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD82CF6CFC6C1BA"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B3D51C7B20A71B3"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CF930462C4131AD"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["336EAE93E0269364"]
+			description: ["Kill an Hullbreaker."]
+			id: "670EC4E4CAA99C68"
+			rewards: [{
+				count: 8
+				id: "47CF8791A798B405"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:immortal_embryo"
+				id: "2761584067B42B98"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hullbreaker"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["043C3CBDAE6F2960"]
+			id: "2DCD2DBFFF6DC0F9"
+			rewards: [{
+				count: 4
+				id: "3C1BEB71BBD4A274"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "019974AD4B213E47"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Abyssal Chasm"

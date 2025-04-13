@@ -13,7 +13,6 @@
 			dependency_requirement: "all_started"
 			description: ["Get the Correct Cave Tablet."]
 			id: "47CFAE6E174BE34A"
-			invisible: true
 			rewards: [{
 				count: 4
 				id: "541D4AC0B16C270D"
@@ -39,7 +38,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["47CFAE6E174BE34A"]
+			dependencies: [
+				"47CFAE6E174BE34A"
+				"429D2745C5F14C8C"
+			]
 			description: ["Find an Magnetic Cave."]
 			id: "2645F42556BDE02B"
 			rewards: [{
@@ -57,6 +59,136 @@
 			title: "Magnets!!"
 			x: -9.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: ["Use the Magnetic Lights to select an area you want to mine. Then place the Magnetic Quarry on one side and place the Magnetic Quarry Smasher in the selected area to complete it."]
+			id: "284783EDE7FE1649"
+			rewards: [{
+				count: 16
+				id: "6391998C8569C60E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42E2D77D5548D4AC"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "64AF8A295AFCB32D"
+					item: { Count: 4, id: "alexscaves:magnetic_light" }
+					type: "item"
+				}
+				{
+					id: "64C6737DC4E39842"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+			]
+			title: "Better Mining"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: ["Use the Holocoder on a Mob to scan it, then use it on the Hologram Projector to Project it."]
+			id: "0EB76AA146CBDEAE"
+			rewards: [{
+				count: 8
+				id: "59A5E3FC0185D890"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69B5D1F0DD4AC8C5"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+				{
+					id: "295FF3B643C8AE22"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+			]
+			title: "Hologram"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: ["These arrows fly Automaticly to the nearest mob."]
+			id: "5C5F6D820C5577AD"
+			rewards: [{
+				count: 4
+				id: "36BD2DB5E7D5C7FF"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6FF238E35F1E789F"
+				item: "alexscaves:seeking_arrow"
+				type: "item"
+			}]
+			title: "Autoaim"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: ["Use the Resistor Shield to pull/push mobs away/towards you."]
+			id: "7EAA0BFE514AE166"
+			rewards: [{
+				count: 8
+				id: "3C833C932D2C4D62"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BE490BC29FC819A"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magnetic Shield"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: ["Use the Galena Gauntlet in your offhand with a metallic item to extend your range."]
+			id: "53395B145EEE5512"
+			rewards: [{
+				count: 8
+				id: "1D94B97A93E00D25"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45D917B13DF92120"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+						PrevUseTime: 0
+						UseTime: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Fist"
+			x: -9.0d
+			y: 4.5d
 		}
 	]
 	title: "Magnetic Caves"

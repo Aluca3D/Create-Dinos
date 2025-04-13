@@ -132,6 +132,53 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["457E88FA69FEAAEB"]
+			description: ["new Music!"]
+			id: "63EC0AC4E2FFFE3F"
+			rewards: [{
+				count: 8
+				id: "374D7FFE7430CF03"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C684E4F8BE8B6BC"
+					item: "alexscaves:music_disc_fusion"
+					type: "item"
+				}
+				{
+					id: "330AD76F43E235D7"
+					item: "alexscaves:music_disc_tasty"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["429D2745C5F14C8C"]
+			description: [
+				"Spawn Tremozilla. "
+				"You can tame it using a huge amount of nuclear waste."
+			]
+			id: "5B1EDFF3875D620B"
+			rewards: [{
+				count: 32
+				id: "2B5D31EDB5BCA88C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD37BE90582D11F"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Godzilla!"
+			x: 1.5d
+			y: -1.0d
+		}
 	]
 	title: "Alex's Caves"
 }

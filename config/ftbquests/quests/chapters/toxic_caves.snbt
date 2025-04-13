@@ -9,7 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7B78BDC42AE1EF7B"]
+			dependencies: [
+				"7B78BDC42AE1EF7B"
+				"429D2745C5F14C8C"
+			]
+			dependency_requirement: "one_started"
 			description: ["Find an Toxic Cave."]
 			id: "1A8E56A55C0A1421"
 			rewards: [{
@@ -33,7 +37,6 @@
 			dependency_requirement: "all_started"
 			description: ["Get the Correct Cave Tablet."]
 			id: "7B78BDC42AE1EF7B"
-			invisible: true
 			rewards: [{
 				count: 4
 				id: "4EAF7C17CB50B12A"
@@ -57,6 +60,200 @@
 			title: "Collect an Toxic Cave Tablet"
 			x: -6.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["1A8E56A55C0A1421"]
+			description: ["Hopefully, it protects from radiation."]
+			id: "603794D6077C8F35"
+			rewards: [{
+				count: 8
+				id: "3C1C405DA000309A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "76D2101AF5F2C4E5"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B6C5A79AAAAB6BA"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "063A25E5E10BFE55"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3113B69B3A602E31"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat "
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A8E56A55C0A1421"]
+			description: [
+				"Just why would you do that??"
+				""
+				"{@pagebreak}"
+				"You can sit on it or use shears to defuse it."
+			]
+			id: "7C594B77818392B6"
+			rewards: [{
+				count: 8
+				id: "5008EED6EF9B379B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4377C678BC248CB7"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+				{
+					id: "108C90099A863B67"
+					item: {
+						Count: 1
+						id: "alexscaves:remote_detonator"
+						tag: {
+							BombTracked: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nuclear Bomb"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A8E56A55C0A1421"]
+			description: ["Build a Nuclear Furnace."]
+			id: "15A153520B9429CF"
+			rewards: [{
+				count: 8
+				id: "76F7991DC4620E1C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3148D11BA300E57E"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			title: "Special Heat"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A8E56A55C0A1421"]
+			description: ["It's edible."]
+			id: "41CCDA2C5E2941D5"
+			rewards: [{
+				count: 6
+				id: "6A155D6B2B28BA87"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "alexscaves:spelunkie"
+					id: "632D3A4A517887BA"
+					type: "custom"
+				}
+				{
+					id: "0A8114DA37F026D5"
+					item: "alexscaves:slam"
+					type: "item"
+				}
+				{
+					id: "76E6C3AFE060DDBD"
+					item: "alexscaves:green_soylent"
+					type: "item"
+				}
+			]
+			title: "Food?"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1A8E56A55C0A1421"]
+			description: [
+				"Go go Gadget..."
+				"NUCLEAR RAY"
+			]
+			id: "0667B93B34FA769A"
+			rewards: [{
+				count: 8
+				id: "68D4DE71B30ECACB"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B2FE6B125C0A4F9"
+				item: {
+					Count: 1
+					id: "alexscaves:raygun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Raygun"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A8E56A55C0A1421"]
+			description: ["I choose you, Cinder Brick."]
+			id: "6DA5253EBF95F127"
+			rewards: [{
+				count: 8
+				id: "5A5C206344DDCB2E"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "55E314ECAC2EEBBD"
+				item: "alexscaves:cinder_brick"
+				type: "item"
+			}]
+			title: "Hehe"
+			x: -5.5d
+			y: 4.5d
 		}
 	]
 	title: "Toxic Caves"

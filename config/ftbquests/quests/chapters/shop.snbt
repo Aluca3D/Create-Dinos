@@ -293,6 +293,48 @@
 			x: -3.0d
 			y: -3.5d
 		}
+		{
+			can_repeat: true
+			id: "2B15F23E31D22A47"
+			rewards: [{
+				count: 16
+				id: "3F7389A12EA07B96"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03ECC8A1075AE41D"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			title: "Sell XP"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"To do this, "
+				"you would need an Tast Screen."
+			]
+			id: "5BD28131E343DBDD"
+			rewards: [{
+				count: 16
+				id: "4D9F15AD4BF5EF40"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 15000L
+				fluid: "create_enchantment_industry:experience"
+				id: "61588CF5F31186E2"
+				type: "fluid"
+			}]
+			title: "Sell XP"
+			x: 0.0d
+			y: -2.5d
+		}
 	]
 	title: "Shop"
 }

@@ -458,7 +458,7 @@
 		}
 		{
 			dependencies: ["21E2C3CEB3BB1439"]
-			description: ["Acquire an alternator for an easy way to transfer stress and RPM over long distances."]
+			description: ["Acquire an alternator to turn RPM into Electrisity."]
 			id: "73A997E9E4F7F6AD"
 			rewards: [{
 				count: 4
@@ -549,8 +549,8 @@
 				item: "createnuclear:uranium_powder"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.25d
+			x: 1.4964285714285737d
+			y: 9.48571428571428d
 		}
 		{
 			dependencies: ["2B4BBE38FEB7750D"]
@@ -594,6 +594,42 @@
 			title: "Diesel Engines"
 			x: 1.5d
 			y: 5.25d
+		}
+		{
+			dependencies: ["6049F5674D838008"]
+			description: ["Acquire an Trading Depo to autmomate Trading."]
+			id: "2D24D0D4BC761F1A"
+			rewards: [{
+				count: 2
+				id: "7ED022A9CCEDBECA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ACF0248C7A44744"
+				item: "trading_floor:trading_depot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6671F75100419696"]
+			description: ["Use an Sifter for easy Recource Generation."]
+			id: "66024F7E057EE9D1"
+			rewards: [{
+				count: 4
+				id: "6122A6D6DEFD46DF"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E697DD71670586C"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
 		}
 	]
 	title: "Basics"

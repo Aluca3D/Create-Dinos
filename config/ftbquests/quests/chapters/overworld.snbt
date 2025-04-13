@@ -73,6 +73,240 @@
 			x: 1.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["1A646FAC6DE176F4"]
+			id: "6FCAB54DC1933EE6"
+			rewards: [{
+				count: 4
+				id: "06488AF5CFF52419"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:sea_lantern"
+				id: "7BF44FBCC762D659"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			title: "Find an Ocean Monument"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FCAB54DC1933EE6"]
+			id: "69CF813C4253D156"
+			rewards: [{
+				count: 4
+				id: "3FD695F2DB840875"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "7C2655C468EA691F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill an Elder Quardian"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A646FAC6DE176F4"]
+			id: "00A775BDBA63B3B0"
+			rewards: [{
+				count: 4
+				id: "057311AB48C3E167"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:stone_bricks"
+				id: "5372C072DBD41E91"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			title: "Find an Stronghold"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A646FAC6DE176F4"]
+			id: "7C8D43D20E503821"
+			rewards: [{
+				count: 16
+				id: "42A2AB2A028EF2DE"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "galosphere:pink_salt_caves"
+					icon: "galosphere:pink_salt"
+					id: "231BCD9272E3EF25"
+					title: "Pink Salt Cave"
+					type: "biome"
+				}
+				{
+					biome: "galosphere:crystal_canyons"
+					icon: "galosphere:allurite_block"
+					id: "451B01B2B88B9164"
+					title: "Crystal Canyons"
+					type: "biome"
+				}
+				{
+					biome: "galosphere:lichen_caves"
+					icon: "galosphere:lichen_moss"
+					id: "0FA6556F2B516033"
+					title: "Lichen Caves"
+					type: "biome"
+				}
+			]
+			title: "Galosphere"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C8D43D20E503821"]
+			dependency_requirement: "one_started"
+			description: ["Wear the Full set and use a Banner to put it on your head"]
+			id: "11386153F44DE98F"
+			rewards: [{
+				count: 8
+				id: "54387B1703E35A8D"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "088AE8AE18AAE017"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222A7EEDCF9DF6AD"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C27331E45642BB0"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76140373D6E83B9E"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sterling"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C8D43D20E503821"]
+			dependency_requirement: "one_started"
+			id: "2FD394F00E927C41"
+			rewards: [{
+				count: 16
+				id: "2FC69C992493534A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: {
+					Count: 1
+					id: "galosphere:saltbound_tablet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "037E5ABFC3ABB5D2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Berserk"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C8D43D20E503821"]
+			dependency_requirement: "one_started"
+			description: ["Use Glow Flare's for better Cave Exploration"]
+			id: "615B3A15985A4FCC"
+			rewards: [{
+				count: 16
+				id: "401D5823CB4F36BE"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "42D1D3D148CE21EE"
+				item: { Count: 16, id: "galosphere:glow_flare" }
+				type: "item"
+			}]
+			title: "Glowing"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C8D43D20E503821"]
+			dependency_requirement: "one_started"
+			description: ["Bomb"]
+			id: "25DE622DAF44E566"
+			rewards: [{
+				count: 8
+				id: "66AF84D97E773050"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E01CE06916D300E"
+					item: "galosphere:combustion_table"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3C59EB62999E91B2"
+					item: {
+						Count: 8
+						id: "galosphere:silver_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Bomb's"
+			x: 4.0d
+			y: -1.5d
+		}
 	]
 	title: "Overworld"
 }
