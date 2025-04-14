@@ -68,6 +68,9 @@
 				"26914AA7B812A5EB"
 			]
 			description: [
+				"The Quest Book is still a work in progress, so most of it is currently empty."
+				"Also, keep in mind that the current quests may change in the future."
+				"{@pagebreak}"
 				"I don’t know what else to say besides:"
 				"Have fun playing! :)"
 			]
@@ -145,18 +148,15 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"The Quest Book is still a work in progress, so most of it is currently empty."
-				"Also, keep in mind that the current quests may change in the future."
-			]
-			icon: "ftbquests:book"
+			description: ["Make incredible food using Farmer's Delight and the installed add-ons."]
+			icon: "farmersdelight:stove"
 			id: "46051E87D588209C"
 			tasks: [{
 				id: "40E1399AF5207855"
 				title: "Quest Book"
 				type: "checkmark"
 			}]
-			title: "Quest Book"
+			title: "Farmer's Delight"
 			x: -3.0d
 			y: -3.0d
 		}

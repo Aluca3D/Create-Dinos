@@ -143,21 +143,21 @@
 				{
 					biome: "galosphere:pink_salt_caves"
 					icon: "galosphere:pink_salt"
-					id: "231BCD9272E3EF25"
+					id: "029526D4A3904BAC"
 					title: "Pink Salt Cave"
 					type: "biome"
 				}
 				{
 					biome: "galosphere:crystal_canyons"
 					icon: "galosphere:allurite_block"
-					id: "451B01B2B88B9164"
+					id: "1ADC6EDBDA9872F5"
 					title: "Crystal Canyons"
 					type: "biome"
 				}
 				{
 					biome: "galosphere:lichen_caves"
 					icon: "galosphere:lichen_moss"
-					id: "0FA6556F2B516033"
+					id: "29180EC75295D051"
 					title: "Lichen Caves"
 					type: "biome"
 				}

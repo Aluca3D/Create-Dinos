@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "443DE61CC41B3107", title: "Misc." }
 		{ id: "6C4920BA3B869E92", title: "Create" }
 		{ id: "5F1A65E495DCB771", title: "Exploration" }
 		{ id: "24631FA894EE36E8", title: "Dinosaurs" }

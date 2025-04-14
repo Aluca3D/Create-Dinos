@@ -7,21 +7,134 @@
 	id: "524A97DEF9EFBC22"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34173B3401C40BEC"]
-		description: ["Welcome to the beginning of your epic train network!"]
-		hide_until_deps_complete: true
-		icon: "create:schedule"
-		id: "68F3B99469FB5287"
-		shape: "gear"
-		size: 1.5d
-		tasks: [{
-			id: "5158AA73F008BFD4"
-			title: "Train"
-			type: "checkmark"
-		}]
-		x: -1.5d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["34173B3401C40BEC"]
+			description: ["Welcome to the beginning of your epic train network!"]
+			hide_until_deps_complete: true
+			icon: "create:schedule"
+			id: "68F3B99469FB5287"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5158AA73F008BFD4"
+				title: "Train"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68F3B99469FB5287"]
+			description: [
+				"Obtain 8 train casings"
+				"one of the most essential parts in creating trains."
+			]
+			id: "6D1CB7ACFF94A417"
+			rewards: [{
+				count: 4
+				id: "230E0E6AAECE1C60"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "627CDAA15F71A01D"
+				item: { Count: 8, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B29300B4DFB2035"]
+			id: "3500F8076E306CEA"
+			rewards: [{
+				count: 4
+				id: "6083F39724E7DF9F"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74F282379AAF754B"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D1CB7ACFF94A417"]
+			id: "2366A300F29252FB"
+			rewards: [{
+				count: 4
+				id: "0ED5893948BFFE40"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47753DCAC18E9847"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D1CB7ACFF94A417"]
+			description: ["Set up a train station to create a train."]
+			id: "5B29300B4DFB2035"
+			rewards: [{
+				count: 4
+				id: "371BA457CE73DFA8"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "613924F26E7112BD"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B29300B4DFB2035"]
+			description: ["This is a good beginning, but you will need a lot more."]
+			id: "48C9CA17DB201346"
+			rewards: [{
+				count: 8
+				id: "1050E7F6D7FD0B6B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "7CCBED7128B236FB"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B29300B4DFB2035"]
+			description: ["You can use the train schedule to make a train follow a schedule to collect and deliver resources."]
+			id: "237B3CA1530F21DA"
+			rewards: [{
+				count: 4
+				id: "68769FD4E793F294"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "388AA5C7A1823252"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+	]
 	title: "Trains"
 }

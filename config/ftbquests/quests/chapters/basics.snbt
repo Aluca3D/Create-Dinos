@@ -473,8 +473,8 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.25d
+			x: 3.75d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6671F75100419696"]
@@ -592,8 +592,8 @@
 				type: "item"
 			}]
 			title: "Diesel Engines"
-			x: 1.5d
-			y: 5.25d
+			x: 3.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6049F5674D838008"]

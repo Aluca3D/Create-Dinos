@@ -9,6 +9,7 @@
 	quests: [{
 		dependencies: ["04AD5250F99397CF"]
 		description: ["There will be new Queste here once &lFossils and Archeology: Revival&r has been ported to 1.20.1."]
+		hide_until_deps_complete: true
 		id: "42CE91632CE49B46"
 		shape: "gear"
 		size: 2.0d
