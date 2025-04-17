@@ -8,4 +8,8 @@ StartupEvents.registry('item', event => {
   event.create('incomplete_compas')
     .maxStackSize(1)
     .texture('cad:item/incomplete_compas')
+
+    event.create('treasure_coin')
+    .maxStackSize(64)
+    .texture('cad:item/treasure_coin')
 })
