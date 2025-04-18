@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["246B4388B5FC7F7C"]
-			description: ["Build TVs to watch YouTube or play games on a gaming console."]
+			description: ["Here are all the things that dont fit into normal Quest's."]
 			hide_until_deps_complete: true
 			icon: "waterframes:big_tv"
 			id: "16F4E0AF78BAAD8C"
@@ -18,10 +18,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "61FFDBBFAE951261"
-				title: "Explore"
+				title: "Misc"
 				type: "checkmark"
 			}]
-			title: "Digital"
+			title: "Misc."
 			x: 0.0d
 			y: -1.5d
 		}
@@ -68,6 +68,35 @@
 			x: 2.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["16F4E0AF78BAAD8C"]
+			description: ["Gambling!"]
+			id: "1E29143DC3C6799A"
+			rewards: [
+				{
+					count: 8
+					id: "24303AE6E1CA9B98"
+					item: "kubejs:cad_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37218EE602CCA1B3"
+					item: "kubejs:treasure_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "kubejs:treasure_coin"
+				id: "05CB654CCEDDE7E0"
+				item: "kubejs:treasure_coin"
+				type: "item"
+			}]
+			title: "Gambling!"
+			x: -2.0d
+			y: -1.5d
+		}
 	]
-	title: "Digital"
+	title: "Misc."
 }

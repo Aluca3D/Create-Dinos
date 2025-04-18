@@ -177,5 +177,12 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
 	]).transitionalItem(inter).loops(1)
 
-    // 
+    let incomplete_treasure_coin = 'kubejs:incomplete_treasure_coin'
+    event.recipes.create.sequenced_assembly([
+		Item.of('kubejs:treasure_coin'), // this is the item that will appear in JEI as the result
+	], 'minecraft:gold_ingot', [
+		event.recipes.createPressing(incomplete_treasure_coin, incomplete_treasure_coin),
+		event.recipes.createFilling(incomplete_treasure_coin, [incomplete_treasure_coin, Fluid.of('create_enchantment_industry:experience', 100)]),
+		event.recipes.createPressing(incomplete_treasure_coin, incomplete_treasure_coin),
+	]).transitionalItem(incomplete_treasure_coin).loops(1)
 })
