@@ -97,6 +97,25 @@
 			x: -2.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["1E29143DC3C6799A"]
+			description: ["Gambling!"]
+			id: "3E7210FC21407090"
+			rewards: [{
+				count: 8
+				id: "3E9AC19EB902CCBD"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32FD24A372E0DBC2"
+				item: "kubejs:upgradet_treasure_coin"
+				type: "item"
+			}]
+			title: "Gambling++"
+			x: -3.5d
+			y: -1.5d
+		}
 	]
 	title: "Misc."
 }

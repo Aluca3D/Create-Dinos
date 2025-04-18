@@ -105,6 +105,76 @@ ItemEvents.rightClicked('kubejs:treasure_coin', (event) => {
     });
 });
 
+ItemEvents.rightClicked('kubejs:upgradet_treasure_coin', (event) => {
+    const { item, server, player, level } = event;
+
+    if (!player || level.isClientSide()) return;
+
+    switch (Math.floor(Math.random() * 7)) {
+        case 0: {
+            good_luck(level, player, "A stroke of good fortune!");
+            give_item(server, player, [
+                'minecraft:diamond',
+                'minecraft:golden_apple',
+                'minecraft:ender_pearl',
+                "minecraft:emerald",
+            ], Math.floor(Math.random() * 3) + 1);
+            break;
+        }
+        case 1: {
+            good_luck(level, player, "You’ve found more coins!");
+            give_item(server, player, ['kubejs:treasure_coin'], Math.floor(Math.random() * 6) + 1);
+            break;
+        }
+        case 2: {
+            player.tell("And nothing happend...");
+            break;
+        }
+        case 3: {
+            good_luck(level, player, "You uncover a hidden treasure chest!");
+            give_item(server, player, [
+                Item.of('lootr:lootr_barrel', '{BlockEntityTag:{ForgeData:{},LootTable:"minecraft:chests/simple_dungeon"},RepairCost:0,display:{Name:\'{"text":"Simple Dungeon"}\'}}'),
+                Item.of('lootr:lootr_barrel', '{BlockEntityTag:{ForgeData:{},LootTable:"minecraft:chests/buried_treasure"},RepairCost:0,display:{Name:\'{"text":"Buried Treasure"}\'}}'),
+                Item.of('lootr:lootr_barrel', '{BlockEntityTag:{ForgeData:{},LootTable:"minecraft:chests/desert_pyramid"},RepairCost:0,display:{Name:\'{"text":"Desert Pyramid"}\'}}'),
+                Item.of('lootr:lootr_barrel', '{BlockEntityTag:{ForgeData:{},LootTable:"minecraft:chests/ruined_portal"},RepairCost:0,display:{Name:\'{"text":"Ruined Portal"}\'}}'),
+                Item.of('lootr:lootr_barrel', '{BlockEntityTag:{ForgeData:{},LootTable:"minecraft:chests/jungle_temple"},RepairCost:0,display:{Name:\'{"text":"Jungle Temple"}\'}}'),
+                Item.of('lootr:lootr_barrel', '{BlockEntityTag:{ForgeData:{},LootTable:"minecraft:chests/underwater_ruin_big"},RepairCost:0,display:{Name:\'{"text":"Underwater Ruin"}\'}}')
+            ], 1)
+            break;
+        }
+        case 4: {
+            good_luck(level, player, "A magical force empowers you!");
+            give_effect(player, [
+                { id: 'minecraft:strength', duration: 400, amplifier: 2 },
+                { id: 'minecraft:speed', duration: 400, amplifier: 2 },
+                { id: "minecraft:health_boost", duration: 600, amplifier: 4 }
+            ]);
+            break;
+        }
+        case 5: {
+            good_luck(level, player, "You feel the wind in your favor!");
+            give_effect(player, [
+                { id: 'minecraft:jump_boost', duration: 600, amplifier: 1 },
+                { id: 'minecraft:fire_resistance', duration: 600, amplifier: 0 }
+            ]);
+            break;
+        }
+        case 6: {
+            good_luck(level, player, "A mysterious force protects you!");
+            give_effect(player, [
+                { id: 'minecraft:regeneration', duration: 600, amplifier: 1 },
+                { id: 'minecraft:resistance', duration: 600, amplifier: 1 }
+            ]);
+            break;
+        }
+    }
+
+    server.scheduleInTicks(2, () => {
+        player.addItemCooldown(item, 40);
+        item.count--;
+    });
+});
+
 const give_effect = (player, effects) => {
     const effect = effects[Math.floor(Math.random() * effects.length)];
 

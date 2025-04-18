@@ -79,12 +79,12 @@ ServerEvents.recipes(event => {
 
     // Sive
     event.recipes.createsifterSifting([
-            Item.of('minecraft:glowstone_dust').withChance(0.5),
-            Item.of('minecraft:redstone').withChance(0.1),
-            Item.of('createnuclear:uranium_powder').withChance(0.05),
-            Item.of("minecraft:blaze_powder").withChance(0.15),
-            Item.of("alexscaves:sulfur_dust").withChance(0.25),
-        ], ['createsifter:dust','createsifter:advanced_brass_mesh']
+        Item.of('minecraft:glowstone_dust').withChance(0.5),
+        Item.of('minecraft:redstone').withChance(0.1),
+        Item.of('createnuclear:uranium_powder').withChance(0.05),
+        Item.of("minecraft:blaze_powder").withChance(0.15),
+        Item.of("alexscaves:sulfur_dust").withChance(0.25),
+    ], ['createsifter:dust', 'createsifter:advanced_brass_mesh']
     )
 
     // Mechanical Crafting
@@ -153,36 +153,47 @@ ServerEvents.recipes(event => {
 
     // Sequenced Assembly
     let inter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
-	
-    event.recipes.create.sequenced_assembly([
-		Item.of('explorerscompass:explorerscompass').withChance(16.0), // this is the item that will appear in JEI as the result
-		Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
-		
-	], 'minecraft:compass', [ // the input
-		event.recipes.createPressing(inter, inter),
-		// like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-		event.recipes.createDeploying(inter, [inter, "minecraft:cobweb"]),
-		event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
-		event.recipes.createDeploying(inter, [inter, "minecraft:cracked_stone_bricks"]),
-	]).transitionalItem(inter).loops(1)
 
     event.recipes.create.sequenced_assembly([
-		Item.of('naturescompass:naturescompass').withChance(16.0), // this is the item that will appear in JEI as the result
-		Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
-		
-	], 'minecraft:compass', [ 
+        Item.of('explorerscompass:explorerscompass').withChance(16.0), // this is the item that will appear in JEI as the result
+        Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
+
+    ], 'minecraft:compass', [ // the input
+        event.recipes.createPressing(inter, inter),
+        // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+        event.recipes.createDeploying(inter, [inter, "minecraft:cobweb"]),
+        event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
+        event.recipes.createDeploying(inter, [inter, "minecraft:cracked_stone_bricks"]),
+    ]).transitionalItem(inter).loops(1)
+
+    event.recipes.create.sequenced_assembly([
+        Item.of('naturescompass:naturescompass').withChance(16.0), // this is the item that will appear in JEI as the result
+        Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
+
+    ], 'minecraft:compass', [
         event.recipes.createCutting(inter, inter),
-		event.recipes.createDeploying(inter, [inter, "#minecraft:saplings"]),
-		event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
-		event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
-	]).transitionalItem(inter).loops(1)
+        event.recipes.createDeploying(inter, [inter, "#minecraft:saplings"]),
+        event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
+        event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
+    ]).transitionalItem(inter).loops(1)
 
     let incomplete_treasure_coin = 'kubejs:incomplete_treasure_coin'
     event.recipes.create.sequenced_assembly([
-		Item.of('kubejs:treasure_coin'), // this is the item that will appear in JEI as the result
-	], 'minecraft:gold_ingot', [
-		event.recipes.createPressing(incomplete_treasure_coin, incomplete_treasure_coin),
-		event.recipes.createFilling(incomplete_treasure_coin, [incomplete_treasure_coin, Fluid.of('create_enchantment_industry:experience', 100)]),
-		event.recipes.createPressing(incomplete_treasure_coin, incomplete_treasure_coin),
-	]).transitionalItem(incomplete_treasure_coin).loops(1)
+        Item.of('kubejs:treasure_coin'), // this is the item that will appear in JEI as the result
+    ], 'minecraft:gold_ingot', [
+        event.recipes.createPressing(incomplete_treasure_coin, incomplete_treasure_coin),
+        event.recipes.createFilling(incomplete_treasure_coin, [incomplete_treasure_coin, Fluid.of('create_enchantment_industry:experience', 100)]),
+        event.recipes.createCutting(incomplete_treasure_coin, incomplete_treasure_coin),
+    ]).transitionalItem(incomplete_treasure_coin).loops(1)
+
+    let treasure_coin = 'kubejs:incomplete_upgradet_treasure_coin'
+    event.recipes.create.sequenced_assembly([
+        Item.of('kubejs:upgradet_treasure_coin').withChance(16.0), // this is the item that will appear in JEI as the result
+        Item.of('kubejs:treasure_coin').withChance(16.0),
+
+    ], 'kubejs:treasure_coin', [
+        event.recipes.createPressing(treasure_coin, treasure_coin),
+        event.recipes.createFilling(treasure_coin, [treasure_coin, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
+        event.recipes.createCutting(treasure_coin, treasure_coin),
+    ]).transitionalItem(treasure_coin).loops(1)
 })
