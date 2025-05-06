@@ -611,7 +611,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6671F75100419696"]
@@ -630,6 +630,81 @@
 			}]
 			x: -1.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["6049F5674D838008"]
+			description: ["Acquire a Sifter for easy early-game resource generation."]
+			id: "6A9820B98CB6F56E"
+			rewards: [{
+				count: 2
+				id: "5CE697C684F51FC3"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53CADCC5D3621F9F"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E854834E27D4DA4"]
+			description: ["Build an ore vein finder and atlas, and a sample drill to locate infinite ore veins."]
+			id: "756B3D8741AC06DA"
+			rewards: [{
+				count: 8
+				id: "3672C9049B4C82F3"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D9E7E2A5AE6B2B0"
+					item: {
+						Count: 1
+						id: "createoreexcavation:vein_finder"
+						tag: {
+							isFiltered: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC0DB32C4E50C61"
+					item: "createoreexcavation:vein_atlas"
+					type: "item"
+				}
+				{
+					id: "07BF82301917DB8D"
+					item: "createoreexcavation:sample_drill"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["756B3D8741AC06DA"]
+			description: [
+				"Build a drilling machine to extract from discovered ore veins."
+				"Don't forget to also craft the correct drill to extract it."
+			]
+			id: "5C9CC7F96566F38B"
+			rewards: [{
+				count: 4
+				id: "532BF0233345988A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F72CC01D2D12DF7"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
 		}
 	]
 	title: "Basics"

@@ -2,7 +2,10 @@ version:3465
 resourcePacks:["vanilla","mod_resources","file/Create Immersive Aircraft Warship ResoucePack v1.2.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Create LootR Chest.zip","file/Create-Construction-Wands.zip","file/CreateSophisticatedBackpacks.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:["file/Create-Construction-Wands.zip","file/CreateSophisticatedBackpacks.zip"]
 autoJump:false
+key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.tab
 key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.o:CONTROL
+key_key.ftbchunks.map:key.keyboard.unknown
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown

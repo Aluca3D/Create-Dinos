@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.haunting('minecraft:coal', 'minecraft:charcoal')
     event.recipes.create.haunting('minecraft:basalt', 'minecraft:netherrack')
     event.recipes.create.haunting('createnuclear:steel_ingot', 'create_ironworks:steel_ingot')
-
+    event.recipes.create.haunting('nourished_nether:raw_hoglin', 'nethersdelight:hoglin_loin')
 
     // Milling
     event.recipes.create.milling([Item.of('minecraft:wither_skeleton_skull').withChance(0.01)], 'minecraft:blackstone')
@@ -196,4 +196,11 @@ ServerEvents.recipes(event => {
         event.recipes.createFilling(treasure_coin, [treasure_coin, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
         event.recipes.createCutting(treasure_coin, treasure_coin),
     ]).transitionalItem(treasure_coin).loops(1)
+
+    // Drill
+    /// Fluiod
+    event.recipes.createoreexcavation.vein('{"text": "Lava well"}', 'minecraft:lava_bucket')
+        .placement(1024, 128, 64630185).alwaysInfinite().id("kubejs:cad_lava_well")
+    event.recipes.createoreexcavation.extracting('minecraft:lava 250', 'kubejs:cad_lava_well', 40)
+        .id("kubejs:cad_lava_well_drill");
 })

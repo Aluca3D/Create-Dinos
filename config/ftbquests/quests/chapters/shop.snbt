@@ -574,6 +574,28 @@
 			x: -1.5d
 			y: -6.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["42F30F43A9279FA0"]
+			disable_toast: true
+			icon: "gamediscs:game_disc_rabbit"
+			id: "716784190296A0CC"
+			rewards: [{
+				id: "51399FF22B417901"
+				item: "gamediscs:game_disc_rabbit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "616038E3CCC50D20"
+				item: { Count: 16, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "Buy Game"
+			x: -1.5d
+			y: -7.5d
+		}
 	]
 	title: "Shop"
 }

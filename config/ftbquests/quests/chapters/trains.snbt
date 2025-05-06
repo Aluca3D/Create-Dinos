@@ -135,6 +135,28 @@
 			x: 3.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["68F3B99469FB5287"]
+			description: ["Build a navigator to always know when the next train is going to the station you want to reach."]
+			id: "6C2B77C5AB1B99D7"
+			rewards: [{
+				count: 4
+				id: "4F06609848AFF756"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "743C3F9A26577EBB"
+				item: {
+					Count: 1
+					id: "createrailwaysnavigator:navigator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
 	]
 	title: "Trains"
 }
