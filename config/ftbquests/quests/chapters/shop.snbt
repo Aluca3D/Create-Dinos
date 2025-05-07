@@ -334,8 +334,8 @@
 				value: 4L
 			}]
 			title: "Sell XP"
-			x: -1.5d
-			y: 6.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -357,11 +357,15 @@
 				type: "fluid"
 			}]
 			title: "Sell XP"
-			x: -2.5d
-			y: 6.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["26914AA7B812A5EB"]
+			description: [
+				"Here you can use CAD coins to buy stuff."
+				"You can also get CAD coins for doing specific things."
+			]
 			hide_until_deps_complete: true
 			icon: "kubejs:cad_coin"
 			id: "64A2E905E6C15241"
@@ -424,8 +428,8 @@
 				title: "Sell XP"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -595,6 +599,356 @@
 			title: "Buy Game"
 			x: -1.5d
 			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B69C3F166C98C23"]
+			description: [
+				"To do this, "
+				"you would need an Tast Screen."
+			]
+			id: "6A5061B0EB1497F9"
+			rewards: [{
+				count: 4
+				id: "0DDCBCEB32FFB784"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 500L
+				fluid: "create_enchantment_industry:hyper_experience"
+				id: "37194B69D9A2E188"
+				type: "fluid"
+			}]
+			title: "Sell XP"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64A2E905E6C15241"]
+			description: ["Here, you can Kill Monsters for CAD coins."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BFBAB176371E6E9"
+			tasks: [{
+				id: "340679C0B3DAA37D"
+				title: "Kill Monsters"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "7C66C62834267855"
+			rewards: [{
+				count: 8
+				id: "2B62857A3A8B7600"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "456592F244BFDEC8"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A2E905E6C15241"]
+			description: ["Here, you can Kill Bosses for CAD coins."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "381403F2C981FFDC"
+			tasks: [{
+				id: "674BCCE8C25297D2"
+				title: "Kill Bosses"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "14DEBE1DDB6F1F16"
+			rewards: [{
+				count: 8
+				id: "26FE62FCA3EBB5EB"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "3660772843261A2F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "527A808021F1BA9E"
+			rewards: [{
+				count: 16
+				id: "26445A0C1E3DC5CC"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7F67375305BE8C18"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "4133753CD399F0AA"
+			rewards: [{
+				count: 8
+				id: "270031E957CBDF1A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: "galosphere:berserker_spawn_egg"
+				id: "6050C7360DFBB0EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "20779658AC69434B"
+			rewards: [{
+				count: 8
+				id: "3FE87594513EA6AF"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:spawn_egg_forsaken"
+				id: "66054410E34AFCF2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "17532731A6EE55BF"
+			rewards: [{
+				count: 16
+				id: "44E64E9145D684EF"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:spawn_egg_luxtructosaurus"
+				id: "112612BB4CB706D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "1B4901C69DD71FA2"
+			rewards: [{
+				count: 8
+				id: "1071D42A2F9B23BC"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "01BF6E05E505B8D7"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "17B3C27DA4004CD1"
+			rewards: [{
+				count: 8
+				id: "7B25348612D31936"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "08F09C87CB7435F1"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "12557A83FCB99E61"
+			rewards: [{
+				count: 8
+				id: "4467292901F18D50"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "384C75977692E69B"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "04E47F1BE03CF2C0"
+			rewards: [{
+				count: 8
+				id: "2DDE29CE60769539"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "56ABED4F55E9ADD9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "63AE19B00622A58F"
+			rewards: [{
+				count: 8
+				id: "502840F587E03718"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "0A676329B9FBD043"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "62127506808BB9D8"
+			rewards: [{
+				count: 8
+				id: "1FCF3A8DFBB22509"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "70093582743887A9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "7952600B51B6A012"
+			rewards: [{
+				count: 8
+				id: "1006DBA104A6DE46"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "280AB50281D04252"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "6BF0361CF75D0B01"
+			rewards: [{
+				count: 8
+				id: "1E2AFC03C5FEA028"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "3971F563A805FE75"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "295595EE436E2743"
+			rewards: [{
+				count: 8
+				id: "5AF7C979327FA293"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "265C43E890FE4F96"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 8.5d
 		}
 	]
 	title: "Shop"
