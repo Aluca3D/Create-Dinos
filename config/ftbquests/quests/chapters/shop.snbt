@@ -711,7 +711,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "minecraft:ender_dragon"
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:spawn_egg_hullbreaker"
 				id: "7F67375305BE8C18"
 				type: "kill"
 				value: 1L
@@ -947,8 +948,367 @@
 				type: "kill"
 				value: 50L
 			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "0B4BD068CB245861"
+			rewards: [{
+				count: 16
+				id: "656D8D33A21CFFEE"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				icon: "alexscaves:spawn_egg_gum_worm"
+				id: "202A06EC4884ED26"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "6088B587B9B6C6DE"
+			rewards: [{
+				count: 16
+				id: "0BDF2DD933948F9C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0768EF9590C12F11"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "1C9289A9CC2A67F6"
+			rewards: [{
+				count: 8
+				id: "0D5A2E212241D1B5"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: "alexscaves:spawn_egg_boundroid"
+				id: "39E74C1F86A04988"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "08D9284197A80CEA"
+			rewards: [{
+				count: 8
+				id: "0AE6E3E05ECDBBAA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				icon: "alexscaves:spawn_egg_underzealot"
+				id: "4B441F7D0BE5D458"
+				type: "kill"
+				value: 100L
+			}]
 			x: -4.5d
 			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "2693D7DCF041AB7C"
+			rewards: [{
+				count: 8
+				id: "242BCDF5D8D09647"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:vesper"
+				icon: "alexscaves:spawn_egg_vesper"
+				id: "5B26D53D0EE61B7F"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "60D74D39CA4FCCBF"
+			rewards: [{
+				count: 8
+				id: "28FF2DEDFC7A7BCC"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:spawn_egg_magnetron"
+				id: "3AEA6F682E39DFC1"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "3C8A961BBD2B00F7"
+			rewards: [{
+				count: 8
+				id: "7378B033418BFB19"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: "alexscaves:spawn_egg_notor"
+				id: "51B6DA99A0610C15"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "194368375928DBE6"
+			rewards: [{
+				count: 8
+				id: "30FC26A050693086"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: "alexscaves:spawn_egg_watcher"
+				id: "7EEC4E93790EA025"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "14F3176F5A92D0FE"
+			rewards: [{
+				count: 8
+				id: "6AB17F0B2E9C5D3C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				icon: "alexscaves:spawn_egg_corrodent"
+				id: "60BCBADE9B264E41"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "5414AB25742F2631"
+			rewards: [{
+				count: 8
+				id: "6CA082418FA6F34B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:teletor"
+				icon: "alexscaves:spawn_egg_teletor"
+				id: "11E94B2865F73ECC"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "127F143BC63688B3"
+			rewards: [{
+				count: 8
+				id: "11BC5BD55F9B7ACD"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				icon: "alexscaves:spawn_egg_ferrouslime"
+				id: "44B0D6061E422FFF"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "227F7E07B70DE6F8"
+			rewards: [{
+				count: 8
+				id: "4BCA749B0D318502"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:caramel_cube"
+				icon: "alexscaves:spawn_egg_caramel_cube"
+				id: "28335CEA9A2C2DB3"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "3962C2F5B63F69C9"
+			rewards: [{
+				count: 8
+				id: "719FCC2402CF79FD"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gumbeeper"
+				icon: "alexscaves:spawn_egg_gumbeeper"
+				id: "31CDFFC8EA1AFA3B"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "5C05728E33446F5B"
+			rewards: [{
+				count: 8
+				id: "5D3A472320BFEDB9"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: "alexscaves:spawn_egg_caniac"
+				id: "635C7308E5099153"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "13DB636575350BD7"
+			rewards: [{
+				count: 8
+				id: "38DA34182777B043"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gummy_bear"
+				icon: "alexscaves:spawn_egg_gummy_bear"
+				id: "7AAD386F0E143167"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "40AD41CA32BCCBB3"
+			rewards: [{
+				count: 8
+				id: "27499C904FE760D8"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: "alexscaves:spawn_egg_licowitch"
+				id: "233CA1259BFC4224"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "491103C54E4C4461"
+			rewards: [{
+				count: 8
+				id: "2E7D5AC1268EC054"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: "alexscaves:spawn_egg_nucleeper"
+				id: "22074628CF088587"
+				type: "kill"
+				value: 25L
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "7FD248CC426977C1"
+			rewards: [{
+				count: 8
+				id: "235793A2FDE94028"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: "alexscaves:spawn_egg_brainiac"
+				id: "2EBDDF91CB7B1881"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.0d
+			y: 13.5d
 		}
 	]
 	title: "Shop"

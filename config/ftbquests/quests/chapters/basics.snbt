@@ -103,7 +103,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2B4BBE38FEB7750D"]
@@ -178,7 +178,7 @@
 			]
 			title: "Bulk Processing"
 			x: -1.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -192,6 +192,8 @@
 				item: "kubejs:cad_coin"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				count: 32L
 				id: "4CF28D7E9427C269"
@@ -199,10 +201,10 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2C983D6637730B04"]
+			dependencies: ["6C2B1B5781300FD0"]
 			description: ["Acquire an Blaze Burner,"]
 			hide_until_deps_complete: true
 			id: "6F904021BB294BAC"
@@ -218,7 +220,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["464A193277A6240F"]
@@ -250,7 +252,7 @@
 				}
 			]
 			x: 0.5d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C8E5004BDC2F1B8"]
@@ -267,8 +269,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2C983D6637730B04"]
@@ -300,7 +302,7 @@
 				}
 			]
 			x: -5.0d
-			y: 6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["419DFBDF491D6FA3"]
@@ -316,7 +318,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["74C21071C8AA637C"]
@@ -334,7 +336,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -357,7 +359,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3E854834E27D4DA4"]
@@ -376,7 +378,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4C8E5004BDC2F1B8"]
@@ -393,8 +395,8 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CB8196EA78219FC"]
@@ -412,7 +414,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 9.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["5F8CBFB34EB344B9"]
@@ -454,7 +456,7 @@
 				}
 			]
 			x: 2.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21E2C3CEB3BB1439"]
@@ -474,7 +476,7 @@
 				type: "item"
 			}]
 			x: 3.75d
-			y: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6671F75100419696"]
@@ -493,7 +495,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 11.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["2FDD119969C64910"]
@@ -511,7 +513,7 @@
 				item: "create:railway_casing"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 12.75d
 		}
 		{
@@ -530,8 +532,8 @@
 				item: "create_enchantment_industry:enchanting_guide"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.75d
+			x: 1.5d
+			y: 14.25d
 		}
 		{
 			dependencies: ["6671F75100419696"]
@@ -549,8 +551,8 @@
 				item: "createnuclear:uranium_powder"
 				type: "item"
 			}]
-			x: 1.4964285714285737d
-			y: 9.48571428571428d
+			x: 1.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["2B4BBE38FEB7750D"]
@@ -569,7 +571,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21E2C3CEB3BB1439"]
@@ -593,7 +595,7 @@
 			}]
 			title: "Diesel Engines"
 			x: 3.75d
-			y: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["6049F5674D838008"]
@@ -610,8 +612,8 @@
 				item: "trading_floor:trading_depot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6671F75100419696"]
@@ -629,25 +631,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["6049F5674D838008"]
-			description: ["Acquire a Sifter for easy early-game resource generation."]
-			id: "6A9820B98CB6F56E"
-			rewards: [{
-				count: 2
-				id: "5CE697C684F51FC3"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "53CADCC5D3621F9F"
-				item: "createsifter:sifter"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3E854834E27D4DA4"]
@@ -683,7 +667,7 @@
 				}
 			]
 			x: -3.0d
-			y: 11.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["756B3D8741AC06DA"]
@@ -704,8 +688,273 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2B4BBE38FEB7750D"]
+			id: "6C2B1B5781300FD0"
+			rewards: [{
+				count: 2
+				id: "67DEE9ECA8765BD9"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59D060475BC66C67"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B4BBE38FEB7750D"]
+			dependency_requirement: "all_started"
+			description: [
+				"Use the wrench to rotate machines and break them instantly."
+				"Use the goggles to see the stress and RPM that a machine produces or uses."
+			]
+			id: "236B4F7A37C9CCFD"
+			rewards: [{
+				count: 8
+				id: "0D46A6319448AB3F"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43FF1288DC4C8B56"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "79655B7ADF10E8E6"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "21DE27DB5412D51F"
+					item: "create:brown_toolbox"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["464A193277A6240F"]
+			description: [""]
+			id: "2ACF99F5D873C4BC"
+			rewards: [{
+				id: "0BC6A804CD65B763"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE96968374B04E9"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2ACF99F5D873C4BC"]
+			description: [""]
+			id: "5A132F646302448B"
+			rewards: [{
+				id: "748EAD230CECC900"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A9EDF054AF2F42F"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72D43E029A690563"]
+			description: [
+				"Use an Schematic Table to creates Schematics from selected areas in the world."
+				"Use an Schematic to store a saved build layout."
+				"Use an Schematic Cannon to Builds structures automatically from a loaded Schematic."
+			]
+			id: "6C4F442C780723BC"
+			rewards: [{
+				count: 8
+				id: "4A5E9807DB0B2DFA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "760999FC01965E32"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "7B5B198C4DEA0816"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "58489255F949CD11"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B4BBE38FEB7750D"]
+			dependency_requirement: "all_started"
+			id: "441083D0BB41F46D"
+			rewards: [{
+				count: 2
+				id: "264C2DDD47D9CE88"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "63CAFEC52E80231B"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "002129B047A38DF1"
+					item: "create:item_hatch"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72D43E029A690563"]
+			description: ["Use it to save recipes and craft faster."]
+			id: "12B424E4583220E7"
+			rewards: [{
+				id: "4748FA705AC2A194"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DF841F741D8ABE8"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			title: "Shaft"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["441083D0BB41F46D"]
+			dependency_requirement: "all_started"
+			description: ["Figure it out yourself."]
+			id: "582B00FD9C2BEA77"
+			rewards: [{
+				count: 16
+				id: "4D87381562ECF02C"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "11408A1ECCF7DD12"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "11649D9957970EF2"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "47E12C44FC89D401"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					id: "20877CA0E5DB95C1"
+					item: "create:packager"
+					type: "item"
+				}
+			]
+			title: "Logistic"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["582B00FD9C2BEA77"]
+			dependency_requirement: "all_started"
+			description: ["Figure it out yourself."]
+			id: "61675B6817F6C344"
+			rewards: [{
+				count: 16
+				id: "27DDA49EA199A787"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39FE03BE80A6C014"
+					item: "create_mobile_packages:drone_controller"
+					type: "item"
+				}
+				{
+					id: "10E931364372FD47"
+					item: "create_mobile_packages:drone_port"
+					type: "item"
+				}
+			]
+			title: "Logistic+"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CC94C0C3EB2D57B"]
+			description: [""]
+			id: "6009B04D16383B7A"
+			rewards: [{
+				count: 4
+				id: "1433F17D21BF60CA"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "29C3C5265AF4DFE2"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6009B04D16383B7A"]
+			description: ["use it to change the RPM on your Factory."]
+			id: "4D11E6BD86B2FFFB"
+			rewards: [{
+				count: 4
+				id: "3E5D65C485C20E8B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B78A36BE2A342C6"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 16.5d
 		}
 	]
-	title: "Basics"
+	title: "Main"
 }

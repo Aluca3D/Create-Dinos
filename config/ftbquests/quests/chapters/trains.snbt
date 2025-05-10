@@ -157,6 +157,25 @@
 			x: 0.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["6D1CB7ACFF94A417"]
+			description: ["Figure it out yourself."]
+			id: "059AF6FD4D6C8C19"
+			rewards: [{
+				count: 4
+				id: "2D035B14897B5148"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D754BC80DF06FF1"
+				item: "create:white_postbox"
+				type: "item"
+			}]
+			title: "Train Logistic"
+			x: 0.5d
+			y: -3.0d
+		}
 	]
 	title: "Trains"
 }

@@ -116,6 +116,116 @@
 			x: -3.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["16F4E0AF78BAAD8C"]
+			description: ["Decoration!"]
+			id: "7306792F65D0880D"
+			rewards: [{
+				count: 8
+				id: "29A481D25809998B"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11BAE0722BC7ACA6"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Decoration!"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16F4E0AF78BAAD8C"]
+			description: ["Use a Mega Torch to prevent mobs from spawning in a large area."]
+			id: "05AA0F52CF9C5BFB"
+			rewards: [{
+				count: 8
+				id: "6AB27F768DD2CE49"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0971BCA5B15501DF"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16F4E0AF78BAAD8C"]
+			description: ["Decoration!"]
+			id: "1FC72BCC05A477C9"
+			rewards: [{
+				count: 8
+				id: "63416325F60DC488"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0EC361EAE743134D"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "11D4F4A041D357DC"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "3F6462753706CB9C"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "1CCA3220D18EBDC9"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "733257A187D447C1"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "0A687CAF25E2BF81"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "2D5F24804DCC28B8"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Decoration!"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16F4E0AF78BAAD8C"]
+			description: ["You already know what this does."]
+			id: "28E943FC3C6977E0"
+			rewards: [{
+				count: 8
+				id: "3317FE5937421B19"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EC74EDF13EA092C"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
 	]
 	title: "Misc."
 }
