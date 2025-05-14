@@ -627,10 +627,6 @@ ServerEvents.recipes(event => {
         L: '#minecraft:logs'
     })
 
-    event.shapeless(Item.of('nourished_nether:hoglin_hide', 4), [
-        'nethersdelight:hoglin_hide'
-    ])
-
     event.shapeless("minecraft:crafting_table", [
         '#biomeswevegone:crafting_tables'
     ])
