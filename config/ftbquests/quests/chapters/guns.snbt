@@ -295,24 +295,6 @@
 		}
 		{
 			dependencies: ["20378326C262FC5C"]
-			description: ["Build a Spout gun."]
-			id: "77AA838E98BF8AB2"
-			rewards: [{
-				count: 4
-				id: "6012CC00174C83E3"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "21C9BB8F4AB79976"
-				item: "create_things_and_misc:spout_gun"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["20378326C262FC5C"]
 			description: [
 				"Craft the mighty potato cannon"
 				"undeniably the finest weapon in the game."
@@ -336,7 +318,37 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6367ABB447D02ED5"]
+			id: "3897967DDDE0196F"
+			rewards: [{
+				count: 8
+				id: "606CAD38E82870AF"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69B878A6B277DC26"
+					item: "cgs:steam_engine"
+					type: "item"
+				}
+				{
+					id: "2C8A39EF88CEEEA9"
+					item: "cgs:nailgun_splitter"
+					type: "item"
+				}
+				{
+					id: "5EE9E41AD5F1DC0A"
+					item: "cgs:stock"
+					type: "item"
+				}
+			]
+			title: "Build All Gatlingun Upgrades"
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "Guns"
