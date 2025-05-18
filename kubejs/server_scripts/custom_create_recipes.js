@@ -58,14 +58,10 @@ ServerEvents.recipes(event => {
     ], "minecraft:sand"
     ).processingTime(350)
 
-    // Pressing
-    event.recipes.create.pressing('createnuclear:graphene', 'create_ironworks:coal_dust')
-
     // Haunting
     event.recipes.create.haunting('minecraft:soul_campfire', 'minecraft:campfire')
     event.recipes.create.haunting('minecraft:coal', 'minecraft:charcoal')
     event.recipes.create.haunting('minecraft:basalt', 'minecraft:netherrack')
-    event.recipes.create.haunting('createnuclear:steel_ingot', 'create_ironworks:steel_ingot')
 
     // Milling
     event.recipes.create.milling([Item.of('minecraft:wither_skeleton_skull').withChance(0.01)], 'minecraft:blackstone')
