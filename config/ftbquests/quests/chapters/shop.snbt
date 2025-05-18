@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "shop"
 	group: ""
-	icon: "kubejs:cad_coin"
+	icon: {
+		Count: 1
+		id: "kubejs:cad_coin"
+		tag: { }
+	}
 	id: "6E446F0101A52E1E"
 	order_index: 1
 	quest_links: [ ]
@@ -12,12 +16,20 @@
 			can_repeat: true
 			dependencies: ["3C2286610887F4F2"]
 			disable_toast: true
-			icon: "buildinggadgets2:gadget_building"
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_building"
+				tag: { }
+			}
 			id: "017ED5FE90455F54"
 			rewards: [
 				{
 					id: "028819822DB054C4"
-					item: "buildinggadgets2:gadget_building"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -31,7 +43,11 @@
 				}
 				{
 					id: "0C35D1CB40DD11AA"
-					item: "buildinggadgets2:gadget_exchanging"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -39,7 +55,11 @@
 				consume_items: true
 				count: 16L
 				id: "54F7ADBC3B62A669"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Gadget kit"
@@ -74,7 +94,11 @@
 				consume_items: true
 				count: 4L
 				id: "626FFF7EC6E15A8D"
-				item: { Count: 4, id: "kubejs:cad_coin" }
+				item: {
+					Count: 4
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy a Diamond Wand"
@@ -107,7 +131,11 @@
 				consume_items: true
 				count: 128L
 				id: "4DD934EB5FD0A2F4"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy an Infinity Wand"
@@ -121,19 +149,31 @@
 				"102E5597D68B131D"
 			]
 			hide_until_deps_complete: true
-			icon: "cgs:round_7mm"
+			icon: {
+				Count: 1
+				id: "cgs:round_7mm"
+				tag: { }
+			}
 			id: "7ABC147B38DCE7A2"
 			rewards: [{
 				count: 64
 				id: "1737908B50673ADC"
-				item: "cgs:round_7mm"
+				item: {
+					Count: 1
+					id: "cgs:round_7mm"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "76D9333860CE9FA7"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Ammo kit: 7mm"
@@ -147,19 +187,31 @@
 				"285201D2E30F1DBC"
 			]
 			hide_until_deps_complete: true
-			icon: "cgs:round_10mm"
+			icon: {
+				Count: 1
+				id: "cgs:round_10mm"
+				tag: { }
+			}
 			id: "52848555402B000E"
 			rewards: [{
 				count: 32
 				id: "067999C45DB10236"
-				item: "cgs:round_10mm"
+				item: {
+					Count: 1
+					id: "cgs:round_10mm"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "7683DA9EAEC4831B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Ammo kit: 10mm"
@@ -173,19 +225,31 @@
 				"7D37E96F1393A0D3"
 			]
 			hide_until_deps_complete: true
-			icon: "cgs:round_shotgun"
+			icon: {
+				Count: 1
+				id: "cgs:round_shotgun"
+				tag: { }
+			}
 			id: "2CEB3A8629C9CD69"
 			rewards: [{
 				count: 32
 				id: "4C417D27D4B79EE6"
-				item: "cgs:round_shotgun"
+				item: {
+					Count: 1
+					id: "cgs:round_shotgun"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "6D49C498A49975EA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Ammo kit: Shotgun Round"
@@ -199,19 +263,31 @@
 				"6367ABB447D02ED5"
 			]
 			hide_until_deps_complete: true
-			icon: "cgs:nail"
+			icon: {
+				Count: 1
+				id: "cgs:nail"
+				tag: { }
+			}
 			id: "320CF8910D4EC42D"
 			rewards: [{
 				count: 64
 				id: "14810F84D61C0550"
-				item: "cgs:nail"
+				item: {
+					Count: 1
+					id: "cgs:nail"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "431F941E758115CC"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Ammo kit: Nail's"
@@ -229,11 +305,19 @@
 				"No problem they're free!"
 			]
 			hide_until_deps_complete: true
-			icon: "kubejs:nh_sticker"
+			icon: {
+				Count: 1
+				id: "kubejs:nh_sticker"
+				tag: { }
+			}
 			id: "701CCA184C54A2F1"
 			rewards: [{
 				id: "1BD34BC2A89886A9"
-				item: "kubejs:nh_sticker"
+				item: {
+					Count: 1
+					id: "kubejs:nh_sticker"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -273,7 +357,11 @@
 				consume_items: true
 				count: 32L
 				id: "2337A4CA74561337"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy an Infinity Wand"
@@ -311,54 +399,16 @@
 				consume_items: true
 				count: 64L
 				id: "36694D26A98C1949"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy an Infinity Wand"
 			x: -2.5d
 			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["5B69C3F166C98C23"]
-			id: "2B15F23E31D22A47"
-			rewards: [{
-				id: "3F7389A12EA07B96"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "03ECC8A1075AE41D"
-				points: false
-				type: "xp"
-				value: 4L
-			}]
-			title: "Sell XP"
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["5B69C3F166C98C23"]
-			description: [
-				"To do this, "
-				"you would need an Tast Screen."
-			]
-			id: "5BD28131E343DBDD"
-			rewards: [{
-				id: "4D9F15AD4BF5EF40"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
-			tasks: [{
-				amount: 1000L
-				fluid: "create_enchantment_industry:experience"
-				id: "61588CF5F31186E2"
-				type: "fluid"
-			}]
-			title: "Sell XP"
-			x: 1.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["26914AA7B812A5EB"]
@@ -367,7 +417,11 @@
 				"You can also get CAD coins for doing specific things."
 			]
 			hide_until_deps_complete: true
-			icon: "kubejs:cad_coin"
+			icon: {
+				Count: 1
+				id: "kubejs:cad_coin"
+				tag: { }
+			}
 			id: "64A2E905E6C15241"
 			shape: "gear"
 			size: 2.0d
@@ -420,18 +474,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["64A2E905E6C15241"]
-			description: ["Here, you can sell XP for CAD coins."]
-			id: "5B69C3F166C98C23"
-			tasks: [{
-				id: "2AAB80FEE47A4B8C"
-				title: "Sell XP"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: 2.5d
-		}
-		{
 			dependencies: [
 				"64A2E905E6C15241"
 				"34EDAD7511335906"
@@ -450,18 +492,30 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_flappy_bird"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_flappy_bird"
+				tag: { }
+			}
 			id: "3C8787C2F506EF10"
 			rewards: [{
 				id: "36F3F59107EB888B"
-				item: "gamediscs:game_disc_flappy_bird"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_flappy_bird"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "6AE26D7986446B07"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
@@ -472,18 +526,30 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_slime"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_slime"
+				tag: { }
+			}
 			id: "3107D086E5314E90"
 			rewards: [{
 				id: "0E964AD020CC69E0"
-				item: "gamediscs:game_disc_slime"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_slime"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "21B3DE0BD3F4EE17"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
@@ -494,18 +560,30 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_blocktris"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_blocktris"
+				tag: { }
+			}
 			id: "300CAB00C7100CFE"
 			rewards: [{
 				id: "289F7025C4B0AA35"
-				item: "gamediscs:game_disc_blocktris"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_blocktris"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "26BE922FF14A9865"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
@@ -516,18 +594,30 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_tnt_sweeper"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_tnt_sweeper"
+				tag: { }
+			}
 			id: "6F8C63AC0B52DCCE"
 			rewards: [{
 				id: "189088AE2F0E18DE"
-				item: "gamediscs:game_disc_tnt_sweeper"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_tnt_sweeper"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "4D6D1B6C6052A762"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
@@ -538,18 +628,30 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_pong"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_pong"
+				tag: { }
+			}
 			id: "5F5C9DB3553669FC"
 			rewards: [{
 				id: "288FF915890F124A"
-				item: "gamediscs:game_disc_pong"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_pong"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "4081DE00D0C0CF33"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
@@ -560,18 +662,30 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_froggie"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_froggie"
+				tag: { }
+			}
 			id: "0C73239A314579F6"
 			rewards: [{
 				id: "63B0391D7F0C8AB7"
-				item: "gamediscs:game_disc_froggie"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_froggie"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "7A0635F2D5F243E8"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
@@ -582,47 +696,35 @@
 			can_repeat: true
 			dependencies: ["42F30F43A9279FA0"]
 			disable_toast: true
-			icon: "gamediscs:game_disc_rabbit"
+			icon: {
+				Count: 1
+				id: "gamediscs:game_disc_rabbit"
+				tag: { }
+			}
 			id: "716784190296A0CC"
 			rewards: [{
 				id: "51399FF22B417901"
-				item: "gamediscs:game_disc_rabbit"
+				item: {
+					Count: 1
+					id: "gamediscs:game_disc_rabbit"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 16L
 				id: "616038E3CCC50D20"
-				item: { Count: 16, id: "kubejs:cad_coin" }
+				item: {
+					Count: 16
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Buy Game"
 			x: -1.5d
 			y: -7.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["5B69C3F166C98C23"]
-			description: [
-				"To do this, "
-				"you would need an Tast Screen."
-			]
-			id: "6A5061B0EB1497F9"
-			rewards: [{
-				count: 4
-				id: "0DDCBCEB32FFB784"
-				item: "kubejs:cad_coin"
-				type: "item"
-			}]
-			tasks: [{
-				amount: 500L
-				fluid: "create_enchantment_industry:hyper_experience"
-				id: "37194B69D9A2E188"
-				type: "fluid"
-			}]
-			title: "Sell XP"
-			x: 1.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["64A2E905E6C15241"]
@@ -650,7 +752,11 @@
 			rewards: [{
 				count: 8
 				id: "2B62857A3A8B7600"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -688,7 +794,11 @@
 			rewards: [{
 				count: 8
 				id: "26FE62FCA3EBB5EB"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -707,12 +817,20 @@
 			rewards: [{
 				count: 16
 				id: "26445A0C1E3DC5CC"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
-				icon: "alexscaves:spawn_egg_hullbreaker"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_hullbreaker"
+					tag: { }
+				}
 				id: "7F67375305BE8C18"
 				type: "kill"
 				value: 1L
@@ -727,12 +845,20 @@
 			rewards: [{
 				count: 8
 				id: "270031E957CBDF1A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "galosphere:berserker"
-				icon: "galosphere:berserker_spawn_egg"
+				icon: {
+					Count: 1
+					id: "galosphere:berserker_spawn_egg"
+					tag: { }
+				}
 				id: "6050C7360DFBB0EF"
 				type: "kill"
 				value: 1L
@@ -747,12 +873,20 @@
 			rewards: [{
 				count: 8
 				id: "3FE87594513EA6AF"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:forsaken"
-				icon: "alexscaves:spawn_egg_forsaken"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_forsaken"
+					tag: { }
+				}
 				id: "66054410E34AFCF2"
 				type: "kill"
 				value: 1L
@@ -767,12 +901,20 @@
 			rewards: [{
 				count: 16
 				id: "44E64E9145D684EF"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
-				icon: "alexscaves:spawn_egg_luxtructosaurus"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_luxtructosaurus"
+					tag: { }
+				}
 				id: "112612BB4CB706D6"
 				type: "kill"
 				value: 1L
@@ -787,7 +929,11 @@
 			rewards: [{
 				count: 8
 				id: "1071D42A2F9B23BC"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -806,7 +952,11 @@
 			rewards: [{
 				count: 8
 				id: "7B25348612D31936"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -825,7 +975,11 @@
 			rewards: [{
 				count: 8
 				id: "4467292901F18D50"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -844,7 +998,11 @@
 			rewards: [{
 				count: 8
 				id: "2DDE29CE60769539"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -863,7 +1021,11 @@
 			rewards: [{
 				count: 8
 				id: "502840F587E03718"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -882,7 +1044,11 @@
 			rewards: [{
 				count: 8
 				id: "1FCF3A8DFBB22509"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -901,7 +1067,11 @@
 			rewards: [{
 				count: 8
 				id: "1006DBA104A6DE46"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -920,7 +1090,11 @@
 			rewards: [{
 				count: 8
 				id: "1E2AFC03C5FEA028"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -939,7 +1113,11 @@
 			rewards: [{
 				count: 8
 				id: "5AF7C979327FA293"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -958,12 +1136,20 @@
 			rewards: [{
 				count: 16
 				id: "656D8D33A21CFFEE"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:gum_worm"
-				icon: "alexscaves:spawn_egg_gum_worm"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_gum_worm"
+					tag: { }
+				}
 				id: "202A06EC4884ED26"
 				type: "kill"
 				value: 1L
@@ -978,7 +1164,11 @@
 			rewards: [{
 				count: 16
 				id: "0BDF2DD933948F9C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -997,12 +1187,20 @@
 			rewards: [{
 				count: 8
 				id: "0D5A2E212241D1B5"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:boundroid"
-				icon: "alexscaves:spawn_egg_boundroid"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_boundroid"
+					tag: { }
+				}
 				id: "39E74C1F86A04988"
 				type: "kill"
 				value: 50L
@@ -1017,12 +1215,20 @@
 			rewards: [{
 				count: 8
 				id: "0AE6E3E05ECDBBAA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:underzealot"
-				icon: "alexscaves:spawn_egg_underzealot"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_underzealot"
+					tag: { }
+				}
 				id: "4B441F7D0BE5D458"
 				type: "kill"
 				value: 100L
@@ -1037,12 +1243,20 @@
 			rewards: [{
 				count: 8
 				id: "242BCDF5D8D09647"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:vesper"
-				icon: "alexscaves:spawn_egg_vesper"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_vesper"
+					tag: { }
+				}
 				id: "5B26D53D0EE61B7F"
 				type: "kill"
 				value: 50L
@@ -1057,12 +1271,20 @@
 			rewards: [{
 				count: 8
 				id: "28FF2DEDFC7A7BCC"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:magnetron"
-				icon: "alexscaves:spawn_egg_magnetron"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_magnetron"
+					tag: { }
+				}
 				id: "3AEA6F682E39DFC1"
 				type: "kill"
 				value: 50L
@@ -1077,12 +1299,20 @@
 			rewards: [{
 				count: 8
 				id: "7378B033418BFB19"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:notor"
-				icon: "alexscaves:spawn_egg_notor"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_notor"
+					tag: { }
+				}
 				id: "51B6DA99A0610C15"
 				type: "kill"
 				value: 50L
@@ -1097,12 +1327,20 @@
 			rewards: [{
 				count: 8
 				id: "30FC26A050693086"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:watcher"
-				icon: "alexscaves:spawn_egg_watcher"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_watcher"
+					tag: { }
+				}
 				id: "7EEC4E93790EA025"
 				type: "kill"
 				value: 50L
@@ -1117,12 +1355,20 @@
 			rewards: [{
 				count: 8
 				id: "6AB17F0B2E9C5D3C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:corrodent"
-				icon: "alexscaves:spawn_egg_corrodent"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_corrodent"
+					tag: { }
+				}
 				id: "60BCBADE9B264E41"
 				type: "kill"
 				value: 50L
@@ -1137,12 +1383,20 @@
 			rewards: [{
 				count: 8
 				id: "6CA082418FA6F34B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:teletor"
-				icon: "alexscaves:spawn_egg_teletor"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_teletor"
+					tag: { }
+				}
 				id: "11E94B2865F73ECC"
 				type: "kill"
 				value: 50L
@@ -1157,12 +1411,20 @@
 			rewards: [{
 				count: 8
 				id: "11BC5BD55F9B7ACD"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:ferrouslime"
-				icon: "alexscaves:spawn_egg_ferrouslime"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_ferrouslime"
+					tag: { }
+				}
 				id: "44B0D6061E422FFF"
 				type: "kill"
 				value: 50L
@@ -1177,12 +1439,20 @@
 			rewards: [{
 				count: 8
 				id: "4BCA749B0D318502"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:caramel_cube"
-				icon: "alexscaves:spawn_egg_caramel_cube"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_caramel_cube"
+					tag: { }
+				}
 				id: "28335CEA9A2C2DB3"
 				type: "kill"
 				value: 50L
@@ -1197,12 +1467,20 @@
 			rewards: [{
 				count: 8
 				id: "719FCC2402CF79FD"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:gumbeeper"
-				icon: "alexscaves:spawn_egg_gumbeeper"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_gumbeeper"
+					tag: { }
+				}
 				id: "31CDFFC8EA1AFA3B"
 				type: "kill"
 				value: 50L
@@ -1217,12 +1495,20 @@
 			rewards: [{
 				count: 8
 				id: "5D3A472320BFEDB9"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:caniac"
-				icon: "alexscaves:spawn_egg_caniac"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_caniac"
+					tag: { }
+				}
 				id: "635C7308E5099153"
 				type: "kill"
 				value: 50L
@@ -1237,12 +1523,20 @@
 			rewards: [{
 				count: 8
 				id: "38DA34182777B043"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:gummy_bear"
-				icon: "alexscaves:spawn_egg_gummy_bear"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_gummy_bear"
+					tag: { }
+				}
 				id: "7AAD386F0E143167"
 				type: "kill"
 				value: 50L
@@ -1257,12 +1551,20 @@
 			rewards: [{
 				count: 8
 				id: "27499C904FE760D8"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:licowitch"
-				icon: "alexscaves:spawn_egg_licowitch"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_licowitch"
+					tag: { }
+				}
 				id: "233CA1259BFC4224"
 				type: "kill"
 				value: 25L
@@ -1277,17 +1579,25 @@
 			rewards: [{
 				count: 8
 				id: "2E7D5AC1268EC054"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:nucleeper"
-				icon: "alexscaves:spawn_egg_nucleeper"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_nucleeper"
+					tag: { }
+				}
 				id: "22074628CF088587"
 				type: "kill"
 				value: 25L
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 13.5d
 		}
 		{
@@ -1297,18 +1607,306 @@
 			rewards: [{
 				count: 8
 				id: "235793A2FDE94028"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:brainiac"
-				icon: "alexscaves:spawn_egg_brainiac"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_brainiac"
+					tag: { }
+				}
 				id: "2EBDDF91CB7B1881"
 				type: "kill"
 				value: 50L
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 13.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "6DC8A0FFF54B477E"
+			rewards: [{
+				count: 16
+				id: "3F19B822F00F20D5"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:endstone_golem"
+				icon: {
+					Count: 1
+					id: "unusualend:endstone_golem_spawn_egg"
+					tag: { }
+				}
+				id: "05B1F6845FFC81DA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "1F0DB5D11C8E7BAC"
+			rewards: [{
+				count: 8
+				id: "4C580AB808F4B9EF"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:glub"
+				icon: {
+					Count: 1
+					id: "unusualend:glub_spawn_egg"
+					tag: { }
+				}
+				id: "7DA63613E249D898"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "1FE6978B6A517994"
+			rewards: [{
+				count: 8
+				id: "39F2F5851F1FE411"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:spunkler"
+				icon: {
+					Count: 1
+					id: "unusualend:spunkler_spawn_egg"
+					tag: { }
+				}
+				id: "3C12DA0DC6DE508F"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "551349E90E7323AF"
+			rewards: [{
+				count: 8
+				id: "7101FAC683B37026"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:bluk"
+				icon: {
+					Count: 1
+					id: "unusualend:bluk_spawn_egg"
+					tag: { }
+				}
+				id: "79AD83CBB2B139AD"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "1071528DC23527D0"
+			rewards: [{
+				count: 8
+				id: "473C41908BA525C5"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:bolok"
+				icon: {
+					Count: 1
+					id: "unusualend:bolok_spawn_egg"
+					tag: { }
+				}
+				id: "7253152FEB30B49C"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "586A3320DDD5E357"
+			rewards: [{
+				count: 8
+				id: "35F2B0EF6BF0C0E3"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:ender_blob"
+				icon: {
+					Count: 1
+					id: "unusualend:ender_blob_spawn_egg"
+					tag: { }
+				}
+				id: "6B23CF8CA571659A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "17AFBB7C0F4EF2FC"
+			rewards: [{
+				count: 8
+				id: "5EB7219A224F3936"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:small_enderbulb"
+				icon: {
+					Count: 1
+					id: "unusualend:small_enderbulb_spawn_egg"
+					tag: { }
+				}
+				id: "421994332F7ABCD4"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "669CA81503DEC27C"
+			rewards: [{
+				count: 8
+				id: "140E565697215AFF"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:enderbulb"
+				icon: {
+					Count: 1
+					id: "unusualend:enderbulb_spawn_egg"
+					tag: { }
+				}
+				id: "1EE39DE80874300B"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "087863BD56A5FF5F"
+			rewards: [{
+				count: 8
+				id: "480C2D078940FA3B"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:undead_enderling"
+				icon: {
+					Count: 1
+					id: "unusualend:undead_enderling_spawn_egg"
+					tag: { }
+				}
+				id: "188EEA4CA52E9D7C"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFBAB176371E6E9"]
+			id: "00CF876B0C35F681"
+			rewards: [{
+				count: 8
+				id: "0A9AC7B2B047E659"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:dragling"
+				icon: {
+					Count: 1
+					id: "unusualend:dragling_spawn_egg"
+					tag: { }
+				}
+				id: "3370DCF4BAF7A367"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.0d
+			y: 16.5d
 		}
 	]
 	title: "Shop"

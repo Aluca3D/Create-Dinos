@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "enchantment_industry"
 	group: "6C4920BA3B869E92"
-	icon: "create_enchantment_industry:enchanting_guide"
+	icon: {
+		Count: 1
+		id: "create_enchantment_industry:enchanting_guide"
+		tag: { }
+	}
 	id: "637E6BD8913406DA"
 	order_index: 5
 	quest_links: [ ]
@@ -12,7 +16,11 @@
 			dependencies: ["50FD58A504CA2DA1"]
 			description: ["You now have everything you need to build an enchanting factory—and craft the best gear possible!"]
 			hide_until_deps_complete: true
-			icon: "create_enchantment_industry:enchanting_guide"
+			icon: {
+				Count: 1
+				id: "create_enchantment_industry:enchanting_guide"
+				tag: { }
+			}
 			id: "3EC84B8241321539"
 			shape: "gear"
 			size: 1.5d
@@ -34,12 +42,20 @@
 			rewards: [{
 				count: 4
 				id: "67621AE9547A6D60"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "18EF65AAE47C5FDD"
-				item: "create_enchantment_industry:disenchanter"
+				item: {
+					Count: 1
+					id: "create_enchantment_industry:disenchanter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.0d
@@ -52,12 +68,20 @@
 			rewards: [{
 				count: 4
 				id: "68D9171750C664CD"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "08F71C704C59907D"
-				item: "create_enchantment_industry:printer"
+				item: {
+					Count: 1
+					id: "create_enchantment_industry:printer"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -70,7 +94,11 @@
 			rewards: [{
 				count: 4
 				id: "3A94F3BF09E36410"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -99,12 +127,20 @@
 			rewards: [{
 				count: 4
 				id: "35202E70E4301933"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1A24A43D3D3BED80"
-				item: "create_enchantment_industry:hyper_experience_bottle"
+				item: {
+					Count: 1
+					id: "create_enchantment_industry:hyper_experience_bottle"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d

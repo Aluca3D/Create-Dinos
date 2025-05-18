@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "magnetic_caves"
 	group: "5F1A65E495DCB771"
-	icon: "alexscaves:scarlet_magnet"
+	icon: {
+		Count: 1
+		id: "alexscaves:scarlet_magnet"
+		tag: { }
+	}
 	id: "5E088338E3DCBA49"
 	order_index: 7
 	quest_links: [ ]
@@ -16,7 +20,11 @@
 			rewards: [{
 				count: 4
 				id: "541D4AC0B16C270D"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -46,12 +54,20 @@
 			id: "2645F42556BDE02B"
 			rewards: [{
 				id: "12BED3B8D76D227F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
-				icon: "alexscaves:azure_magnet"
+				icon: {
+					Count: 1
+					id: "alexscaves:azure_magnet"
+					tag: { }
+				}
 				id: "58C1032CA3FB0188"
 				title: "Magnetic"
 				type: "biome"
@@ -67,24 +83,40 @@
 			rewards: [{
 				count: 16
 				id: "6391998C8569C60E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "42E2D77D5548D4AC"
-					item: "alexscaves:quarry_smasher"
+					item: {
+						Count: 1
+						id: "alexscaves:quarry_smasher"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "64AF8A295AFCB32D"
-					item: { Count: 4, id: "alexscaves:magnetic_light" }
+					item: {
+						Count: 4
+						id: "alexscaves:magnetic_light"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "64C6737DC4E39842"
-					item: "alexscaves:quarry"
+					item: {
+						Count: 1
+						id: "alexscaves:quarry"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -99,18 +131,30 @@
 			rewards: [{
 				count: 8
 				id: "59A5E3FC0185D890"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "69B5D1F0DD4AC8C5"
-					item: "alexscaves:hologram_projector"
+					item: {
+						Count: 1
+						id: "alexscaves:hologram_projector"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "295FF3B643C8AE22"
-					item: "alexscaves:holocoder"
+					item: {
+						Count: 1
+						id: "alexscaves:holocoder"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -125,13 +169,21 @@
 			rewards: [{
 				count: 4
 				id: "36BD2DB5E7D5C7FF"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "6FF238E35F1E789F"
-				item: "alexscaves:seeking_arrow"
+				item: {
+					Count: 1
+					id: "alexscaves:seeking_arrow"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Autoaim"
@@ -145,7 +197,11 @@
 			rewards: [{
 				count: 8
 				id: "3C833C932D2C4D62"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -170,7 +226,11 @@
 			rewards: [{
 				count: 8
 				id: "1D94B97A93E00D25"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{

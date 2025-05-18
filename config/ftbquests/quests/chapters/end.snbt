@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "end"
 	group: "5F1A65E495DCB771"
-	icon: "minecraft:dragon_head"
+	icon: {
+		Count: 1
+		id: "minecraft:dragon_head"
+		tag: { }
+	}
 	id: "5378AF6CAE2A92E3"
 	order_index: 1
 	quest_links: [ ]
@@ -11,7 +15,11 @@
 		{
 			dependencies: ["561FDB28B26CA818"]
 			description: ["Travel to the End and discover the new biomes scattered across the outer islands."]
-			icon: "minecraft:end_stone"
+			icon: {
+				Count: 1
+				id: "minecraft:end_stone"
+				tag: { }
+			}
 			id: "7F62746987282A44"
 			secret: true
 			shape: "gear"
@@ -28,12 +36,20 @@
 		{
 			dependencies: ["7F62746987282A44"]
 			description: ["Free the End."]
-			icon: "minecraft:dragon_head"
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
 			id: "1924BF13626CF87C"
 			rewards: [{
 				count: 16
 				id: "7DC544CEDC8AEF00"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -53,12 +69,20 @@
 			rewards: [{
 				count: 4
 				id: "0FB451B56CF63B10"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0FE77E8D4CC1B4F9"
-				item: "minecraft:dragon_egg"
+				item: {
+					Count: 1
+					id: "minecraft:dragon_egg"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -67,25 +91,41 @@
 		{
 			dependencies: ["1924BF13626CF87C"]
 			description: ["Discover the mysterious new End biomes brought to life by &lUnusual End&r!"]
-			icon: "unusualend:gloopy_endstone"
+			icon: {
+				Count: 1
+				id: "unusualend:gloopy_endstone"
+				tag: { }
+			}
 			id: "630339A42A549F70"
 			rewards: [{
 				count: 4
 				id: "03DD69F8EE6B89AA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					biome: "unusualend:gloopstone_lands"
-					icon: "unusualend:gloopy_endstone"
+					icon: {
+						Count: 1
+						id: "unusualend:gloopy_endstone"
+						tag: { }
+					}
 					id: "6A89C68B751610A0"
 					title: "Gloopstone"
 					type: "biome"
 				}
 				{
 					biome: "unusualend:warped_reef"
-					icon: "unusualend:warped_end_stone"
+					icon: {
+						Count: 1
+						id: "unusualend:warped_end_stone"
+						tag: { }
+					}
 					id: "003E2853044C44F7"
 					title: "Warped Reef"
 					type: "biome"
@@ -102,11 +142,19 @@
 			rewards: [{
 				count: 2
 				id: "13817C8C1DDBA87F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecraft:purpur_pillar"
+				icon: {
+					Count: 1
+					id: "minecraft:purpur_pillar"
+					tag: { }
+				}
 				id: "176F94819DD6FF80"
 				structure: "minecraft:end_city"
 				type: "structure"
@@ -122,7 +170,11 @@
 			rewards: [{
 				count: 8
 				id: "110E60DAD27F94AA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -138,6 +190,35 @@
 			}]
 			x: -1.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["630339A42A549F70"]
+			dependency_requirement: "all_started"
+			description: ["Use Dragons Breath on an Golem Alter to spawn an Endstone Golem."]
+			id: "29408DDBA2D36929"
+			rewards: [{
+				count: 8
+				id: "6011E406761C7A21"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "unusualend:endstone_golem"
+				icon: {
+					Count: 1
+					id: "unusualend:golem_altar"
+					tag: { }
+				}
+				id: "3BFDC70C98767679"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.0d
 		}
 	]
 	title: "End"

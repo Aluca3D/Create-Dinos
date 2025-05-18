@@ -54,13 +54,21 @@
 				{
 					count: 8
 					id: "6FAB72BCDB7930F3"
-					item: "kubejs:cad_coin"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "030CB847CB4BEB2F"
-					item: "cgs:round_10mm"
+					item: {
+						Count: 1
+						id: "cgs:round_10mm"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -86,13 +94,21 @@
 				{
 					count: 8
 					id: "7154CC04D58DA42A"
-					item: "kubejs:cad_coin"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "0E1D5D4FC02DF392"
-					item: "cgs:round_shotgun"
+					item: {
+						Count: 1
+						id: "cgs:round_shotgun"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -118,13 +134,21 @@
 				{
 					count: 8
 					id: "0451B87C66510350"
-					item: "kubejs:cad_coin"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "125E72DF2BA5264B"
-					item: "cgs:nail"
+					item: {
+						Count: 1
+						id: "cgs:nail"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -150,13 +174,21 @@
 				{
 					count: 8
 					id: "2A858F9654F9C061"
-					item: "kubejs:cad_coin"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "365D36752EE4BC3B"
-					item: "cgs:round_7mm"
+					item: {
+						Count: 1
+						id: "cgs:round_7mm"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -181,13 +213,21 @@
 			rewards: [{
 				count: 8
 				id: "5A026BDF79AA2075"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "0CB4B42C63C990CD"
-					item: "cgs:shotgun_long_barrel"
+					item: {
+						Count: 1
+						id: "cgs:shotgun_long_barrel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -210,12 +250,20 @@
 				}
 				{
 					id: "0586BD57BC1B4944"
-					item: "cgs:shotgun_spread_barrel"
+					item: {
+						Count: 1
+						id: "cgs:shotgun_spread_barrel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "1FBF9636F86C6D7F"
-					item: "cgs:stock"
+					item: {
+						Count: 1
+						id: "cgs:stock"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -229,33 +277,57 @@
 			rewards: [{
 				count: 8
 				id: "51BD4D52ECE4DD25"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "7400F4300AED0327"
-					item: "cgs:scope"
+					item: {
+						Count: 1
+						id: "cgs:scope"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "21313B3E1B9C3F1A"
-					item: "cgs:long_barrel"
+					item: {
+						Count: 1
+						id: "cgs:long_barrel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0352C9B8DF02CA3A"
-					item: "cgs:round_belt"
+					item: {
+						Count: 1
+						id: "cgs:round_belt"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0482B95DC767BD53"
-					item: "cgs:auto_fire"
+					item: {
+						Count: 1
+						id: "cgs:auto_fire"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "65F764779BCDD72F"
-					item: "cgs:stock"
+					item: {
+						Count: 1
+						id: "cgs:stock"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -269,23 +341,39 @@
 			rewards: [{
 				count: 8
 				id: "5D2B5AB0BD0AA076"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "7A6BE51770A821D1"
-					item: "cgs:gatling_drum"
+					item: {
+						Count: 1
+						id: "cgs:gatling_drum"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "3907F1A3396822FD"
-					item: "cgs:iron_sight"
+					item: {
+						Count: 1
+						id: "cgs:iron_sight"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "59F854568DC33F21"
-					item: "cgs:steam_engine"
+					item: {
+						Count: 1
+						id: "cgs:steam_engine"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -303,7 +391,11 @@
 			rewards: [{
 				count: 4
 				id: "5D69E62CD35D59E3"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -326,23 +418,39 @@
 			rewards: [{
 				count: 8
 				id: "606CAD38E82870AF"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "69B878A6B277DC26"
-					item: "cgs:steam_engine"
+					item: {
+						Count: 1
+						id: "cgs:steam_engine"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2C8A39EF88CEEEA9"
-					item: "cgs:nailgun_splitter"
+					item: {
+						Count: 1
+						id: "cgs:nailgun_splitter"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "5EE9E41AD5F1DC0A"
-					item: "cgs:stock"
+					item: {
+						Count: 1
+						id: "cgs:stock"
+						tag: { }
+					}
 					type: "item"
 				}
 			]

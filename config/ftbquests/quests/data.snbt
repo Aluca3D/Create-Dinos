@@ -10,7 +10,11 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
-	icon: "kubejs:cad_coin"
+	icon: {
+		Count: 1
+		id: "kubejs:cad_coin"
+		tag: { }
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

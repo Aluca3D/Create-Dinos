@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "nether"
 	group: "5F1A65E495DCB771"
-	icon: "minecraft:red_nether_bricks"
+	icon: {
+		Count: 1
+		id: "minecraft:red_nether_bricks"
+		tag: { }
+	}
 	id: "137CDE843B61EB91"
 	order_index: 2
 	quest_links: [ ]
@@ -11,7 +15,11 @@
 		{
 			dependencies: ["561FDB28B26CA818"]
 			description: ["Venture into the Nether to experience its massive lava lakes."]
-			icon: "minecraft:netherrack"
+			icon: {
+				Count: 1
+				id: "minecraft:netherrack"
+				tag: { }
+			}
 			id: "58856B97390DE6BB"
 			secret: true
 			shape: "gear"
@@ -27,18 +35,30 @@
 		}
 		{
 			dependencies: ["58856B97390DE6BB"]
-			icon: "minecraft:nether_bricks"
+			icon: {
+				Count: 1
+				id: "minecraft:nether_bricks"
+				tag: { }
+			}
 			id: "79D75D14F9F719E4"
 			rewards: [{
 				count: 2
 				id: "5BFC876687942E23"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecraft:nether_bricks"
+				icon: {
+					Count: 1
+					id: "minecraft:nether_bricks"
+					tag: { }
+				}
 				id: "4BA741F3BB3653A1"
-				structure: "minecraft:fortress"
+				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
 			title: "Find a Fortress"
@@ -52,31 +72,51 @@
 			tasks: [
 				{
 					biome: "minecraft:basalt_deltas"
-					icon: "minecraft:basalt"
+					icon: {
+						Count: 1
+						id: "minecraft:basalt"
+						tag: { }
+					}
 					id: "741FE29F2BD6F9C9"
 					type: "biome"
 				}
 				{
 					biome: "minecraft:crimson_forest"
-					icon: "minecraft:crimson_stem"
+					icon: {
+						Count: 1
+						id: "minecraft:crimson_stem"
+						tag: { }
+					}
 					id: "4B77EB884ADE3C5C"
 					type: "biome"
 				}
 				{
 					biome: "minecraft:warped_forest"
-					icon: "minecraft:warped_stem"
+					icon: {
+						Count: 1
+						id: "minecraft:warped_stem"
+						tag: { }
+					}
 					id: "3E75E80E67BD2FF9"
 					type: "biome"
 				}
 				{
 					biome: "minecraft:soul_sand_valley"
-					icon: "minecraft:soul_sand"
+					icon: {
+						Count: 1
+						id: "minecraft:soul_sand"
+						tag: { }
+					}
 					id: "68B10CE23F6A03FF"
 					type: "biome"
 				}
 				{
 					biome: "minecraft:nether_wastes"
-					icon: "minecraft:netherrack"
+					icon: {
+						Count: 1
+						id: "minecraft:netherrack"
+						tag: { }
+					}
 					id: "189C9143CCE84813"
 					type: "biome"
 				}
@@ -91,16 +131,28 @@
 				"Venture into a Bastion... but tread carefully"
 				"danger lurks around every corner."
 			]
-			icon: "minecraft:polished_blackstone_bricks"
+			icon: {
+				Count: 1
+				id: "minecraft:polished_blackstone_bricks"
+				tag: { }
+			}
 			id: "7071B410D50B2DFC"
 			rewards: [{
 				count: 2
 				id: "41007F87745678EE"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecraft:polished_blackstone_bricks"
+				icon: {
+					Count: 1
+					id: "minecraft:polished_blackstone_bricks"
+					tag: { }
+				}
 				id: "44081E98AE383945"
 				structure: "minecraft:bastion_remnant"
 				type: "structure"

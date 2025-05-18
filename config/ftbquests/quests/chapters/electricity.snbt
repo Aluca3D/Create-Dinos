@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "electricity"
 	group: "6C4920BA3B869E92"
-	icon: "createaddition:electric_motor"
+	icon: {
+		Count: 1
+		id: "createaddition:electric_motor"
+		tag: { }
+	}
 	id: "038056AEACA7F8EC"
 	order_index: 2
 	quest_links: [ ]
@@ -12,7 +16,11 @@
 			dependencies: ["73A997E9E4F7F6AD"]
 			description: ["Welcome to the beginning of your journey with electricity!"]
 			hide_until_deps_complete: true
-			icon: "createaddition:electric_motor"
+			icon: {
+				Count: 1
+				id: "createaddition:electric_motor"
+				tag: { }
+			}
 			id: "0E353ECAA316FA1A"
 			shape: "gear"
 			size: 1.5d
@@ -31,12 +39,20 @@
 			rewards: [{
 				count: 2
 				id: "71B793FB2F16AA4F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5ECA556913FBF2BD"
-				item: "createaddition:rolling_mill"
+				item: {
+					Count: 1
+					id: "createaddition:rolling_mill"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -49,12 +65,20 @@
 			rewards: [{
 				count: 4
 				id: "60CC45479DC3BEA8"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7F3DBCCE6067FECD"
-				item: "createaddition:straw"
+				item: {
+					Count: 1
+					id: "createaddition:straw"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -67,12 +91,20 @@
 			rewards: [{
 				count: 2
 				id: "63B4C399B59BCF32"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "21EE6FA8E5F84143"
-				item: "createaddition:electric_motor"
+				item: {
+					Count: 1
+					id: "createaddition:electric_motor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -85,18 +117,30 @@
 			rewards: [{
 				count: 2
 				id: "204E874D5C78422C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "053B04D0CB7D2135"
-					item: "createaddition:connector"
+					item: {
+						Count: 1
+						id: "createaddition:connector"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "11AB20F7137B116C"
-					item: "createaddition:copper_spool"
+					item: {
+						Count: 1
+						id: "createaddition:copper_spool"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -114,12 +158,20 @@
 			rewards: [{
 				count: 2
 				id: "726F606F371DE114"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "34E604D0A52AF7E1"
-				item: "createaddition:small_light_connector"
+				item: {
+					Count: 1
+					id: "createaddition:small_light_connector"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -135,13 +187,21 @@
 			rewards: [{
 				count: 8
 				id: "5597721977184785"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "7529F5E7A4FE3F84"
-				item: "createaddition:modular_accumulator"
+				item: {
+					Count: 1
+					id: "createaddition:modular_accumulator"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -154,12 +214,20 @@
 			rewards: [{
 				count: 4
 				id: "5647DFA6A2CA6C4A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "535B3F1475743C88"
-				item: "createaddition:tesla_coil"
+				item: {
+					Count: 1
+					id: "createaddition:tesla_coil"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.5d

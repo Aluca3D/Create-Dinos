@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "farmers_delight"
 	group: "443DE61CC41B3107"
-	icon: "farmersdelight:stove"
+	icon: {
+		Count: 1
+		id: "farmersdelight:stove"
+		tag: { }
+	}
 	id: "53F2DF1007D553F4"
 	order_index: 0
 	quest_links: [ ]
@@ -12,7 +16,11 @@
 			dependencies: ["46051E87D588209C"]
 			description: ["Use Farmer’s Delight to cook delicious food."]
 			hide_until_deps_complete: true
-			icon: "farmersdelight:stove"
+			icon: {
+				Count: 1
+				id: "farmersdelight:stove"
+				tag: { }
+			}
 			id: "119D6D7F7BE1E719"
 			shape: "gear"
 			size: 1.5d
@@ -36,7 +44,11 @@
 			rewards: [{
 				count: 4
 				id: "6AE60C9B17FB6F2C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -47,6 +59,7 @@
 						Parent: { }
 					}
 					id: "create_central_kitchen:cooking_guide"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -60,18 +73,30 @@
 			rewards: [{
 				count: 4
 				id: "652D40E78CB2FA39"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "1C9CE0AF553DD8C1"
-					item: "farmersdelight:stove"
+					item: {
+						Count: 1
+						id: "farmersdelight:stove"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "7BB4EC720B2D0005"
-					item: "farmersdelight:cooking_pot"
+					item: {
+						Count: 1
+						id: "farmersdelight:cooking_pot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -87,7 +112,11 @@
 				}
 				{
 					id: "5C4DEC1BC6684204"
-					item: "farmersdelight:cutting_board"
+					item: {
+						Count: 1
+						id: "farmersdelight:cutting_board"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -102,23 +131,39 @@
 			rewards: [{
 				count: 4
 				id: "67B103914B25B689"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "41FAFE34D23336E3"
-					item: "sliceanddice:slicer"
+					item: {
+						Count: 1
+						id: "sliceanddice:slicer"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "63A7A9E16902E894"
-					item: "sliceanddice:sprinkler"
+					item: {
+						Count: 1
+						id: "sliceanddice:sprinkler"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "25CF8C2AA2356287"
-					item: "sliceanddice:fertilizer_bucket"
+					item: {
+						Count: 1
+						id: "sliceanddice:fertilizer_bucket"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -136,12 +181,20 @@
 			rewards: [{
 				count: 4
 				id: "050E6F69AD7D312C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2351596BD1B0B405"
-				item: "nethersdelight:blackstone_stove"
+				item: {
+					Count: 1
+					id: "nethersdelight:blackstone_stove"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Hell's Kitchen"
@@ -158,12 +211,20 @@
 			rewards: [{
 				count: 4
 				id: "1DD6380E8FDDD5B4"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3365FC471131125D"
-				item: "endersdelight:endstone_stove"
+				item: {
+					Count: 1
+					id: "endersdelight:endstone_stove"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "End's Kitchen"
@@ -177,12 +238,20 @@
 			rewards: [{
 				count: 4
 				id: "07E9F0C5459BED21"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1B06737484034A9F"
-				item: "farmersrespite:kettle"
+				item: {
+					Count: 1
+					id: "farmersrespite:kettle"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Tee \\& Coffe"
@@ -196,13 +265,21 @@
 			rewards: [{
 				count: 4
 				id: "7C9033B40CFBB6ED"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "480F8906288A0949"
-				item: "farmersdelight:organic_compost"
+				item: {
+					Count: 1
+					id: "farmersdelight:organic_compost"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Compost"
@@ -216,13 +293,21 @@
 			rewards: [{
 				count: 4
 				id: "62036B57D8678772"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "78B1853F171A2F2B"
-				item: "farmersdelight:rich_soil"
+				item: {
+					Count: 1
+					id: "farmersdelight:rich_soil"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Rich"
@@ -239,13 +324,21 @@
 			rewards: [{
 				count: 4
 				id: "45C90FC98386D654"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "54666ABE766E69F4"
-				item: "nethersdelight:soul_compost"
+				item: {
+					Count: 1
+					id: "nethersdelight:soul_compost"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Devil's Compost"
@@ -259,13 +352,21 @@
 			rewards: [{
 				count: 4
 				id: "1BC396C7C47D419A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "2C6BB4EDC5995CAE"
-				item: "nethersdelight:rich_soul_soil"
+				item: {
+					Count: 1
+					id: "nethersdelight:rich_soul_soil"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Rich Souls"
@@ -282,18 +383,30 @@
 			rewards: [{
 				count: 4
 				id: "4C07829F9B95C579"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "105AFDB0F0288A2D"
-					item: "farmersdelight:brown_mushroom_colony"
+					item: {
+						Count: 1
+						id: "farmersdelight:brown_mushroom_colony"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "1FA0A4202B0100BB"
-					item: "farmersdelight:red_mushroom_colony"
+					item: {
+						Count: 1
+						id: "farmersdelight:red_mushroom_colony"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -307,18 +420,30 @@
 			rewards: [{
 				count: 4
 				id: "49DDF0F14E98F726"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "7357B288387F3227"
-					item: "nethersdelight:crimson_fungus_colony"
+					item: {
+						Count: 1
+						id: "nethersdelight:crimson_fungus_colony"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "115FCA5F33D58EA3"
-					item: "nethersdelight:warped_fungus_colony"
+					item: {
+						Count: 1
+						id: "nethersdelight:warped_fungus_colony"
+						tag: { }
+					}
 					type: "item"
 				}
 			]

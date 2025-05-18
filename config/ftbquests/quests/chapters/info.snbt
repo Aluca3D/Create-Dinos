@@ -4,7 +4,11 @@
 	default_quest_shape: ""
 	filename: "info"
 	group: ""
-	icon: "ftbquests:book"
+	icon: {
+		Count: 1
+		id: "ftbquests:book"
+		tag: { }
+	}
 	id: "74041F931AA38229"
 	order_index: 0
 	quest_links: [ ]
@@ -47,7 +51,11 @@
 				"Simply hover over them to see how to type them in the chat."
 			]
 			disable_toast: true
-			icon: "create:creative_motor"
+			icon: {
+				Count: 1
+				id: "create:creative_motor"
+				tag: { }
+			}
 			id: "246B4388B5FC7F7C"
 			tasks: [{
 				id: "00879621921BF8D8"
@@ -78,7 +86,11 @@
 				"I don’t know what else to say besides:"
 				"Have fun playing! :)"
 			]
-			icon: "ftbquests:book"
+			icon: {
+				Count: 1
+				id: "ftbquests:book"
+				tag: { }
+			}
 			id: "721A24CAFF05E200"
 			shape: "gear"
 			size: 2.0d
@@ -91,7 +103,11 @@
 			y: -3.0d
 		}
 		{
-			icon: "alexsmobs:animal_dictionary"
+			icon: {
+				Count: 1
+				id: "alexsmobs:animal_dictionary"
+				tag: { }
+			}
 			id: "561FDB28B26CA818"
 			tasks: [{
 				id: "37BDDCF142516210"
@@ -103,7 +119,11 @@
 			y: -1.5d
 		}
 		{
-			icon: "create:large_cogwheel"
+			icon: {
+				Count: 1
+				id: "create:large_cogwheel"
+				tag: { }
+			}
 			id: "2C983D6637730B04"
 			tasks: [{
 				id: "546909B545CE7BD2"
@@ -116,7 +136,11 @@
 		}
 		{
 			description: ["Finish Quests to acquire Cab Coins and use does to Buy things in the Shop."]
-			icon: "kubejs:cad_coin"
+			icon: {
+				Count: 1
+				id: "kubejs:cad_coin"
+				tag: { }
+			}
 			id: "26914AA7B812A5EB"
 			tasks: [{
 				id: "632D81AB275DDDE7"
@@ -153,7 +177,11 @@
 		}
 		{
 			description: ["Make incredible food using Farmer's Delight and the installed add-ons."]
-			icon: "farmersdelight:stove"
+			icon: {
+				Count: 1
+				id: "farmersdelight:stove"
+				tag: { }
+			}
 			id: "46051E87D588209C"
 			tasks: [{
 				id: "40E1399AF5207855"

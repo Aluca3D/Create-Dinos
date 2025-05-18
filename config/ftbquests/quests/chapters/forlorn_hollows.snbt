@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "forlorn_hollows"
 	group: "5F1A65E495DCB771"
-	icon: "alexscaves:pure_darkness"
+	icon: {
+		Count: 1
+		id: "alexscaves:pure_darkness"
+		tag: { }
+	}
 	id: "087752874984985F"
 	order_index: 6
 	quest_links: [ ]
@@ -16,7 +20,11 @@
 			rewards: [{
 				count: 4
 				id: "2AA0A9C4B015018E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -47,12 +55,20 @@
 			id: "6B18D14A6D2BC1B5"
 			rewards: [{
 				id: "10FF9325893A04AB"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
-				icon: "alexscaves:pure_darkness"
+				icon: {
+					Count: 1
+					id: "alexscaves:pure_darkness"
+					tag: { }
+				}
 				id: "1A89084CA7101B53"
 				title: "Its Dark here"
 				type: "biome"
@@ -68,12 +84,20 @@
 			rewards: [{
 				count: 8
 				id: "5975D8DF28DFC05E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "648D82651BA4D2E1"
-				item: "alexscaves:occult_gem"
+				item: {
+					Count: 1
+					id: "alexscaves:occult_gem"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Transformation"
@@ -87,7 +111,11 @@
 			rewards: [{
 				count: 8
 				id: "3C6A2FB61935968E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -114,12 +142,20 @@
 			rewards: [{
 				count: 16
 				id: "6ABC3EB19BE82F3D"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7659ED170E29F9B8"
-				item: "alexscaves:pure_darkness"
+				item: {
+					Count: 1
+					id: "alexscaves:pure_darkness"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Transformation 2.0"
@@ -133,12 +169,20 @@
 			rewards: [{
 				count: 8
 				id: "4BE41F99925AF19C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:watcher"
-				icon: "alexscaves:occult_gem"
+				icon: {
+					Count: 1
+					id: "alexscaves:occult_gem"
+					tag: { }
+				}
 				id: "758966873B787306"
 				type: "kill"
 				value: 10L
@@ -154,13 +198,21 @@
 			rewards: [{
 				count: 8
 				id: "123E506A5A73CF7E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "55217742CD28963B"
-				item: { Count: 16, id: "alexscaves:burrowing_arrow" }
+				item: {
+					Count: 16
+					id: "alexscaves:burrowing_arrow"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Drilling teeth"
@@ -174,7 +226,11 @@
 			rewards: [{
 				count: 8
 				id: "12D2E5B23DE0BA27"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -202,12 +258,20 @@
 			rewards: [{
 				count: 16
 				id: "6F612377916C7769"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:forsaken"
-				icon: "alexscaves:pure_darkness"
+				icon: {
+					Count: 1
+					id: "alexscaves:pure_darkness"
+					tag: { }
+				}
 				id: "7924945C5BF31452"
 				type: "kill"
 				value: 1L
@@ -223,7 +287,11 @@
 			rewards: [{
 				count: 8
 				id: "187D533311F83D81"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -248,7 +316,11 @@
 			rewards: [{
 				count: 8
 				id: "68D282A7F9C7B926"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -280,7 +352,11 @@
 				}
 				{
 					id: "1B93C198F05C884E"
-					item: "alexscaves:darkened_apple"
+					item: {
+						Count: 1
+						id: "alexscaves:darkened_apple"
+						tag: { }
+					}
 					type: "item"
 				}
 			]

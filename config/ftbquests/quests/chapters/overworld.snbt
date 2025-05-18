@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "overworld"
 	group: "5F1A65E495DCB771"
-	icon: "minecraft:grass_block"
+	icon: {
+		Count: 1
+		id: "minecraft:grass_block"
+		tag: { }
+	}
 	id: "3B7DD4BB05CB72E8"
 	order_index: 0
 	quest_links: [ ]
@@ -12,7 +16,11 @@
 			dependencies: ["561FDB28B26CA818"]
 			description: ["Explore the Overworld, now filled with new biomes thanks to Oh The Biomes You'll Go."]
 			hide_until_deps_complete: true
-			icon: "minecraft:grass_block"
+			icon: {
+				Count: 1
+				id: "minecraft:grass_block"
+				tag: { }
+			}
 			id: "1A646FAC6DE176F4"
 			shape: "gear"
 			size: 1.5d
@@ -55,12 +63,20 @@
 		}
 		{
 			dependencies: ["1A646FAC6DE176F4"]
-			icon: "minecraft:fletching_table"
+			icon: {
+				Count: 1
+				id: "minecraft:fletching_table"
+				tag: { }
+			}
 			id: "364DA289A79C3903"
 			rewards: [{
 				count: 2
 				id: "5899DC7B3D394892"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -79,13 +95,21 @@
 			rewards: [{
 				count: 4
 				id: "06488AF5CFF52419"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecraft:sea_lantern"
+				icon: {
+					Count: 1
+					id: "minecraft:sea_lantern"
+					tag: { }
+				}
 				id: "7BF44FBCC762D659"
-				structure: "minecraft:monument"
+				structure: "betteroceanmonuments:ocean_monument"
 				type: "structure"
 			}]
 			title: "Find an Ocean Monument"
@@ -98,7 +122,11 @@
 			rewards: [{
 				count: 4
 				id: "3FD695F2DB840875"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -117,13 +145,21 @@
 			rewards: [{
 				count: 4
 				id: "057311AB48C3E167"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecraft:stone_bricks"
+				icon: {
+					Count: 1
+					id: "minecraft:stone_bricks"
+					tag: { }
+				}
 				id: "5372C072DBD41E91"
-				structure: "minecraft:stronghold"
+				structure: "betterstrongholds:stronghold"
 				type: "structure"
 			}]
 			title: "Find an Stronghold"
@@ -136,27 +172,43 @@
 			rewards: [{
 				count: 16
 				id: "42A2AB2A028EF2DE"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					biome: "galosphere:pink_salt_caves"
-					icon: "galosphere:pink_salt"
+					icon: {
+						Count: 1
+						id: "galosphere:pink_salt"
+						tag: { }
+					}
 					id: "029526D4A3904BAC"
 					title: "Pink Salt Cave"
 					type: "biome"
 				}
 				{
 					biome: "galosphere:crystal_canyons"
-					icon: "galosphere:allurite_block"
+					icon: {
+						Count: 1
+						id: "galosphere:allurite_block"
+						tag: { }
+					}
 					id: "1ADC6EDBDA9872F5"
 					title: "Crystal Canyons"
 					type: "biome"
 				}
 				{
 					biome: "galosphere:lichen_caves"
-					icon: "galosphere:lichen_moss"
+					icon: {
+						Count: 1
+						id: "galosphere:lichen_moss"
+						tag: { }
+					}
 					id: "29180EC75295D051"
 					title: "Lichen Caves"
 					type: "biome"
@@ -174,7 +226,11 @@
 			rewards: [{
 				count: 8
 				id: "54387B1703E35A8D"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -234,7 +290,11 @@
 			rewards: [{
 				count: 16
 				id: "2FC69C992493534A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -262,13 +322,21 @@
 			rewards: [{
 				count: 16
 				id: "401D5823CB4F36BE"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "42D1D3D148CE21EE"
-				item: { Count: 16, id: "galosphere:glow_flare" }
+				item: {
+					Count: 16
+					id: "galosphere:glow_flare"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Glowing"
@@ -283,13 +351,21 @@
 			rewards: [{
 				count: 8
 				id: "66AF84D97E773050"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "7E01CE06916D300E"
-					item: "galosphere:combustion_table"
+					item: {
+						Count: 1
+						id: "galosphere:combustion_table"
+						tag: { }
+					}
 					type: "item"
 				}
 				{

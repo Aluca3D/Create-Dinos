@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "toxic_caves"
 	group: "5F1A65E495DCB771"
-	icon: "alexscaves:waste_drum"
+	icon: {
+		Count: 1
+		id: "alexscaves:waste_drum"
+		tag: { }
+	}
 	id: "1116FED3437EA154"
 	order_index: 9
 	quest_links: [ ]
@@ -18,12 +22,20 @@
 			id: "1A8E56A55C0A1421"
 			rewards: [{
 				id: "771A848CB5F62736"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
-				icon: "alexscaves:waste_drum"
+				icon: {
+					Count: 1
+					id: "alexscaves:waste_drum"
+					tag: { }
+				}
 				id: "37CAD587D71DF41C"
 				title: "Toxic!"
 				type: "biome"
@@ -40,7 +52,11 @@
 			rewards: [{
 				count: 4
 				id: "4EAF7C17CB50B12A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -68,7 +84,11 @@
 			rewards: [{
 				count: 8
 				id: "3C1C405DA000309A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -133,13 +153,21 @@
 			rewards: [{
 				count: 8
 				id: "5008EED6EF9B379B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "4377C678BC248CB7"
-					item: "alexscaves:nuclear_bomb"
+					item: {
+						Count: 1
+						id: "alexscaves:nuclear_bomb"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -165,13 +193,21 @@
 			rewards: [{
 				count: 8
 				id: "76F7991DC4620E1C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 4L
 				id: "3148D11BA300E57E"
-				item: "alexscaves:nuclear_furnace_component"
+				item: {
+					Count: 1
+					id: "alexscaves:nuclear_furnace_component"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Special Heat"
@@ -185,23 +221,39 @@
 			rewards: [{
 				count: 6
 				id: "6A155D6B2B28BA87"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
-					icon: "alexscaves:spelunkie"
+					icon: {
+						Count: 1
+						id: "alexscaves:spelunkie"
+						tag: { }
+					}
 					id: "632D3A4A517887BA"
 					type: "custom"
 				}
 				{
 					id: "0A8114DA37F026D5"
-					item: "alexscaves:slam"
+					item: {
+						Count: 1
+						id: "alexscaves:slam"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "76E6C3AFE060DDBD"
-					item: "alexscaves:green_soylent"
+					item: {
+						Count: 1
+						id: "alexscaves:green_soylent"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -219,7 +271,11 @@
 			rewards: [{
 				count: 8
 				id: "68D4DE71B30ECACB"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -242,13 +298,21 @@
 			rewards: [{
 				count: 8
 				id: "5A5C206344DDCB2E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "55E314ECAC2EEBBD"
-				item: "alexscaves:cinder_brick"
+				item: {
+					Count: 1
+					id: "alexscaves:cinder_brick"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Hehe"

@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "nuclear"
 	group: "6C4920BA3B869E92"
-	icon: "createnuclear:enriched_yellowcake"
+	icon: {
+		Count: 1
+		id: "createnuclear:enriched_yellowcake"
+		tag: { }
+	}
 	id: "568BEAA62D465215"
 	order_index: 6
 	quest_links: [ ]
@@ -20,19 +24,31 @@
 				{
 					count: 16
 					id: "0FE993B3B20B2188"
-					item: "kubejs:cad_coin"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "181032B27A3F0A2F"
-					item: "createnuclear:graphite_rod"
+					item: {
+						Count: 1
+						id: "createnuclear:graphite_rod"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "40B15C467A774BE6"
-					item: "createnuclear:uranium_rod"
+					item: {
+						Count: 1
+						id: "createnuclear:uranium_rod"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -40,45 +56,77 @@
 				{
 					count: 129L
 					id: "40EF807304DA00DE"
-					item: { Count: 129, id: "createnuclear:reactor_casing" }
+					item: {
+						Count: 129
+						id: "createnuclear:reactor_casing"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 20L
 					id: "101D110D9936001B"
-					item: { Count: 20, id: "createnuclear:reactor_cooler" }
+					item: {
+						Count: 20
+						id: "createnuclear:reactor_cooler"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 18L
 					id: "6F9B09B04FAEE8B9"
-					item: { Count: 18, id: "createnuclear:reactor_frame" }
+					item: {
+						Count: 18
+						id: "createnuclear:reactor_frame"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "255E68345E9C1EE0"
-					item: { Count: 5, id: "createnuclear:reactor_core" }
+					item: {
+						Count: 5
+						id: "createnuclear:reactor_core"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "6BF870C4A0337FF1"
-					item: "createnuclear:reactor_input"
+					item: {
+						Count: 1
+						id: "createnuclear:reactor_input"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0836027AB622CF3F"
-					item: "createnuclear:reactor_output"
+					item: {
+						Count: 1
+						id: "createnuclear:reactor_output"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "6F789AFE66E50A09"
-					item: "createnuclear:reactor_controller"
+					item: {
+						Count: 1
+						id: "createnuclear:reactor_controller"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "3E35FC6D929128E2"
-					item: "createnuclear:reactor_blueprint_item"
+					item: {
+						Count: 1
+						id: "createnuclear:reactor_blueprint_item"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -90,7 +138,11 @@
 			dependencies: ["2EB48BCFEF7C97A3"]
 			description: ["Welcome to the beginning of your first (of many) Nuclear Reactors!"]
 			hide_until_deps_complete: true
-			icon: "createnuclear:uranium_rod"
+			icon: {
+				Count: 1
+				id: "createnuclear:uranium_rod"
+				tag: { }
+			}
 			id: "739E5BAA7797D9FF"
 			shape: "gear"
 			size: 1.5d
@@ -109,20 +161,32 @@
 			rewards: [{
 				count: 16
 				id: "4FA7C63BAEDE3455"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 32L
 					id: "22BA9E9C6C363522"
-					item: { Count: 16, id: "createnuclear:graphite_rod" }
+					item: {
+						Count: 16
+						id: "createnuclear:graphite_rod"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "152863E9196AB43D"
-					item: { Count: 32, id: "createnuclear:uranium_rod" }
+					item: {
+						Count: 32
+						id: "createnuclear:uranium_rod"
+						tag: { }
+					}
 					type: "item"
 				}
 			]

@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "trains"
 	group: "6C4920BA3B869E92"
-	icon: "create:schedule"
+	icon: {
+		Count: 1
+		id: "create:schedule"
+		tag: { }
+	}
 	id: "524A97DEF9EFBC22"
 	order_index: 4
 	quest_links: [ ]
@@ -12,7 +16,11 @@
 			dependencies: ["34173B3401C40BEC"]
 			description: ["Welcome to the beginning of your epic train network!"]
 			hide_until_deps_complete: true
-			icon: "create:schedule"
+			icon: {
+				Count: 1
+				id: "create:schedule"
+				tag: { }
+			}
 			id: "68F3B99469FB5287"
 			shape: "gear"
 			size: 1.5d
@@ -34,13 +42,21 @@
 			rewards: [{
 				count: 4
 				id: "230E0E6AAECE1C60"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "627CDAA15F71A01D"
-				item: { Count: 8, id: "create:railway_casing" }
+				item: {
+					Count: 8
+					id: "create:railway_casing"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -52,12 +68,20 @@
 			rewards: [{
 				count: 4
 				id: "6083F39724E7DF9F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "74F282379AAF754B"
-				item: "create:controls"
+				item: {
+					Count: 1
+					id: "create:controls"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.5d
@@ -69,12 +93,20 @@
 			rewards: [{
 				count: 4
 				id: "0ED5893948BFFE40"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "47753DCAC18E9847"
-				item: "create:track_signal"
+				item: {
+					Count: 1
+					id: "create:track_signal"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -87,12 +119,20 @@
 			rewards: [{
 				count: 4
 				id: "371BA457CE73DFA8"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "613924F26E7112BD"
-				item: "create:track_station"
+				item: {
+					Count: 1
+					id: "create:track_station"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -105,13 +145,21 @@
 			rewards: [{
 				count: 8
 				id: "1050E7F6D7FD0B6B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 128L
 				id: "7CCBED7128B236FB"
-				item: "create:track"
+				item: {
+					Count: 1
+					id: "create:track"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.5d
@@ -124,12 +172,20 @@
 			rewards: [{
 				count: 4
 				id: "68769FD4E793F294"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "388AA5C7A1823252"
-				item: "create:schedule"
+				item: {
+					Count: 1
+					id: "create:schedule"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.5d
@@ -142,7 +198,11 @@
 			rewards: [{
 				count: 4
 				id: "4F06609848AFF756"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -164,12 +224,20 @@
 			rewards: [{
 				count: 4
 				id: "2D035B14897B5148"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2D754BC80DF06FF1"
-				item: "create:white_postbox"
+				item: {
+					Count: 1
+					id: "create:white_postbox"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Train Logistic"

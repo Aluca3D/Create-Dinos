@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "candy_cavity"
 	group: "5F1A65E495DCB771"
-	icon: "alexscaves:large_peppermint"
+	icon: {
+		Count: 1
+		id: "alexscaves:large_peppermint"
+		tag: { }
+	}
 	id: "342A83F8AD4A9D15"
 	order_index: 5
 	quest_links: [ ]
@@ -16,7 +20,11 @@
 			rewards: [{
 				count: 4
 				id: "1010FFCB4641336A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -47,12 +55,20 @@
 			id: "0E6278974808D6BF"
 			rewards: [{
 				id: "710224D0A708B557"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
-				icon: "alexscaves:large_peppermint"
+				icon: {
+					Count: 1
+					id: "alexscaves:large_peppermint"
+					tag: { }
+				}
 				id: "57A3A98BFD0F2405"
 				title: "Dino Caves"
 				type: "biome"
@@ -67,12 +83,20 @@
 			rewards: [{
 				count: 4
 				id: "7F16F190CCBAAB04"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:caniac"
-				icon: "alexscaves:sharpened_candy_cane"
+				icon: {
+					Count: 1
+					id: "alexscaves:sharpened_candy_cane"
+					tag: { }
+				}
 				id: "4552E7C148CD2BA1"
 				title: "Maniac"
 				type: "kill"
@@ -87,12 +111,20 @@
 			rewards: [{
 				count: 8
 				id: "304302248FC6F839"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:gum_worm"
-				icon: "alexscaves:sweet_tooth"
+				icon: {
+					Count: 1
+					id: "alexscaves:sweet_tooth"
+					tag: { }
+				}
 				id: "34072BCCE9C422F7"
 				title: "Sweet Worm"
 				type: "kill"
@@ -108,7 +140,11 @@
 			rewards: [{
 				count: 4
 				id: "3778355B92249CA1"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -133,12 +169,20 @@
 			rewards: [{
 				count: 8
 				id: "31B682DD29D5359C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:licowitch"
-				icon: "alexscaves:radiant_essence"
+				icon: {
+					Count: 1
+					id: "alexscaves:radiant_essence"
+					tag: { }
+				}
 				id: "198E5448E4E97DD8"
 				title: "Sweet Worm"
 				type: "kill"
@@ -155,13 +199,21 @@
 			rewards: [{
 				count: 4
 				id: "66E40F0701BDFD6D"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "02B7CBAFBB17C690"
-					item: "alexscaves:conversion_crucible"
+					item: {
+						Count: 1
+						id: "alexscaves:conversion_crucible"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -185,7 +237,11 @@
 			rewards: [{
 				count: 4
 				id: "6E758115EE7966F4"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -245,7 +301,11 @@
 			rewards: [{
 				count: 4
 				id: "5058D93A65B3DF27"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{

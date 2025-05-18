@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "abyssal_chasm"
 	group: "5F1A65E495DCB771"
-	icon: "alexscaves:submarine"
+	icon: {
+		Count: 1
+		id: "alexscaves:submarine"
+		tag: { }
+	}
 	id: "61688C457ED5667E"
 	order_index: 4
 	quest_links: [ ]
@@ -16,7 +20,11 @@
 			rewards: [{
 				count: 4
 				id: "1F1FCA07EC04CEF1"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -47,12 +55,20 @@
 			id: "336EAE93E0269364"
 			rewards: [{
 				id: "05A5DE1AD3812DF9"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
-				icon: "alexscaves:submarine"
+				icon: {
+					Count: 1
+					id: "alexscaves:submarine"
+					tag: { }
+				}
 				id: "789D05F39BA7B4B1"
 				title: "Fish!"
 				type: "biome"
@@ -68,7 +84,11 @@
 			rewards: [{
 				count: 4
 				id: "609FB94680B9FC5F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -88,12 +108,20 @@
 			rewards: [{
 				count: 4
 				id: "708A4438A4D59C88"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1427A6981978EBB6"
-				item: "alexscaves:abyssal_altar"
+				item: {
+					Count: 1
+					id: "alexscaves:abyssal_altar"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -105,7 +133,11 @@
 			rewards: [{
 				count: 4
 				id: "25BB7CEB3065C187"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -128,7 +160,11 @@
 			rewards: [{
 				count: 4
 				id: "6C134B51F5884DB0"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -152,7 +188,11 @@
 			rewards: [{
 				count: 4
 				id: "5D32B011A57D8BB0"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -211,12 +251,20 @@
 			rewards: [{
 				count: 8
 				id: "47CF8791A798B405"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
-				icon: "alexscaves:immortal_embryo"
+				icon: {
+					Count: 1
+					id: "alexscaves:immortal_embryo"
+					tag: { }
+				}
 				id: "2761584067B42B98"
 				type: "kill"
 				value: 1L
@@ -231,7 +279,11 @@
 			rewards: [{
 				count: 4
 				id: "3C1BEB71BBD4A274"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{

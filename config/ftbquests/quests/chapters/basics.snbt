@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "basics"
 	group: "6C4920BA3B869E92"
-	icon: "create:cogwheel"
+	icon: {
+		Count: 1
+		id: "create:cogwheel"
+		tag: { }
+	}
 	id: "6F27AA05DA876C16"
 	order_index: 0
 	quest_links: [ ]
@@ -16,7 +20,11 @@
 			rewards: [{
 				count: 4
 				id: "22931DCBE3877919"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -24,7 +32,11 @@
 			tasks: [{
 				count: 16L
 				id: "079B6A523C3682A2"
-				item: { Count: 16, id: "create:andesite_alloy" }
+				item: {
+					Count: 16
+					id: "create:andesite_alloy"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Andesite Alloy"
@@ -40,12 +52,20 @@
 			id: "08E9CDB6BB22A2EF"
 			rewards: [{
 				id: "31D3467ECF383898"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "44C784F37EA60FF2"
-				item: "create:water_wheel"
+				item: {
+					Count: 1
+					id: "create:water_wheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Stress"
@@ -58,12 +78,20 @@
 			id: "464A193277A6240F"
 			rewards: [{
 				id: "6B74B6FA8DC5558A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3135EE33FC86EF80"
-				item: "create:shaft"
+				item: {
+					Count: 1
+					id: "create:shaft"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Shaft"
@@ -76,12 +104,20 @@
 			id: "6049F5674D838008"
 			rewards: [{
 				id: "030333C60C57744B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "100062D6E2FA6C1D"
-				item: "create:andesite_casing"
+				item: {
+					Count: 1
+					id: "create:andesite_casing"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.0d
@@ -94,12 +130,20 @@
 			rewards: [{
 				count: 2
 				id: "7D3B3C72BE6E3B04"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3D4EEDE2253B0547"
-				item: "create:mechanical_press"
+				item: {
+					Count: 1
+					id: "create:mechanical_press"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.0d
@@ -112,12 +156,20 @@
 			rewards: [{
 				count: 2
 				id: "0C87E9D9B2BB3E81"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0DA54A13EB01BF9A"
-				item: "create:mechanical_mixer"
+				item: {
+					Count: 1
+					id: "create:mechanical_mixer"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -130,12 +182,20 @@
 			rewards: [{
 				count: 2
 				id: "2E935C847E55EFD9"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "78E9104F9568F38D"
-				item: "create:encased_fan"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -151,28 +211,48 @@
 			rewards: [{
 				count: 16
 				id: "22C071D511CC89F0"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "0BD7F227BAAAA394"
-					item: "create_connected:fan_blasting_catalyst"
+					item: {
+						Count: 1
+						id: "create_connected:fan_blasting_catalyst"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "6F42F3881C489D46"
-					item: "create_connected:fan_smoking_catalyst"
+					item: {
+						Count: 1
+						id: "create_connected:fan_smoking_catalyst"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "59C83A3C4B408842"
-					item: "create_connected:fan_splashing_catalyst"
+					item: {
+						Count: 1
+						id: "create_connected:fan_splashing_catalyst"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0F9DB98ED5581FC0"
-					item: "create_connected:fan_haunting_catalyst"
+					item: {
+						Count: 1
+						id: "create_connected:fan_haunting_catalyst"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -189,7 +269,11 @@
 			rewards: [{
 				count: 8
 				id: "0C126CFAB9AABF2E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -197,7 +281,11 @@
 			tasks: [{
 				count: 32L
 				id: "4CF28D7E9427C269"
-				item: { Count: 32, id: "create:brass_ingot" }
+				item: {
+					Count: 32
+					id: "create:brass_ingot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -211,12 +299,20 @@
 			rewards: [{
 				count: 4
 				id: "113AA3B444DA60A0"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "72223B55C192350F"
-				item: "create:blaze_burner"
+				item: {
+					Count: 1
+					id: "create:blaze_burner"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -235,19 +331,31 @@
 			rewards: [{
 				count: 2
 				id: "0C16E8874F06F704"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "61E5775F0C95461F"
-					item: "create:windmill_bearing"
+					item: {
+						Count: 1
+						id: "create:windmill_bearing"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "10BEC850D940B4B5"
-					item: { Count: 8, id: "create:white_sail" }
+					item: {
+						Count: 8
+						id: "create:white_sail"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -261,12 +369,20 @@
 			rewards: [{
 				count: 2
 				id: "77ED696F29D8D11E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5BE2D0D5319545F5"
-				item: "create:mechanical_saw"
+				item: {
+					Count: 1
+					id: "create:mechanical_saw"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -279,14 +395,22 @@
 			rewards: [{
 				count: 2
 				id: "2622D5E349BE1037"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 8L
 					id: "7325F0B118D7A055"
-					item: { Count: 8, id: "create:rose_quartz" }
+					item: {
+						Count: 8
+						id: "create:rose_quartz"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -309,12 +433,20 @@
 			id: "1CB8196EA78219FC"
 			rewards: [{
 				id: "33004F45F71711FA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "55D6F94D7EEEC3AB"
-				item: "create:electron_tube"
+				item: {
+					Count: 1
+					id: "create:electron_tube"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.0d
@@ -326,13 +458,21 @@
 			rewards: [{
 				count: 4
 				id: "007B2D474A0CD220"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "0EEAC84100EEDEF5"
-				item: { Count: 16, id: "create:brass_casing" }
+				item: {
+					Count: 16
+					id: "create:brass_casing"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -347,7 +487,11 @@
 			rewards: [{
 				count: 8
 				id: "08C2AF2C34850D8F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -355,7 +499,11 @@
 			tasks: [{
 				count: 21L
 				id: "37B2C739C75440D4"
-				item: { Count: 21, id: "create:mechanical_crafter" }
+				item: {
+					Count: 21
+					id: "create:mechanical_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -368,13 +516,21 @@
 			rewards: [{
 				count: 4
 				id: "3FC399D99568A04B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "382CD6EC2CA0656D"
-				item: { Count: 2, id: "create:crushing_wheel" }
+				item: {
+					Count: 2
+					id: "create:crushing_wheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -387,12 +543,20 @@
 			rewards: [{
 				count: 2
 				id: "6B22CF16EF911E3B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "31673FA72E213C7B"
-				item: "create:mechanical_harvester"
+				item: {
+					Count: 1
+					id: "create:mechanical_harvester"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -405,12 +569,20 @@
 			rewards: [{
 				count: 4
 				id: "113789A8F75FCC49"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "56D14B2B1C43552A"
-				item: "create:deployer"
+				item: {
+					Count: 1
+					id: "create:deployer"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.0d
@@ -427,31 +599,51 @@
 			rewards: [{
 				count: 8
 				id: "0BE51D6364CEE298"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "424CEEFCA87EBB95"
-					item: "create:steam_engine"
+					item: {
+						Count: 1
+						id: "create:steam_engine"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "2823483A9B2FAC35"
-					item: { Count: 4, id: "create:fluid_tank" }
+					item: {
+						Count: 4
+						id: "create:fluid_tank"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "67B2167E075510FA"
-					item: { Count: 4, id: "create:fluid_pipe" }
+					item: {
+						Count: 4
+						id: "create:fluid_pipe"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "2B78C440FC2556C4"
-					item: { Count: 2, id: "create:mechanical_pump" }
+					item: {
+						Count: 2
+						id: "create:mechanical_pump"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -465,14 +657,22 @@
 			rewards: [{
 				count: 4
 				id: "1EE4FF82F5D08467"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "7F10C053BF31A280"
-				item: "createaddition:alternator"
+				item: {
+					Count: 1
+					id: "createaddition:alternator"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.75d
@@ -485,13 +685,21 @@
 			rewards: [{
 				count: 8
 				id: "725535CD5A55C8A0"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "48ACC5764A6D1906"
-				item: "create:sturdy_sheet"
+				item: {
+					Count: 1
+					id: "create:sturdy_sheet"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -503,14 +711,22 @@
 			rewards: [{
 				count: 2
 				id: "588B06DBD1F06ABD"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "7DEC528FFAB99EA5"
-				item: "create:railway_casing"
+				item: {
+					Count: 1
+					id: "create:railway_casing"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -522,14 +738,22 @@
 			rewards: [{
 				count: 2
 				id: "466FEDDC6FC4A7F4"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "3FCCB1265B85D469"
-				item: "create_enchantment_industry:enchanting_guide"
+				item: {
+					Count: 1
+					id: "create_enchantment_industry:enchanting_guide"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -541,14 +765,22 @@
 			rewards: [{
 				count: 2
 				id: "09E61D7371D51811"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "3A2991480CB34205"
-				item: "createnuclear:uranium_powder"
+				item: {
+					Count: 1
+					id: "createnuclear:uranium_powder"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -561,13 +793,21 @@
 			rewards: [{
 				count: 2
 				id: "5A7FF166E18ABCAC"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "5932F4F1CCAB03C5"
-				item: "create:fluid_tank"
+				item: {
+					Count: 1
+					id: "create:fluid_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -583,14 +823,22 @@
 			rewards: [{
 				count: 4
 				id: "406C5DAC13D46E5E"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "67F9C64D21A727E7"
-				item: "createdieselgenerators:plant_oil_bucket"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:plant_oil_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Diesel Engines"
@@ -604,12 +852,20 @@
 			rewards: [{
 				count: 2
 				id: "7ED022A9CCEDBECA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4ACF0248C7A44744"
-				item: "trading_floor:trading_depot"
+				item: {
+					Count: 1
+					id: "trading_floor:trading_depot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.5d
@@ -622,12 +878,20 @@
 			rewards: [{
 				count: 4
 				id: "6122A6D6DEFD46DF"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6E697DD71670586C"
-				item: "createsifter:sifter"
+				item: {
+					Count: 1
+					id: "createsifter:sifter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -640,7 +904,11 @@
 			rewards: [{
 				count: 8
 				id: "3672C9049B4C82F3"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -657,12 +925,20 @@
 				}
 				{
 					id: "5EC0DB32C4E50C61"
-					item: "createoreexcavation:vein_atlas"
+					item: {
+						Count: 1
+						id: "createoreexcavation:vein_atlas"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "07BF82301917DB8D"
-					item: "createoreexcavation:sample_drill"
+					item: {
+						Count: 1
+						id: "createoreexcavation:sample_drill"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -679,12 +955,20 @@
 			rewards: [{
 				count: 4
 				id: "532BF0233345988A"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1F72CC01D2D12DF7"
-				item: "createoreexcavation:drilling_machine"
+				item: {
+					Count: 1
+					id: "createoreexcavation:drilling_machine"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -696,12 +980,20 @@
 			rewards: [{
 				count: 2
 				id: "67DEE9ECA8765BD9"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "59D060475BC66C67"
-				item: "create:empty_blaze_burner"
+				item: {
+					Count: 1
+					id: "create:empty_blaze_burner"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -718,23 +1010,39 @@
 			rewards: [{
 				count: 8
 				id: "0D46A6319448AB3F"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "43FF1288DC4C8B56"
-					item: "create:wrench"
+					item: {
+						Count: 1
+						id: "create:wrench"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "79655B7ADF10E8E6"
-					item: "create:goggles"
+					item: {
+						Count: 1
+						id: "create:goggles"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "21DE27DB5412D51F"
-					item: "create:brown_toolbox"
+					item: {
+						Count: 1
+						id: "create:brown_toolbox"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -747,12 +1055,20 @@
 			id: "2ACF99F5D873C4BC"
 			rewards: [{
 				id: "0BC6A804CD65B763"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3BE96968374B04E9"
-				item: "create:cogwheel"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -764,12 +1080,20 @@
 			id: "5A132F646302448B"
 			rewards: [{
 				id: "748EAD230CECC900"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1A9EDF054AF2F42F"
-				item: "create:large_cogwheel"
+				item: {
+					Count: 1
+					id: "create:large_cogwheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -786,23 +1110,39 @@
 			rewards: [{
 				count: 8
 				id: "4A5E9807DB0B2DFA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "760999FC01965E32"
-					item: "create:schematicannon"
+					item: {
+						Count: 1
+						id: "create:schematicannon"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "7B5B198C4DEA0816"
-					item: "create:schematic_table"
+					item: {
+						Count: 1
+						id: "create:schematic_table"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "58489255F949CD11"
-					item: "create:empty_schematic"
+					item: {
+						Count: 1
+						id: "create:empty_schematic"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -816,19 +1156,31 @@
 			rewards: [{
 				count: 2
 				id: "264C2DDD47D9CE88"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 16L
 					id: "63CAFEC52E80231B"
-					item: "create:item_vault"
+					item: {
+						Count: 1
+						id: "create:item_vault"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "002129B047A38DF1"
-					item: "create:item_hatch"
+					item: {
+						Count: 1
+						id: "create:item_hatch"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -841,12 +1193,20 @@
 			id: "12B424E4583220E7"
 			rewards: [{
 				id: "4748FA705AC2A194"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6DF841F741D8ABE8"
-				item: "create:crafting_blueprint"
+				item: {
+					Count: 1
+					id: "create:crafting_blueprint"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Shaft"
@@ -861,29 +1221,49 @@
 			rewards: [{
 				count: 16
 				id: "4D87381562ECF02C"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "11408A1ECCF7DD12"
-					item: "create:stock_link"
+					item: {
+						Count: 1
+						id: "create:stock_link"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "11649D9957970EF2"
-					item: "create:stock_ticker"
+					item: {
+						Count: 1
+						id: "create:stock_ticker"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "47E12C44FC89D401"
-					item: "create:chain_conveyor"
+					item: {
+						Count: 1
+						id: "create:chain_conveyor"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "20877CA0E5DB95C1"
-					item: "create:packager"
+					item: {
+						Count: 1
+						id: "create:packager"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -899,18 +1279,30 @@
 			rewards: [{
 				count: 16
 				id: "27DDA49EA199A787"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "39FE03BE80A6C014"
-					item: "create_mobile_packages:drone_controller"
+					item: {
+						Count: 1
+						id: "create_mobile_packages:drone_controller"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "10E931364372FD47"
-					item: "create_mobile_packages:drone_port"
+					item: {
+						Count: 1
+						id: "create_mobile_packages:drone_port"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -925,13 +1317,21 @@
 			rewards: [{
 				count: 4
 				id: "1433F17D21BF60CA"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "29C3C5265AF4DFE2"
-				item: "create:precision_mechanism"
+				item: {
+					Count: 1
+					id: "create:precision_mechanism"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.0d
@@ -944,12 +1344,20 @@
 			rewards: [{
 				count: 4
 				id: "3E5D65C485C20E8B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0B78A36BE2A342C6"
-				item: "create:rotation_speed_controller"
+				item: {
+					Count: 1
+					id: "create:rotation_speed_controller"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.0d

@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "digital"
 	group: "443DE61CC41B3107"
-	icon: "waterframes:tv_box"
+	icon: {
+		Count: 1
+		id: "waterframes:tv_box"
+		tag: { }
+	}
 	id: "32F38C6A34E692EE"
 	order_index: 1
 	quest_links: [ ]
@@ -12,7 +16,11 @@
 			dependencies: ["246B4388B5FC7F7C"]
 			description: ["Here are all the things that dont fit into normal Quest's."]
 			hide_until_deps_complete: true
-			icon: "waterframes:big_tv"
+			icon: {
+				Count: 1
+				id: "waterframes:big_tv"
+				tag: { }
+			}
 			id: "16F4E0AF78BAAD8C"
 			shape: "gear"
 			size: 1.5d
@@ -32,12 +40,20 @@
 			rewards: [{
 				count: 8
 				id: "532F41E278FDB090"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2EAC895FA3C61653"
-				item: "gamediscs:gaming_console"
+				item: {
+					Count: 1
+					id: "gamediscs:gaming_console"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -50,18 +66,30 @@
 			rewards: [{
 				count: 8
 				id: "0D0D9505FDDFEBBE"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "54F02349D1A0A7A5"
-					item: "waterframes:projector"
+					item: {
+						Count: 1
+						id: "waterframes:projector"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "435251F53506728E"
-					item: "waterframes:remote"
+					item: {
+						Count: 1
+						id: "waterframes:remote"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -76,21 +104,37 @@
 				{
 					count: 8
 					id: "24303AE6E1CA9B98"
-					item: "kubejs:cad_coin"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "37218EE602CCA1B3"
-					item: "kubejs:treasure_coin"
+					item: {
+						Count: 1
+						id: "kubejs:treasure_coin"
+						tag: { }
+					}
 					random_bonus: 2
 					type: "item"
 				}
 			]
 			tasks: [{
-				icon: "kubejs:treasure_coin"
+				icon: {
+					Count: 1
+					id: "kubejs:treasure_coin"
+					tag: { }
+				}
 				id: "05CB654CCEDDE7E0"
-				item: "kubejs:treasure_coin"
+				item: {
+					Count: 1
+					id: "kubejs:treasure_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Gambling!"
@@ -104,12 +148,20 @@
 			rewards: [{
 				count: 8
 				id: "3E9AC19EB902CCBD"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "32FD24A372E0DBC2"
-				item: "kubejs:upgradet_treasure_coin"
+				item: {
+					Count: 1
+					id: "kubejs:upgradet_treasure_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Gambling++"
@@ -123,7 +175,11 @@
 			rewards: [{
 				count: 8
 				id: "29A481D25809998B"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -146,12 +202,20 @@
 			rewards: [{
 				count: 8
 				id: "6AB27F768DD2CE49"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0971BCA5B15501DF"
-				item: "torchmaster:megatorch"
+				item: {
+					Count: 1
+					id: "torchmaster:megatorch"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.0d
@@ -164,43 +228,75 @@
 			rewards: [{
 				count: 8
 				id: "63416325F60DC488"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "0EC361EAE743134D"
-					item: "chipped:botanist_workbench"
+					item: {
+						Count: 1
+						id: "chipped:botanist_workbench"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "11D4F4A041D357DC"
-					item: "chipped:glassblower"
+					item: {
+						Count: 1
+						id: "chipped:glassblower"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "3F6462753706CB9C"
-					item: "chipped:carpenters_table"
+					item: {
+						Count: 1
+						id: "chipped:carpenters_table"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "1CCA3220D18EBDC9"
-					item: "chipped:loom_table"
+					item: {
+						Count: 1
+						id: "chipped:loom_table"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "733257A187D447C1"
-					item: "chipped:mason_table"
+					item: {
+						Count: 1
+						id: "chipped:mason_table"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0A687CAF25E2BF81"
-					item: "chipped:alchemy_bench"
+					item: {
+						Count: 1
+						id: "chipped:alchemy_bench"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2D5F24804DCC28B8"
-					item: "chipped:tinkering_table"
+					item: {
+						Count: 1
+						id: "chipped:tinkering_table"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -215,12 +311,20 @@
 			rewards: [{
 				count: 8
 				id: "3317FE5937421B19"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6EC74EDF13EA092C"
-				item: "sophisticatedbackpacks:backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d

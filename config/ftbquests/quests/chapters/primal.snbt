@@ -24,7 +24,11 @@
 			id: "00D94E537980A27C"
 			rewards: [{
 				id: "1BC22061F86F8DA1"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -52,7 +56,11 @@
 			rewards: [{
 				count: 4
 				id: "3AD1BBB6ACC3E9C1"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -79,18 +87,30 @@
 				"Hunt down every type of dinosaur in the Primordial Caves."
 				"Only then will you become the apex predator of this age once more."
 			]
-			icon: "alexscaves:limestone_spear"
+			icon: {
+				Count: 1
+				id: "alexscaves:limestone_spear"
+				tag: { }
+			}
 			id: "04E30BFBF78E5CC0"
 			rewards: [{
 				count: 16
 				id: "03B20A1644DDF296"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					entity: "alexscaves:subterranodon"
-					icon: "alexscaves:spawn_egg_subterranodon"
+					icon: {
+						Count: 1
+						id: "alexscaves:spawn_egg_subterranodon"
+						tag: { }
+					}
 					id: "76C39352219BAFC6"
 					title: "Subterranodon"
 					type: "kill"
@@ -98,7 +118,11 @@
 				}
 				{
 					entity: "alexscaves:vallumraptor"
-					icon: "alexscaves:spawn_egg_vallumraptor"
+					icon: {
+						Count: 1
+						id: "alexscaves:spawn_egg_vallumraptor"
+						tag: { }
+					}
 					id: "0B417447C1A43738"
 					title: "Vallumraptor"
 					type: "kill"
@@ -106,7 +130,11 @@
 				}
 				{
 					entity: "alexscaves:grottoceratops"
-					icon: "alexscaves:spawn_egg_grottoceratops"
+					icon: {
+						Count: 1
+						id: "alexscaves:spawn_egg_grottoceratops"
+						tag: { }
+					}
 					id: "28166B90936A4604"
 					title: "Grottoceratops"
 					type: "kill"
@@ -114,7 +142,11 @@
 				}
 				{
 					entity: "alexscaves:tremorsaurus"
-					icon: "alexscaves:spawn_egg_tremorsaurus"
+					icon: {
+						Count: 1
+						id: "alexscaves:spawn_egg_tremorsaurus"
+						tag: { }
+					}
 					id: "09D1C0701DE68649"
 					title: "Tremorsaurus"
 					type: "kill"
@@ -122,7 +154,11 @@
 				}
 				{
 					entity: "alexscaves:relicheirus"
-					icon: "alexscaves:spawn_egg_relicheirus"
+					icon: {
+						Count: 1
+						id: "alexscaves:spawn_egg_relicheirus"
+						tag: { }
+					}
 					id: "7A3B755685ADFD43"
 					title: "Relicheirus"
 					type: "kill"
@@ -130,7 +166,11 @@
 				}
 				{
 					entity: "alexscaves:atlatitan"
-					icon: "alexscaves:spawn_egg_atlatitan"
+					icon: {
+						Count: 1
+						id: "alexscaves:spawn_egg_atlatitan"
+						tag: { }
+					}
 					id: "11E0DF2451FD199A"
 					title: "Atlatitan"
 					type: "kill"
@@ -155,12 +195,20 @@
 			rewards: [{
 				count: 16
 				id: "329611868C1A8E5D"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
-				icon: "alexscaves:spawn_egg_luxtructosaurus"
+				icon: {
+					Count: 1
+					id: "alexscaves:spawn_egg_luxtructosaurus"
+					tag: { }
+				}
 				id: "1463067391E6865A"
 				title: "Luxtructosaurus"
 				type: "kill"
@@ -234,12 +282,20 @@
 			rewards: [{
 				count: 16
 				id: "70A73A058CEB5773"
-				item: "kubejs:cad_coin"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7282E51020034CB1"
-				item: "alexscaves:ominous_catalyst"
+				item: {
+					Count: 1
+					id: "alexscaves:ominous_catalyst"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Ominous"
