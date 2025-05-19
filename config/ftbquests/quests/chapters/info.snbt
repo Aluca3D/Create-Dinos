@@ -159,11 +159,6 @@
 				"{@pagebreak}"
 				"There are a few resource packs that make some textures look more like Create."
 				"Have fun with them!"
-				""
-				"{@pagebreak}"
-				"If you find any bugs, or have any requests or ideas (For new Mods or Recipes), please post them to my GitHub (Link in Modpack Description)."
-				""
-				"(Keep in mind that I won't be able to fix or add everything all at once.)"
 			]
 			id: "03140AF8A1ECB10A"
 			tasks: [{
