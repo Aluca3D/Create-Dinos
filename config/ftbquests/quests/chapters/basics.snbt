@@ -1214,7 +1214,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["441083D0BB41F46D"]
+			dependencies: ["2B0C5DD877952D5E"]
 			dependency_requirement: "all_started"
 			description: ["Figure it out yourself."]
 			id: "582B00FD9C2BEA77"
@@ -1269,7 +1269,7 @@
 			]
 			title: "Logistic"
 			x: 0.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["582B00FD9C2BEA77"]
@@ -1308,7 +1308,7 @@
 			]
 			title: "Logistic+"
 			x: 2.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5CC94C0C3EB2D57B"]
@@ -1362,6 +1362,173 @@
 			}]
 			x: -5.0d
 			y: 16.5d
+		}
+		{
+			dependencies: ["582B00FD9C2BEA77"]
+			dependency_requirement: "all_started"
+			description: ["Figure it out yourself."]
+			id: "7258F2CDBE578F98"
+			rewards: [{
+				count: 16
+				id: "3D8C460BF493CF1F"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FCC26A0B69C1C1F"
+					item: "extra_gauges:integer_gauge"
+					type: "item"
+				}
+				{
+					id: "13365BB9CF8F657D"
+					item: "extra_gauges:logic_gauge"
+					type: "item"
+				}
+				{
+					id: "142DCC87C5A0F8D7"
+					item: "extra_gauges:comparator_gauge"
+					type: "item"
+				}
+				{
+					id: "6B915A4E769EF307"
+					item: "extra_gauges:counter_gauge"
+					type: "item"
+				}
+			]
+			title: "Logistic++"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["441083D0BB41F46D"]
+			dependency_requirement: "all_started"
+			id: "2B0C5DD877952D5E"
+			rewards: [{
+				count: 2
+				id: "7E76D25B129E35FA"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "719A4AA37046598A"
+				item: "create:cardboard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B0C5DD877952D5E"]
+			dependency_requirement: "all_started"
+			description: [""]
+			id: "04631D79C64E2887"
+			rewards: [{
+				count: 16
+				id: "60456EB05B0A7853"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16481BC3A746181C"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68A92D56332FCDCF"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5510C88BF8931782"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E32781CBCF89FED"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EB45EA985AAC297"
+					item: "createcardboardthings:cardboard_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7AE277B94503A74F"
+					item: "create:cardboard_sword"
+					type: "item"
+				}
+			]
+			title: "Cardboard+"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2B0C5DD877952D5E"
+				"7F62746987282A44"
+			]
+			dependency_requirement: "all_started"
+			description: [""]
+			hide_until_deps_complete: true
+			id: "16589529C830CA37"
+			rewards: [{
+				count: 16
+				id: "4B5FEE2D6EC2799E"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D9A2CFEB02CA3BE"
+				item: "createcardboardthings:cardboard_elytra"
+				type: "item"
+			}]
+			title: "Cardboard+"
+			x: 2.0d
+			y: 4.5d
 		}
 	]
 	title: "Main"
