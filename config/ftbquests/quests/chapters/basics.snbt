@@ -1289,20 +1289,17 @@
 			tasks: [
 				{
 					id: "39FE03BE80A6C014"
-					item: {
-						Count: 1
-						id: "create_mobile_packages:drone_controller"
-						tag: { }
-					}
+					item: "create_mobile_packages:bee_port"
 					type: "item"
 				}
 				{
 					id: "10E931364372FD47"
-					item: {
-						Count: 1
-						id: "create_mobile_packages:drone_port"
-						tag: { }
-					}
+					item: "create_mobile_packages:portable_stock_ticker"
+					type: "item"
+				}
+				{
+					id: "5A38F42AC2C57F64"
+					item: "create_mobile_packages:robo_bee"
 					type: "item"
 				}
 			]
