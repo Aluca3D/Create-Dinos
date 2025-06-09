@@ -364,6 +364,29 @@
 			x: -3.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["1098B52D460A56CF"]
+			description: ["Shadows..."]
+			id: "3F73A32B52E9FB73"
+			rewards: [{
+				count: 8
+				id: "5138983033C11C87"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "753CAED23EA370B2"
+				item: "alexscaves_torpedoes:brazier"
+				type: "item"
+			}]
+			title: "The Shadows"
+			x: -6.0d
+			y: 4.5d
+		}
 	]
 	title: "Forlorn Hollows"
 }

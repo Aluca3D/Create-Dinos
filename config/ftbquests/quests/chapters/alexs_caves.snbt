@@ -209,6 +209,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3EBEE6A11A13C461"
+					item: "alexscaves_torpedoes:attractive_music_disc"
+					type: "item"
+				}
 			]
 			x: -2.0d
 			y: 1.5d

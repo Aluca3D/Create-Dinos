@@ -1,11 +1,5 @@
 console.info('Loaded Custom Recipes')
 ServerEvents.recipes(event => {
-    // Smelting
-    event.smelting('createnuclear:lead_ingot', 'create:crushed_raw_lead')
-
-    // Blasting
-    event.blasting('createnuclear:lead_ingot', 'create:crushed_raw_lead')
-
     // Stonecutting
     event.stonecutting('morelights:pyle_headlight', 'createaddition:small_light_connector')
     event.stonecutting('morelights:skinny_tube_light', 'createaddition:small_light_connector')

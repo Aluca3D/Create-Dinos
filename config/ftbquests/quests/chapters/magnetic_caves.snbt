@@ -250,6 +250,58 @@
 			x: -9.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: [""]
+			id: "5B1FBF4357F3099C"
+			rewards: [{
+				count: 4
+				id: "30E8D5C79A3A6015"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27D647D6282D8062"
+				item: {
+					Count: 1
+					id: "alexscaves_torpedoes:pulsargun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2645F42556BDE02B"]
+			description: [""]
+			id: "35B8FF63E36B169F"
+			rewards: [{
+				count: 4
+				id: "086408F22543064D"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "627EE4227CD5A9EE"
+				item: {
+					Count: 1
+					id: "alexscaves_torpedoes:pocket_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
 	]
 	title: "Magnetic Caves"
 }

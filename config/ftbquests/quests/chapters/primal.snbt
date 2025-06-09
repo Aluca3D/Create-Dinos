@@ -302,6 +302,69 @@
 			x: -4.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["36A8F862B9E44B99"]
+			description: [""]
+			id: "73174BA2F63F52E4"
+			rewards: [{
+				count: 16
+				id: "06BB397C21A609BE"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "757C5CC95505AB27"
+					item: {
+						Count: 1
+						id: "alexscaves_torpedoes:tectonic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DC45B7E4123D80A"
+					item: {
+						Count: 1
+						id: "alexscaves_torpedoes:tectonic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53A5970D82918463"
+					item: {
+						Count: 1
+						id: "alexscaves_torpedoes:tectonic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08F266F5CD92692F"
+					item: {
+						Count: 1
+						id: "alexscaves_torpedoes:tectonic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	title: "Primordial Caves"
 }

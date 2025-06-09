@@ -300,6 +300,40 @@
 			x: 2.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["52AE569AE139A62C"]
+			description: [""]
+			id: "473B88AA9DC88AA2"
+			rewards: [{
+				count: 4
+				id: "276270BE9A1957DD"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "017013421D1E6A40"
+					item: "alexscaves_torpedoes:torpedo"
+					type: "item"
+				}
+				{
+					id: "58DB85F59F7647A4"
+					item: "alexscaves_torpedoes:torpedo_nuclear"
+					type: "item"
+				}
+				{
+					id: "392F70565F2582C8"
+					item: "alexscaves_torpedoes:torpedo_pulsar"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
 	]
 	title: "Abyssal Chasm"
 }

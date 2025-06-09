@@ -1266,6 +1266,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0FE4956DAED031D9"
+					item: "create:factory_gauge"
+					type: "item"
+				}
 			]
 			title: "Logistic"
 			x: 0.5d
@@ -1394,6 +1399,11 @@
 				{
 					id: "6B915A4E769EF307"
 					item: "extra_gauges:counter_gauge"
+					type: "item"
+				}
+				{
+					id: "38C8EBD18404280F"
+					item: "create_factory_logistics:network_link"
 					type: "item"
 				}
 			]
@@ -1526,6 +1536,37 @@
 			title: "Cardboard+"
 			x: 2.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["582B00FD9C2BEA77"]
+			dependency_requirement: "all_started"
+			description: ["Figure it out yourself."]
+			id: "56AB13E665C98A11"
+			rewards: [{
+				count: 8
+				id: "168F6377F6D1E61C"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A6C0699148A2E74"
+					item: "create_factory_logistics:factory_fluid_gauge"
+					type: "item"
+				}
+				{
+					id: "0B6CAB3A4EE62A28"
+					item: "create_factory_logistics:jar_packager"
+					type: "item"
+				}
+			]
+			title: "Fluids"
+			x: 2.0d
+			y: 9.0d
 		}
 	]
 	title: "Main"
