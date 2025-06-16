@@ -613,13 +613,6 @@ ServerEvents.recipes(event => {
         'minecraft:cactus',
         'minecraft:honey_bottle'
     ])
-    event.shaped(Item.of("minecraft:chest", 4), [
-        'LLL',
-        'L L',
-        'LLL'
-    ], {
-        L: '#minecraft:logs'
-    })
 
     event.shapeless("minecraft:crafting_table", [
         '#biomeswevegone:crafting_tables'
