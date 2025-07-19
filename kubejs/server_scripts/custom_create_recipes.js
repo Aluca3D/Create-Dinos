@@ -130,22 +130,6 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.recipes.create.mechanical_crafting("constructionwand:infinity_wand", [
-        " S ",
-        "SAS",
-        " B ",
-        " H ",
-        " X "
-    ],
-        {
-            S: "#forge:glass",
-            A: "#forge:nether_stars",
-            B: "create:precision_mechanism",
-            X: "create:brass_ingot",
-            H: "#forge:obsidian",
-        }
-    )
-
     // Sequenced Assembly
     let inter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
 
@@ -171,26 +155,6 @@ ServerEvents.recipes(event => {
         event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
         event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
     ]).transitionalItem(inter).loops(1)
-
-    let incomplete_treasure_coin = 'kubejs:incomplete_treasure_coin'
-    event.recipes.create.sequenced_assembly([
-        Item.of('kubejs:treasure_coin'), // this is the item that will appear in JEI as the result
-    ], 'create:golden_sheet', [
-        event.recipes.createCutting(incomplete_treasure_coin, incomplete_treasure_coin),
-        event.recipes.createFilling(incomplete_treasure_coin, [incomplete_treasure_coin, Fluid.of('create_enchantment_industry:experience', 100)]),
-        event.recipes.createPressing(incomplete_treasure_coin, incomplete_treasure_coin),
-    ]).transitionalItem(incomplete_treasure_coin).loops(1)
-
-    let treasure_coin = 'kubejs:incomplete_upgradet_treasure_coin'
-    event.recipes.create.sequenced_assembly([
-        Item.of('kubejs:upgradet_treasure_coin').withChance(16.0), // this is the item that will appear in JEI as the result
-        Item.of('kubejs:treasure_coin').withChance(16.0),
-
-    ], 'kubejs:treasure_coin', [
-        event.recipes.createPressing(treasure_coin, treasure_coin),
-        event.recipes.createFilling(treasure_coin, [treasure_coin, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
-        event.recipes.createCutting(treasure_coin, treasure_coin),
-    ]).transitionalItem(treasure_coin).loops(1)
 
     // Drill
     /// Fluiod

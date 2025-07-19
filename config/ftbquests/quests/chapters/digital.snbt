@@ -98,78 +98,6 @@
 		}
 		{
 			dependencies: ["16F4E0AF78BAAD8C"]
-			description: ["Gambling!"]
-			id: "1E29143DC3C6799A"
-			rewards: [
-				{
-					count: 8
-					id: "24303AE6E1CA9B98"
-					item: {
-						Count: 1
-						id: "kubejs:cad_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "37218EE602CCA1B3"
-					item: {
-						Count: 1
-						id: "kubejs:treasure_coin"
-						tag: { }
-					}
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "kubejs:treasure_coin"
-					tag: { }
-				}
-				id: "05CB654CCEDDE7E0"
-				item: {
-					Count: 1
-					id: "kubejs:treasure_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Gambling!"
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1E29143DC3C6799A"]
-			description: ["Gambling!"]
-			id: "3E7210FC21407090"
-			rewards: [{
-				count: 8
-				id: "3E9AC19EB902CCBD"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "32FD24A372E0DBC2"
-				item: {
-					Count: 1
-					id: "kubejs:upgradet_treasure_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Gambling++"
-			x: -3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["16F4E0AF78BAAD8C"]
 			description: ["Decoration!"]
 			id: "7306792F65D0880D"
 			rewards: [{
@@ -327,8 +255,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 	title: "Misc."
