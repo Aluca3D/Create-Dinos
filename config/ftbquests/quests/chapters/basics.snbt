@@ -1568,6 +1568,112 @@
 			x: 2.0d
 			y: 9.0d
 		}
+		{
+			dependencies: [
+				"3F9A007CA78E92C7"
+				"74C21071C8AA637C"
+			]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "2D2D6243FA190845"
+			rewards: [{
+				count: 16
+				id: "0FA845E8097D126B"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "660969D753FC45A7"
+					item: {
+						Count: 1
+						id: "create_deep_dark:echo_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1571708BD575E2DC"
+					item: {
+						Count: 1
+						id: "create_deep_dark:echo_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CD36971C427B501"
+					item: {
+						Count: 1
+						id: "create_deep_dark:echo_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E97C504D3FA689D"
+					item: {
+						Count: 1
+						id: "create_deep_dark:echo_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39BF4046B302538B"
+					item: {
+						Count: 1
+						id: "create_deep_dark:echo_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "True Endgame"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"3F9A007CA78E92C7"
+				"6F904021BB294BAC"
+			]
+			description: ["Better then Blaze Cakes"]
+			hide_until_deps_complete: true
+			id: "7C6E6861D743C42F"
+			rewards: [{
+				count: 16
+				id: "47878CC96C07E87A"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "721A726A3FF55346"
+				item: "create_deep_dark:echo_cake"
+				type: "item"
+			}]
+			title: "True Endgame"
+			x: -5.0d
+			y: 6.0d
+		}
 	]
 	title: "Main"
 }

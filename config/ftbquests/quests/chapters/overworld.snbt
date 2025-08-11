@@ -383,6 +383,52 @@
 			x: 4.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["1A646FAC6DE176F4"]
+			id: "3F9A007CA78E92C7"
+			rewards: [{
+				count: 2
+				id: "774FAF29C5C77CA4"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk_catalyst"
+				id: "1183EB78F03C8045"
+				type: "biome"
+			}]
+			title: "The Deep Dark"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F9A007CA78E92C7"]
+			id: "6BF036343E4DB085"
+			rewards: [{
+				count: 8
+				id: "641866332860B5F3"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "43052BADAE26E6BF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Run!!"
+			x: 4.0d
+			y: 2.5d
+		}
 	]
 	title: "Overworld"
 }

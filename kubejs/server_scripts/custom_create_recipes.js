@@ -2,6 +2,7 @@ console.info('Loaded Custom Recipes')
 ServerEvents.recipes(event => {
     // Compacting
     event.recipes.create.compacting("minecraft:tuff", [Fluid.water(50), "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone"])
+    event.recipes.create.compacting("minecraft:tuff", [Fluid.water(50), "minecraft:cobbled_deepslate", "minecraft:cobbled_deepslate", "minecraft:cobbled_deepslate", "minecraft:cobbled_deepslate"])
     event.recipes.create.compacting("minecraft:calcite", ["minecraft:gravel", "minecraft:bone_meal", "minecraft:bone_meal", "minecraft:bone_meal"])
     event.recipes.create.compacting("minecraft:deepslate", [Fluid.lava(50), "minecraft:cobblestone"])
 
