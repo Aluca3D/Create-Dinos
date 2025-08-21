@@ -133,6 +133,7 @@ ServerEvents.recipes(event => {
 
     // Sequenced Assembly
     let inter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
+    let Enter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
 
     event.recipes.create.sequenced_assembly([
         Item.of('explorerscompass:explorerscompass').withChance(16.0), // this is the item that will appear in JEI as the result
@@ -144,6 +145,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(inter, [inter, "minecraft:cobweb"]),
         event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
         event.recipes.createDeploying(inter, [inter, "minecraft:cracked_stone_bricks"]),
+        event.recipes.createDeploying(inter, [inter, "minecraft:ender_eye"]),
     ]).transitionalItem(inter).loops(1)
 
     event.recipes.create.sequenced_assembly([
@@ -155,7 +157,23 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(inter, [inter, "#minecraft:saplings"]),
         event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
         event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
+        event.recipes.createDeploying(inter, [inter, "minecraft:ender_eye"]),
     ]).transitionalItem(inter).loops(1)
+
+    
+    event.recipes.create.sequenced_assembly([
+        Item.of('minecraft:ender_eye').withChance(16.0), // this is the item that will appear in JEI as the result
+        Item.of("minecraft:ender_pearl").withChance(16.0), // the rest of these items will be part of the scrap
+
+    ], 'minecraft:ender_pearl', [
+        event.recipes.createFilling(Enter, [Enter, Fluid.of('create_mechanical_spawner:spawn_fluid_blaze', 500)]),
+        event.recipes.createCutting(Enter, Enter),
+        event.recipes.createDeploying(Enter, [Enter, "minecraft:prismarine_shard"]),
+        event.recipes.createDeploying(Enter, [Enter, "minecraft:netherite_scrap"]),
+        event.recipes.createDeploying(Enter, [Enter, "createnuclear:enriched_yellowcake"]),
+        event.recipes.createPressing(Enter, Enter),
+    ]).transitionalItem(Enter).loops(1)
+
 
     // Drill
     /// Fluiod

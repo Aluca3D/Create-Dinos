@@ -65,4 +65,5 @@ ServerEvents.recipes(event => {
     event.remove({ output: "constructionwand:infinity_wand" })
     event.remove({ output: "naturescompass:naturescompass" })
     event.remove({ output: "explorerscompass:explorerscompass" })
+    event.remove({ output: "minecraft:ender_eye" })
 })

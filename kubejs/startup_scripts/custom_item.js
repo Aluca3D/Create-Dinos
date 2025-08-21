@@ -8,4 +8,8 @@ StartupEvents.registry('item', event => {
   event.create('incomplete_compas')
     .maxStackSize(1)
     .texture('cad:item/incomplete_compas')
+
+  event.create('incomplete_ender_eye')
+    .maxStackSize(1)
+    .texture('cad:item/incomplete_ender_eye')
 })
