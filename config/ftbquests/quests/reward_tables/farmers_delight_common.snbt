@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:cooked_beef"
+	id: "780CD6A69473311A"
+	loot_size: 3
+	order_index: 1
+	rewards: [
+		{ count: 6, item: "farmersdelight:tomato", random_bonus: 4, weight: 0.9f }
+		{ count: 6, item: "farmersdelight:cabbage", random_bonus: 4, weight: 0.9f }
+		{ count: 6, item: "farmersdelight:onion", random_bonus: 4, weight: 0.9f }
+		{ count: 4, item: "farmersdelight:rice", random_bonus: 4, weight: 0.85f }
+		{ count: 2, item: "farmersdelight:wheat_dough", random_bonus: 2, weight: 0.75f }
+		{ count: 3, item: "farmersdelight:straw", random_bonus: 3, weight: 0.8f }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "farmersdelight:rope", random_bonus: 3, weight: 0.6f }
+		{ item: "farmersdelight:canvas", random_bonus: 2, weight: 0.55f }
+	]
+	title: "Farmers Delight Common"
+}

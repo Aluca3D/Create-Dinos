@@ -258,6 +258,53 @@
 			x: 1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["16F4E0AF78BAAD8C"]
+			description: ["Explore a Dungeon!"]
+			id: "31694625858A5496"
+			rewards: [{
+				count: 4
+				id: "59726643A16B5879"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "175D7A2764BB3319"
+				item: "lrdynamicdungeon:dungeon_pass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31694625858A5496"]
+			description: [
+				"Ready for a Chalange?"
+				"Add 100!"
+			]
+			id: "48E4BFBA92B67369"
+			rewards: [{
+				count: 8
+				id: "5D3F95E7509EC122"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E56AA3969B30E52"
+				item: "lrdynamicdungeon:challenger_pass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
 	]
 	title: "Misc."
 }

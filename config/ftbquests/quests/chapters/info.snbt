@@ -14,10 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"It is planned to add dinosaurs once &lFossils and Archeology: Revival&r has been ported to 1.20.1."
-				"Until then, have fun with the \"dinosaurs\" that &lAlex's Caves&r adds!"
-			]
+			description: ["Use &lFossils and Archeology: Revival&r and &lAlex's Caves&r  to recreate your own Dino Park"]
 			disable_toast: true
 			id: "04AD5250F99397CF"
 			tasks: [{
@@ -29,7 +26,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["&lSteam 'n Rails&r will be added once it has been ported to Create 6.0.*."]
+			description: ["Use &lSteam 'n Rails&r To build a giant Train Station!"]
 			disable_toast: true
 			id: "4F936B8E26FFE8FF"
 			tasks: [{
@@ -156,9 +153,11 @@
 				"This modpack is a hobby project I created for myself and my friends, but I wanted to share it with more people so others can have fun with it!"
 				"This means it will probably only be maintained by me."
 				"As a result, there may be bugs or missing recipes, but I will be working to fix those and add the missing recipes."
-				"{@pagebreak}"
-				"There are a few resource packs that make some textures look more like Create."
+				""
 				"Have fun with them!"
+				"{@pagebreak}"
+				"Please note: None of the mods or texture packs were created by me."
+				"You can find the full list of mods, texture packs, and shaders used in this hobby modpack on the CurseForge site/app. "
 			]
 			id: "03140AF8A1ECB10A"
 			tasks: [{

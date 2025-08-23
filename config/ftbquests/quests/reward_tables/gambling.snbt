@@ -1,0 +1,7 @@
+{
+	id: "4A2A9FC0F44612C9"
+	loot_size: 1
+	order_index: 2
+	rewards: [{ count: 2, item: "kubejs:cad_coin", random_bonus: 6 }]
+	title: "Gambling"
+}
