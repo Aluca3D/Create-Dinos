@@ -122,7 +122,7 @@
 			]
 			title: "Kitchen Utensiles"
 			x: 0.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["119D6D7F7BE1E719"]
@@ -172,66 +172,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"119D6D7F7BE1E719"
-				"58856B97390DE6BB"
-			]
-			hide_until_deps_complete: true
-			id: "0F10FED2E70F9AF0"
-			rewards: [{
-				count: 4
-				id: "050E6F69AD7D312C"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2351596BD1B0B405"
-				item: {
-					Count: 1
-					id: "nethersdelight:blackstone_stove"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Hell's Kitchen"
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"119D6D7F7BE1E719"
-				"7F62746987282A44"
-			]
-			hide_until_deps_complete: true
-			id: "300924D721053DF9"
-			rewards: [{
-				count: 4
-				id: "1DD6380E8FDDD5B4"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3365FC471131125D"
-				item: {
-					Count: 1
-					id: "endersdelight:endstone_stove"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "End's Kitchen"
-			x: 0.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["119D6D7F7BE1E719"]
 			hide_until_deps_complete: true
 			id: "4A544C73AFF31B91"
@@ -256,7 +196,7 @@
 			}]
 			title: "Tee \\& Coffe"
 			x: -3.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["119D6D7F7BE1E719"]
@@ -311,67 +251,8 @@
 				type: "item"
 			}]
 			title: "Rich"
-			x: -2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"1B9574F7590782B0"
-				"58856B97390DE6BB"
-			]
-			hide_until_deps_complete: true
-			id: "4D7D33D6C5D654DF"
-			rewards: [{
-				count: 4
-				id: "45C90FC98386D654"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "54666ABE766E69F4"
-				item: {
-					Count: 1
-					id: "nethersdelight:soul_compost"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Devil's Compost"
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4D7D33D6C5D654DF"]
-			hide_until_deps_complete: true
-			id: "2B1EDDAA936DCAAA"
-			rewards: [{
-				count: 4
-				id: "1BC396C7C47D419A"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "2C6BB4EDC5995CAE"
-				item: {
-					Count: 1
-					id: "nethersdelight:rich_soul_soil"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Rich Souls"
-			x: -0.5d
-			y: 3.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B5F2C4B5BCB7261"]
@@ -410,45 +291,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2B1EDDAA936DCAAA"]
-			description: ["Place the Colony on Rich Soiul to grow them."]
-			id: "2BCB0970D540E5AD"
-			rewards: [{
-				count: 4
-				id: "49DDF0F14E98F726"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7357B288387F3227"
-					item: {
-						Count: 1
-						id: "nethersdelight:crimson_fungus_colony"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "115FCA5F33D58EA3"
-					item: {
-						Count: 1
-						id: "nethersdelight:warped_fungus_colony"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 4.5d
+			x: -1.5d
+			y: 3.5d
 		}
 	]
 	title: "Farmer's Delight"

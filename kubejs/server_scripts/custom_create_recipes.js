@@ -54,11 +54,6 @@ ServerEvents.recipes(event => {
     ], "minecraft:deepslate"
     ).processingTime(350)
 
-    event.recipes.create.crushing([
-        Item.of("createsifter:dust").withChance(1)
-    ], "minecraft:sand"
-    ).processingTime(350)
-
     // Haunting
     event.recipes.create.haunting('minecraft:soul_campfire', 'minecraft:campfire')
     event.recipes.create.haunting('minecraft:coal', 'minecraft:charcoal')
@@ -67,7 +62,6 @@ ServerEvents.recipes(event => {
     // Milling
     event.recipes.create.milling([Item.of('minecraft:wither_skeleton_skull').withChance(0.01)], 'minecraft:blackstone')
     event.recipes.create.milling([Item.of('minecraft:cobbled_deepslate').withChance(1)], 'minecraft:deepslate')
-    event.recipes.create.milling([Item.of('createsifter:dust').withChance(1)], 'minecraft:sand')
 
     // Mixing
     event.recipes.create.mixing('minecraft:dripstone_block', ['minecraft:calcite', Fluid.water(200)])
@@ -75,13 +69,18 @@ ServerEvents.recipes(event => {
 
     // Sive
     event.recipes.createsifterSifting([
-        Item.of('minecraft:glowstone_dust').withChance(0.5),
-        Item.of('minecraft:redstone').withChance(0.1),
-        Item.of('createnuclear:uranium_powder').withChance(0.05),
-        Item.of("minecraft:blaze_powder").withChance(0.15),
-        Item.of("alexscaves:sulfur_dust").withChance(0.25),
-    ], ['createsifter:dust', 'createsifter:advanced_brass_mesh']
-    )
+        Item.of('fossil:amber_chunk_dominican').withChance(0.01),
+        Item.of('minecraft:beetroot_seeds').withChance(0.05),
+        Item.of('minecraft:bone_meal').withChance(0.20),
+        Item.of('minecraft:carrot').withChance(0.15),
+        Item.of('fossil:fossil_bio').withChance(0.02),
+        Item.of('fossil:fossil_plant').withChance(0.02),
+        Item.of('minecraft:melon_seeds').withChance(0.02),
+        Item.of('minecraft:potato').withChance(0.15),
+        Item.of('fossil:pottery_shard').withChance(0.05),
+        Item.of('minecraft:pumpkin_seeds').withChance(0.02),
+    ], ['#fossil:sifter_inputs', 'createsifter:advanced_brass_mesh'])
+
 
     // Mechanical Crafting
     event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [
@@ -160,7 +159,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(inter, [inter, "minecraft:ender_eye"]),
     ]).transitionalItem(inter).loops(1)
 
-    
+
     event.recipes.create.sequenced_assembly([
         Item.of('minecraft:ender_eye').withChance(16.0), // this is the item that will appear in JEI as the result
         Item.of("minecraft:ender_pearl").withChance(16.0), // the rest of these items will be part of the scrap
@@ -176,9 +175,15 @@ ServerEvents.recipes(event => {
 
 
     // Drill
-    /// Fluiod
+    /// Fluid
+    ////Lava
     event.recipes.createoreexcavation.vein('{"text": "Lava well"}', 'minecraft:lava_bucket')
         .placement(1024, 128, 64630185).alwaysInfinite().id("kubejs:cad_lava_well")
     event.recipes.createoreexcavation.extracting('minecraft:lava 250', 'kubejs:cad_lava_well', 40)
         .id("kubejs:cad_lava_well_drill");
+    //// Tar
+    event.recipes.createoreexcavation.vein('{"text": "Tar well"}', 'fossil:tar_bucket')
+        .placement(1024, 128, 64630194).alwaysInfinite().id("kubejs:cad_tar_well")
+    event.recipes.createoreexcavation.extracting('fossil:tar 125', 'kubejs:cad_tar_well', 40)
+        .id("kubejs:cad_tar_well_drill");
 })
