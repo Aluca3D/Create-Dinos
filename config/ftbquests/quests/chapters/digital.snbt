@@ -277,7 +277,7 @@
 				item: "lrdynamicdungeon:dungeon_pass"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -302,8 +302,8 @@
 				item: "lrdynamicdungeon:challenger_pass"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 	title: "Misc."

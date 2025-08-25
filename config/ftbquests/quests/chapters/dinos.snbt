@@ -3,23 +3,292 @@
 	default_quest_shape: ""
 	filename: "dinos"
 	group: "24631FA894EE36E8"
+	icon: "fossil:fossil_bio"
 	id: "4F46E251E4BB68BC"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["04AD5250F99397CF"]
-		description: ["There will soon be new Queste here, i am working on them so pleace be patiant."]
-		hide_until_deps_complete: true
-		id: "42CE91632CE49B46"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			id: "76790374CC175495"
-			title: "Dinos?"
-			type: "checkmark"
-		}]
-		x: -2.0d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["04AD5250F99397CF"]
+			description: ["Its Time!"]
+			hide_until_deps_complete: true
+			id: "42CE91632CE49B46"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "76790374CC175495"
+				title: "Dinos!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"277118D2D6C4D8DA"
+				"73A997E9E4F7F6AD"
+			]
+			id: "443679F7C47D4BDD"
+			rewards: [{
+				count: 4
+				id: "7DD84134577A8605"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64C9E57AC0BCB14A"
+					item: "fossil:analyzer"
+					type: "item"
+				}
+				{
+					id: "4C6721E164577D1F"
+					item: "fossil:culture_vat"
+					type: "item"
+				}
+			]
+			title: "The Beginning"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42CE91632CE49B46"]
+			id: "277118D2D6C4D8DA"
+			rewards: [{
+				count: 4
+				id: "717237165C380688"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58C68ABD80C81E50"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(fossil:fossils)"
+					}
+				}
+				type: "item"
+			}]
+			title: "Fossiles"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42CE91632CE49B46"]
+			id: "667C3EC2F488E567"
+			rewards: [{
+				count: 8
+				id: "7B54E3AF2C97495A"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5103AE639F75A506"
+					item: "fossil:music_disc_bones"
+					type: "item"
+				}
+				{
+					id: "06B9F16F24CFE59F"
+					item: "fossil:music_disc_anu"
+					type: "item"
+				}
+				{
+					id: "37205CD9B9A0120F"
+					item: "fossil:music_disc_scarab"
+					type: "item"
+				}
+				{
+					id: "78EE460B3D6A5EBF"
+					item: "fossil:music_disc_discovery"
+					type: "item"
+				}
+			]
+			title: "Old Music"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["443679F7C47D4BDD"]
+			id: "468D5A384720D182"
+			rewards: [{
+				count: 4
+				id: "3DACF4E507F5A802"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58A9261173624D35"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(fossil:dna)"
+					}
+				}
+				type: "item"
+			}]
+			title: "DNA"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49DE7650427DD60D"]
+			id: "62E47EAE926D9408"
+			rewards: [{
+				count: 16
+				id: "4032AE1848A407F7"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "fossil:anu_boss"
+				id: "07D731AFA8248228"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Anu"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["443679F7C47D4BDD"]
+			id: "49DE7650427DD60D"
+			rewards: [{
+				count: 16
+				id: "128FAE8AB767B7DB"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F93D6C72B93518F"
+				structure: "fossil:hell_boat"
+				type: "structure"
+			}]
+			title: "Boat"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["443679F7C47D4BDD"]
+			id: "60BE364A3F0E68A9"
+			rewards: [{
+				count: 16
+				id: "114244300D1ACDAB"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70EB802A5E538057"
+					item: {
+						Count: 1
+						id: "fossil:bone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D6CF3BDB654897B"
+					item: {
+						Count: 1
+						id: "fossil:bone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17F6AF276FA297D1"
+					item: {
+						Count: 1
+						id: "fossil:bone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1174BE4D0A3520D3"
+					item: {
+						Count: 1
+						id: "fossil:bone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Armor"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"277118D2D6C4D8DA"
+				"73A997E9E4F7F6AD"
+			]
+			id: "7647827C8A6BE366"
+			rewards: [{
+				count: 4
+				id: "699CD345304805E8"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34B69B1F896B229C"
+					item: "fossil:worktable"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0B6B596D8AE0E8A1"
+					item: { Count: 16, id: "fossil:relic_scrap" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["443679F7C47D4BDD"]
+			id: "429141C0D2E4ACEF"
+			rewards: [{
+				count: 8
+				id: "3EFD4DA61B11A5BF"
+				item: "kubejs:cad_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "121583E67B5B3ADC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(fossil:all_eggs)"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "592DCE836C13CFEC"
+					item: "fossil:dinopedia"
+					type: "item"
+				}
+			]
+			title: "Egg!"
+			x: 6.0d
+			y: 0.5d
+		}
+	]
 	title: "Dinos"
 }

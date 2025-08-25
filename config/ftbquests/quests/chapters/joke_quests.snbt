@@ -223,12 +223,19 @@
 					title: "Lichen Caves"
 					type: "biome"
 				}
+				{
+					biome: "fossil:volcano"
+					icon: "fossil:volcanic_rock"
+					id: "563067CE7AFF1056"
+					type: "biome"
+				}
 			]
 			title: "Nett hier,"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["58856B97390DE6BB"]
 			description: ["go to Bed alredy!"]
 			icon: {
@@ -257,6 +264,32 @@
 			title: "No Life"
 			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["58856B97390DE6BB"]
+			description: ["Well, u cant craft it so use it wisely"]
+			hide_dependency_lines: false
+			id: "5E3C950FA1168E93"
+			invisible: true
+			rewards: [{
+				count: 64
+				id: "1ED4533738DD1E92"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				id: "1FB11F1E2771E517"
+				item: "fossil:sifter"
+				type: "item"
+			}]
+			title: "How?"
+			x: -2.0d
+			y: -0.5d
 		}
 	]
 	title: "Joke Quests"

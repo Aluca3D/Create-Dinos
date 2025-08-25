@@ -1,4 +1,22 @@
 console.info('Loaded Custom Recipes')
+
+function bulkFermentingRecipe(event, inputs, outputs, options) {
+    if (!options) options = {}
+
+    let recipe = {
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: inputs,
+        results: Array.isArray(outputs) ? outputs : [outputs],
+        processingTime: options.time ? options.time : 200
+    }
+
+    if (options.heat && options.heat !== 'none') {
+        recipe.heatRequirement = options.heat
+    }
+
+    event.custom(recipe)
+}
+
 ServerEvents.recipes(event => {
     // Compacting
     event.recipes.create.compacting("minecraft:tuff", [Fluid.water(50), "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone", "minecraft:cobblestone"])
@@ -81,6 +99,284 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:pumpkin_seeds').withChance(0.02),
     ], ['#fossil:sifter_inputs', 'createsifter:advanced_brass_mesh'])
 
+    // Bulk Fermenting
+    /// Flaxen Cheese
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:brown_mushroom" },
+            { item: "minecraft:pumpkin_seeds" },
+            { item: "minecraft:sugar" },
+            { fluid: "minecraft:milk", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:flaxen_cheese", amount: 1000 },
+        { time: 7200, heat: "heated" }
+    )
+    /// Scarlet Cheese
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:crimson_fungus" },
+            { item: "minecraft:nether_wart" },
+            { item: "minecraft:sugar" },
+            { fluid: "minecraft:milk", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:scarlet_cheese", amount: 1000 },
+        { time: 7200, heat: "superheated" }
+    )
+    /// Beer
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:wheat" },
+            { item: "minecraft:wheat_seeds" },
+            { item: "minecraft:brown_mushroom" },
+            { fluid: "minecraft:water", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:beer", amount: 1000 },
+        { time: 7200, heat: "none" }
+    )
+    /// Bloody Mary
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:crops/tomato" },
+            { tag: "forge:crops/cabbage" },
+            { item: "minecraft:sweet_berries" },
+            { fluid: "brewinandchewin:vodka", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:bloody_mary", amount: 1000 },
+        { time: 3600, heat: "heated" }
+    )
+    /// Cocoa Fudge
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:sugar" },
+            { item: "minecraft:cocoa_beans" },
+            { item: "minecraft:cocoa_beans" },
+            { fluid: "minecraft:milk", amount: 500 }
+        ],
+        [
+            { item: "brewinandchewin:cocoa_fudge", amount: 1 }, // guaranteed output
+            { item: "brewinandchewin:cocoa_fudge", amount: 1, chance: 0.25 } // 25% extra
+        ],
+        { time: 7200, heat: "none" }
+    )
+    /// Dread Nog
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:nether_wart" },
+            { item: "minecraft:turtle_egg" },
+            { item: "minecraft:fermented_spider_eye" },
+            { fluid: "brewinandchewin:egg_grog", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:dread_nog", amount: 1000 },
+        { time: 3600, heat: "none" }
+    )
+    /// Egg Grog
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:eggs" },
+            { tag: "forge:crops/cabbage" },
+            { item: "minecraft:sugar" },
+            { fluid: "minecraft:milk", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:egg_grog", amount: 1000 },
+        { time: 7200, heat: "none" }
+    )
+    // Glittering Grenadine
+    bulkFermentingRecipe(
+        event,
+        [
+            { item: "minecraft:glow_berries" },
+            { item: "minecraft:glowstone_dust" },
+            { item: "minecraft:glow_ink_sac" },
+            { fluid: "minecraft:water", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:glittering_grenadine", amount: 1000 },
+        { time: 7200, heat: "none" }
+    )
+    // Jerky
+    bulkFermentingRecipe(event,
+        [
+            { tag: "brewinandchewin:raw_meats" },
+            { tag: "brewinandchewin:raw_meats" },
+            { tag: "brewinandchewin:raw_meats" }
+        ],
+        [
+            { item: "brewinandchewin:jerky" },
+            { item: "brewinandchewin:jerky" },
+            { item: "brewinandchewin:jerky" },
+            { item: "brewinandchewin:jerky", chance: 0.25 }
+        ],
+        { time: 7200, heat: "heated" }
+    )
+
+    // Kimchi
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:crops/cabbage" },
+            { tag: "forge:vegetables" },
+            { item: "minecraft:kelp" }
+        ],
+        [
+            { item: "brewinandchewin:kimchi" },
+            { item: "brewinandchewin:kimchi" },
+            { item: "brewinandchewin:kimchi", chance: 0.25 }
+        ],
+        { time: 7200, heat: "heated" }
+    )
+
+    // Kippers
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:raw_fishes" },
+            { tag: "forge:raw_fishes" },
+            { item: "minecraft:dried_kelp" }
+        ],
+        [
+            { item: "brewinandchewin:kippers" },
+            { item: "brewinandchewin:kippers" },
+            { item: "brewinandchewin:kippers", chance: 0.25 }
+        ],
+        { time: 7200, heat: "heated" }
+    )
+
+    // Mead
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:wheat" },
+            { item: "minecraft:wheat_seeds" },
+            { item: "minecraft:sweet_berries" },
+            { fluid: "brewinandchewin:honey", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:mead", amount: 1000 },
+        { time: 7200, heat: "none" }
+    )
+
+    // Pale Jane
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:honey_bottle" },
+            { item: "farmersdelight:tree_bark" },
+            { item: "minecraft:lily_of_the_valley" },
+            { item: "minecraft:sugar" },
+            { fluid: "brewinandchewin:rice_wine", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:pale_jane", amount: 1000 },
+        { time: 3600, heat: "heated" }
+    )
+
+    // Pickled Pickles
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:sea_pickle" },
+            { item: "minecraft:sea_pickle" },
+            { item: "minecraft:glow_berries" },
+            { fluid: "brewinandchewin:honey", amount: 250 }
+        ],
+        [
+            { item: "brewinandchewin:pickled_pickles" },
+            { item: "brewinandchewin:pickled_pickles" },
+            { item: "brewinandchewin:pickled_pickles", chance: 0.25 }
+        ],
+        { time: 7200, heat: "none" }
+    )
+
+    // Red Rum
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:crimson_fungus" },
+            { item: "minecraft:nether_wart" },
+            { item: "minecraft:fermented_spider_eye" },
+            { item: "minecraft:shroomlight" },
+            { fluid: "brewinandchewin:bloody_mary", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:red_rum", amount: 1000 },
+        { time: 3600, heat: "superheated" }
+    )
+
+    // Rice Wine
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:crops/rice" },
+            { item: "minecraft:brown_mushroom" },
+            { fluid: "minecraft:water", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:rice_wine", amount: 1000 },
+        { time: 7200, heat: "none" }
+    )
+
+    // Saccharine Rum
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:sweet_berries" },
+            { item: "minecraft:sugar_cane" },
+            { item: "minecraft:melon" },
+            { fluid: "brewinandchewin:mead", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:saccharine_rum", amount: 1000 },
+        { time: 3600, heat: "heated" }
+    )
+
+    // Salty Folly
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:sea_pickle" },
+            { item: "minecraft:dried_kelp" },
+            { item: "minecraft:seagrass" },
+            { fluid: "brewinandchewin:vodka", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:salty_folly", amount: 1000 },
+        { time: 3600, heat: "none" }
+    )
+
+    // Steel Toe Stout
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:iron_ingot" },
+            { item: "minecraft:crimson_fungus" },
+            { item: "minecraft:nether_wart" },
+            { item: "minecraft:wheat" },
+            { fluid: "brewinandchewin:strongroot_ale", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:steel_toe_stout", amount: 1000 },
+        { time: 3600, heat: "none" }
+    )
+
+    // Strongroot Ale
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:vegetables/beetroot" },
+            { tag: "forge:vegetables/potato" },
+            { item: "minecraft:brown_mushroom" },
+            { item: "brewinandchewin:jerky" },
+            { fluid: "brewinandchewin:beer", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:strongroot_ale", amount: 1000 },
+        { time: 3600, heat: "none" }
+    )
+
+    // Vodka
+    bulkFermentingRecipe(event,
+        [
+            { tag: "forge:vegetables/potato" },
+            { item: "minecraft:wheat" },
+            { item: "minecraft:wheat_seeds" },
+            { fluid: "minecraft:water", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:vodka", amount: 1000 },
+        { time: 7200, heat: "heated" }
+    )
+
+    // Withering Dross
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:wither_rose" },
+            { item: "minecraft:ink_sac" },
+            { item: "minecraft:nether_wart" },
+            { item: "minecraft:bone" },
+            { fluid: "brewinandchewin:salty_folly", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:withering_dross", amount: 1000 },
+        { time: 7200, heat: "superheated" }
+    )
 
     // Mechanical Crafting
     event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [

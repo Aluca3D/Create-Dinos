@@ -64,7 +64,7 @@
 				type: "item"
 			}]
 			title: "Create: Central Kitchen"
-			x: -2.0d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -121,8 +121,8 @@
 				}
 			]
 			title: "Kitchen Utensiles"
-			x: 0.5d
-			y: -2.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["119D6D7F7BE1E719"]
@@ -168,7 +168,7 @@
 				}
 			]
 			title: "Create Slice \\& Dice"
-			x: -1.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -223,8 +223,8 @@
 				type: "item"
 			}]
 			title: "Compost"
-			x: -1.5d
-			y: 0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1B9574F7590782B0"]
@@ -251,8 +251,8 @@
 				type: "item"
 			}]
 			title: "Rich"
-			x: -1.5d
-			y: 2.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B5F2C4B5BCB7261"]
@@ -291,8 +291,96 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 3.5d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["119D6D7F7BE1E719"]
+			hide_until_deps_complete: true
+			id: "4778B3DD495233C3"
+			rewards: [{
+				count: 4
+				id: "7DFF9CF95DBCD4A9"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "728BED03EF163464"
+					item: "brewinandchewin:keg"
+					type: "item"
+				}
+				{
+					id: "3E82477D20824618"
+					item: "brewinandchewin:heating_cask"
+					type: "item"
+				}
+				{
+					id: "77118C820D50A581"
+					item: "brewinandchewin:ice_crate"
+					type: "item"
+				}
+			]
+			title: "Fermentation"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4778B3DD495233C3"]
+			hide_until_deps_complete: true
+			id: "299898D79CFA2077"
+			rewards: [{
+				count: 4
+				id: "33C30BB4915C4EFE"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C8177D7B370AAC3"
+				item: "brewinandchewin:beer"
+				type: "item"
+			}]
+			title: "Bier"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4778B3DD495233C3"]
+			hide_until_deps_complete: true
+			id: "100B2F245EAB0EB5"
+			rewards: [{
+				count: 4
+				id: "3EFFE1A8AEA0B379"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B22EA6EA38C4612"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "290D3EBD9BC89AC8"
+					item: "brewinandchewin:scarlet_cheese_wheel"
+					type: "item"
+				}
+			]
+			title: "Cheese"
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 	title: "Farmer's Delight"

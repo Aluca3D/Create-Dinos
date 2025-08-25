@@ -1038,6 +1038,29 @@
 			x: 4.0d
 			y: 17.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["381403F2C981FFDC"]
+			id: "1075E606BE0A2BF4"
+			rewards: [{
+				count: 8
+				id: "6A39F44C8D70FAE1"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "fossil:anu_boss"
+				id: "00EA41393E135CDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 21.0d
+		}
 	]
 	title: "Shop"
 }
