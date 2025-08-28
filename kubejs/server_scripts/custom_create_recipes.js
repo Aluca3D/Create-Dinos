@@ -427,34 +427,7 @@ ServerEvents.recipes(event => {
     )
 
     // Sequenced Assembly
-    let inter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
-    let Enter = 'kubejs:incomplete_compas' // making a variable to store the transitional item makes the code more readable
-
-    event.recipes.create.sequenced_assembly([
-        Item.of('explorerscompass:explorerscompass').withChance(16.0), // this is the item that will appear in JEI as the result
-        Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
-
-    ], 'minecraft:compass', [ // the input
-        event.recipes.createPressing(inter, inter),
-        // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-        event.recipes.createDeploying(inter, [inter, "minecraft:cobweb"]),
-        event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
-        event.recipes.createDeploying(inter, [inter, "minecraft:cracked_stone_bricks"]),
-        event.recipes.createDeploying(inter, [inter, "minecraft:ender_eye"]),
-    ]).transitionalItem(inter).loops(1)
-
-    event.recipes.create.sequenced_assembly([
-        Item.of('naturescompass:naturescompass').withChance(16.0), // this is the item that will appear in JEI as the result
-        Item.of('minecraft:compass').withChance(16.0), // the rest of these items will be part of the scrap
-
-    ], 'minecraft:compass', [
-        event.recipes.createCutting(inter, inter),
-        event.recipes.createDeploying(inter, [inter, "#minecraft:saplings"]),
-        event.recipes.createFilling(inter, [inter, Fluid.of('create_enchantment_industry:hyper_experience', 250)]),
-        event.recipes.createDeploying(inter, [inter, "#minecraft:logs"]),
-        event.recipes.createDeploying(inter, [inter, "minecraft:ender_eye"]),
-    ]).transitionalItem(inter).loops(1)
-
+    let Enter = 'kubejs:incomplete_ender_eye' // making a variable to store the transitional item makes the code more readable
 
     event.recipes.create.sequenced_assembly([
         Item.of('minecraft:ender_eye').withChance(16.0), // this is the item that will appear in JEI as the result
