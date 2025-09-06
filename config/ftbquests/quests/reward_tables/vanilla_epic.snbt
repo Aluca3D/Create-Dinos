@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:nether_star"
+	id: "3B1F19E509270268"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "vanilla_epic"
+	}
+	loot_size: 5
+	order_index: 13
+	rewards: [
+		{ item: "minecraft:nether_star", weight: 0.1f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.08f }
+		{ item: "minecraft:dragon_breath", random_bonus: 3, weight: 0.05f }
+		{ item: "minecraft:beacon", weight: 0.08f }
+		{ item: "minecraft:shulker_shell", random_bonus: 2, weight: 0.12f }
+		{ count: 6, item: "minecraft:end_stone", weight: 0.1f }
+		{ count: 4, item: "minecraft:chorus_fruit", weight: 0.07f }
+	]
+	title: "Vanilla Epic"
+}

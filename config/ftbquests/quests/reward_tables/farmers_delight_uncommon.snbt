@@ -1,0 +1,32 @@
+{
+	icon: "farmersdelight:tomato"
+	id: "78D23FFFCDA85036"
+	loot_crate: {
+		color: 43520
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "farmers_delight_uncommon"
+	}
+	loot_size: 3
+	order_index: 5
+	rewards: [
+		{ count: 4, item: "farmersdelight:salmon_roll", random_bonus: 2, weight: 0.65f }
+		{ count: 4, item: "farmersdelight:chicken_soup", random_bonus: 2, weight: 0.6f }
+		{ count: 2, item: "farmersdelight:stuffed_pumpkin", random_bonus: 1, weight: 0.55f }
+		{ item: "farmersdelight:basket", weight: 0.4f }
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.35f
+		}
+	]
+	title: "Farmers Delight Uncommon"
+}

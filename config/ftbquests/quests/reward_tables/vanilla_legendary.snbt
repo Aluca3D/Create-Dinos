@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:dragon_egg"
+	id: "435B741C23A6F01D"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "vanilla_legendary"
+	}
+	loot_size: 6
+	order_index: 14
+	rewards: [
+		{ item: "minecraft:dragon_egg", weight: 0.03f }
+		{ item: "minecraft:totem_of_undying", random_bonus: 2, weight: 0.1f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.05f }
+		{ item: "minecraft:beacon", weight: 0.08f }
+		{ item: "minecraft:nether_star", weight: 0.08f }
+		{ item: "minecraft:dragon_head", weight: 0.06f }
+		{ item: "minecraft:end_crystal", weight: 0.07f }
+	]
+	title: "Vanilla Legendary"
+}

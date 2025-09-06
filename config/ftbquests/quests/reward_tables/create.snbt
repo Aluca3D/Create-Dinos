@@ -1,0 +1,63 @@
+{
+	id: "7D2FED1A0A94855B"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "create_common"
+				}
+			}
+			random_bonus: 1
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "create_uncommon"
+				}
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "create_rare"
+				}
+			}
+			random_bonus: 1
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "create_epic"
+				}
+			}
+			random_bonus: 1
+			weight: 0.15f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "create_legendary"
+				}
+			}
+			random_bonus: 1
+			weight: 0.08f
+		}
+	]
+	title: "Create"
+}

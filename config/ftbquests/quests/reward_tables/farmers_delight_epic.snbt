@@ -1,0 +1,32 @@
+{
+	icon: "farmersdelight:stuffed_pumpkin"
+	id: "444F1754288180B1"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "farmers_delight_epic"
+	}
+	loot_size: 5
+	order_index: 10
+	rewards: [
+		{ count: 3, item: "farmersdelight:pie_crust", random_bonus: 2, weight: 0.25f }
+		{ count: 2, item: "farmersdelight:shepherds_pie_block", weight: 0.2f }
+		{ item: "farmersdelight:cooking_pot", weight: 0.18f }
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15f
+		}
+		{ item: "farmersdelight:basket", weight: 0.12f }
+	]
+	title: "Farmers Delight Epic"
+}

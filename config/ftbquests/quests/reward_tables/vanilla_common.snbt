@@ -1,0 +1,23 @@
+{
+	icon: "minecraft:iron_ingot"
+	id: "4DC075208BFF4AEE"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "vanilla_common"
+	}
+	loot_size: 3
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.9f }
+		{ count: 6, item: "minecraft:coal", random_bonus: 4, weight: 0.85f }
+		{ count: 4, item: "minecraft:redstone", random_bonus: 4, weight: 0.8f }
+		{ count: 3, item: "minecraft:lapis_lazuli", random_bonus: 3, weight: 0.7f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 2, weight: 0.65f }
+	]
+	title: "Vanilla Common"
+}

@@ -359,15 +359,6 @@
 					type: "item"
 				}
 				{
-					id: "3907F1A3396822FD"
-					item: {
-						Count: 1
-						id: "cgs:iron_sight"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					id: "59F854568DC33F21"
 					item: {
 						Count: 1
@@ -457,6 +448,241 @@
 			title: "Build All Gatlingun Upgrades"
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "419244BFDCBE668E"
+			rewards: [{
+				count: 8
+				id: "19F6BF40D6A7327E"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6956B625379F089F"
+				item: {
+					Count: 1
+					id: "cgs:blazegun"
+					tag: {
+						Ammo: "cgs:burnable"
+						AmmoCount: 20000
+						Attachments: { }
+						FireMode: "ntgl:auto"
+						Fuel: {
+							"ntgl:water": 1925
+						}
+						WeaponId: "5953fb9d-ed54-4a6e-be26-ae5cd2808b6c"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "65CAF61BEA0D35F4"
+			rewards: [{
+				count: 8
+				id: "337AAD2FE6403E21"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A389A8AED9AE07A"
+				item: {
+					Count: 1
+					id: "cgs:hammer"
+					tag: {
+						Ammo: "cgs:air"
+						AmmoCount: 0
+						Attachments: { }
+						FireMode: "ntgl:semi"
+						WeaponId: "4c02657c-15aa-437a-b257-3eb176549785"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "562F189D6AD9417A"
+			rewards: [
+				{
+					count: 8
+					id: "74C96AA278BE9EA3"
+					item: {
+						Count: 1
+						id: "kubejs:cad_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56FC0DE52716DA1C"
+					item: "cgs:rocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C7AB5DCA95353D9"
+				item: {
+					Count: 1
+					id: "cgs:launcher"
+					tag: {
+						Ammo: "cgs:rocket"
+						AmmoCount: 0
+						Attachments: { }
+						FireMode: "ntgl:semi"
+						Fuel: {
+							"cgs:air": 870
+						}
+						WeaponId: "bf667e6d-8648-48cc-a3bf-ee16e9d30444"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20378326C262FC5C"]
+			id: "4C28002533F0AEF4"
+			rewards: [{
+				count: 8
+				id: "53F30B08810E06E3"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F3ED33A1DB221D0"
+				item: {
+					Count: 1
+					id: "cgs:frag_grenade"
+					tag: {
+						ThrowMode: "ntgl:safe"
+						WeaponId: "74ed6dd5-f05b-43c0-a1d6-b5cd0ae9d806"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65CAF61BEA0D35F4"]
+			id: "2A6D8A8DC19D48DF"
+			rewards: [{
+				count: 8
+				id: "71ED319D1A3093F0"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5ACD614A8C92A09D"
+					item: {
+						Count: 1
+						id: "cgs:hammer_chamber"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1B45311F0EA3FB30"
+					item: {
+						Count: 1
+						id: "cgs:axe_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65442A4838793AE5"
+					item: {
+						Count: 1
+						id: "cgs:hammer_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Build All Revolver Upgrades"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["562F189D6AD9417A"]
+			id: "0DCF229B0FD9ED97"
+			rewards: [{
+				count: 8
+				id: "74E6E0721D29CC73"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6045E62DB80314D7"
+					item: {
+						Count: 1
+						id: "cgs:ballistazooka"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5E7E3AA84D33C518"
+					item: {
+						Count: 1
+						id: "cgs:launcher_auto"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "24FE84464833201E"
+					item: {
+						Count: 1
+						id: "cgs:big_bayonet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Build All Revolver Upgrades"
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "Guns"

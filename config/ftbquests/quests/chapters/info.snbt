@@ -40,10 +40,6 @@
 		}
 		{
 			description: [
-				"Type &n/creative_sandbox enter&r to jump into a sandbox perfect for factory designing"
-				"and use &n/creative_sandbox leave&r when you're ready to head back!"
-				""
-				"{@pagebreak}"
 				"Type &n/emojilist&r to get a list of all the emojis you can use in the chat."
 				"Simply hover over them to see how to type them in the chat."
 			]

@@ -913,7 +913,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6621EEAA5EF92BEE"
-				table_id: 8365712152194768068L
+				table_id: 9020689274748831067L
 				type: "loot"
 			}]
 			tasks: [{
@@ -935,25 +935,26 @@
 			can_repeat: true
 			dependencies: ["7773F174BF2DE25D"]
 			disable_toast: true
+			icon: "minecraft:grass_block"
 			id: "3C45BC032F32A7F2"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "49F5A730B11E7F31"
-				table_id: 5344259558909285065L
+				table_id: 8859907751112877821L
 				type: "loot"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 16L
 				id: "7EC4BF26E33B44AC"
 				item: {
-					Count: 16
+					Count: 1
 					id: "kubejs:cad_coin"
 					tag: { }
 				}
 				type: "item"
 			}]
-			title: "Gambling"
+			title: "Vanilla"
 			x: 3.0d
 			y: 15.0d
 		}
@@ -966,7 +967,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "63562C7113042ACA"
-				table_id: 8650524995215372570L
+				table_id: 7034115111435546799L
 				type: "loot"
 			}]
 			tasks: [{
@@ -982,60 +983,6 @@
 			}]
 			title: "Farmers Delight Common"
 			x: 3.0d
-			y: 17.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["42CE068435671E0B"]
-			disable_toast: true
-			icon: "create:brass_casing"
-			id: "076E6D3782999F78"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4409E453814E4EAD"
-				table_id: 3307352689695048563L
-				type: "loot"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "509B7ACB46D7EDAA"
-				item: {
-					Count: 16
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Create Rare"
-			x: 4.0d
-			y: 16.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6475CF3EDF899413"]
-			disable_toast: true
-			icon: "artifacts:eternal_steak"
-			id: "74B3EA76E730E18A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4764B785F46E3C21"
-				table_id: 6018714997532165031L
-				type: "loot"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "733179AAE16820D5"
-				item: {
-					Count: 16
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Farmers Delight Rare"
-			x: 4.0d
 			y: 17.0d
 		}
 		{

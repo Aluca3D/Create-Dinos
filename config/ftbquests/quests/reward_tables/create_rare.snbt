@@ -1,22 +1,31 @@
 {
 	icon: "create:brass_casing"
 	id: "2DE613BF8834C373"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "create_rare"
+	}
 	loot_size: 4
-	order_index: 3
+	order_index: 4
 	rewards: [
-		{ count: 8, item: "create:brass_ingot", random_bonus: 4, weight: 0.9f }
-		{ count: 4, item: "create:brass_casing", random_bonus: 2, weight: 0.75f }
-		{ count: 2, item: "create:electron_tube", random_bonus: 3, weight: 0.7f }
-		{ count: 2, item: "create:precision_mechanism", random_bonus: 1, weight: 0.6f }
-		{ count: 2, item: "create:rose_quartz", random_bonus: 3, weight: 0.7f }
-		{ item: "create:blaze_burner", weight: 0.4f }
-		{ item: "create:mechanical_mixer", weight: 0.45f }
-		{ item: "create:mechanical_press", weight: 0.45f }
-		{ item: "create:mechanical_saw", weight: 0.35f }
-		{ item: "create:mechanical_drill", weight: 0.35f }
-		{ item: "create:encased_fan", weight: 0.3f }
-		{ item: "create:sequenced_gearshift", weight: 0.25f }
-		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.2f }
+		{ count: 8, item: "create:brass_ingot", random_bonus: 4, weight: 0.54f }
+		{ count: 4, item: "create:brass_casing", random_bonus: 2, weight: 0.45f }
+		{ count: 2, item: "create:electron_tube", random_bonus: 3, weight: 0.42f }
+		{ count: 2, item: "create:precision_mechanism", random_bonus: 1, weight: 0.36f }
+		{ count: 2, item: "create:rose_quartz", random_bonus: 3, weight: 0.42f }
+		{ item: "create:blaze_burner", weight: 0.24f }
+		{ item: "create:mechanical_mixer", weight: 0.27f }
+		{ item: "create:mechanical_press", weight: 0.27f }
+		{ item: "create:mechanical_saw", weight: 0.21f }
+		{ item: "create:mechanical_drill", weight: 0.21f }
+		{ item: "create:encased_fan", weight: 0.18f }
+		{ item: "create:sequenced_gearshift", weight: 0.15f }
+		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.12f }
 	]
 	title: "Create Rare"
 }

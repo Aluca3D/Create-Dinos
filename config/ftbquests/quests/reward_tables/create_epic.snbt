@@ -1,0 +1,23 @@
+{
+	icon: "create:mechanical_drill"
+	id: "64B5BD9B64C331B3"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "create_epic"
+	}
+	loot_size: 5
+	order_index: 7
+	rewards: [
+		{ count: 4, item: "create:precision_mechanism", random_bonus: 2, weight: 0.3f }
+		{ count: 2, item: "create:integrated_circuit", random_bonus: 2, weight: 0.25f }
+		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.18f }
+		{ item: "create:deployer", weight: 0.2f }
+		{ item: "create:sequenced_gearshift", weight: 0.15f }
+	]
+	title: "Create Epic"
+}

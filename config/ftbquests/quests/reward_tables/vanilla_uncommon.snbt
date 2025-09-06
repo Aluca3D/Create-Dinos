@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:diamond"
+	id: "35F8DD399938E717"
+	loot_crate: {
+		color: 43520
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "vanilla_uncommon"
+	}
+	loot_size: 3
+	order_index: 11
+	rewards: [
+		{ count: 2, item: "minecraft:diamond", random_bonus: 2, weight: 0.4f }
+		{ count: 2, item: "minecraft:emerald", random_bonus: 2, weight: 0.35f }
+		{ item: "minecraft:ender_pearl", random_bonus: 2, weight: 0.25f }
+		{ item: "minecraft:golden_apple", weight: 0.15f }
+	]
+	title: "Vanilla Uncommon"
+}

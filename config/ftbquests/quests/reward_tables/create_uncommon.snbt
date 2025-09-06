@@ -1,0 +1,25 @@
+{
+	icon: "create:cogwheel"
+	id: "28B75DADAD186E99"
+	loot_crate: {
+		color: 43520
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "create_uncommon"
+	}
+	loot_size: 3
+	order_index: 2
+	rewards: [
+		{ count: 4, item: "create:brass_ingot", random_bonus: 2, weight: 0.7f }
+		{ count: 3, item: "create:electron_tube", random_bonus: 2, weight: 0.65f }
+		{ count: 2, item: "create:precision_mechanism", random_bonus: 1, weight: 0.5f }
+		{ item: "create:encased_fan", weight: 0.45f }
+		{ item: "create:mechanical_mixer", weight: 0.4f }
+		{ item: "create:mechanical_press", weight: 0.35f }
+		{ item: "create:mechanical_saw", weight: 0.3f }
+	]
+	title: "Create Uncommon"
+}

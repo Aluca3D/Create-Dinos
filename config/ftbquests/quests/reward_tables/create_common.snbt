@@ -1,6 +1,15 @@
 {
 	icon: "create:andesite_casing"
 	id: "7418FAE104BCDCC4"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "create_common"
+	}
 	loot_size: 3
 	order_index: 0
 	rewards: [

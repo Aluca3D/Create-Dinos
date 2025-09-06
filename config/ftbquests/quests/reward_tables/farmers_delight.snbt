@@ -1,0 +1,63 @@
+{
+	id: "619E326CEE52B0AF"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "farmers_delight_common"
+				}
+			}
+			random_bonus: 1
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "farmers_delight_uncommon"
+				}
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "farmers_delight_rare"
+				}
+			}
+			random_bonus: 1
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "farmers_delight_epic"
+				}
+			}
+			random_bonus: 1
+			weight: 0.15f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "farmers_delight_legendary"
+				}
+			}
+			random_bonus: 1
+			weight: 0.08f
+		}
+	]
+	title: "Farmers Delight"
+}

@@ -1,0 +1,41 @@
+{
+	icon: {
+		Count: 1
+		id: "farmersdelight:skillet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2625067F1B65EF01"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "farmers_delight_legendary"
+	}
+	loot_size: 6
+	order_index: 12
+	rewards: [
+		{ item: "farmersdelight:roast_chicken", weight: 0.15f }
+		{ item: "farmersdelight:stuffed_pumpkin", weight: 0.15f }
+		{ item: "farmersdelight:hamburger", weight: 0.12f }
+		{ item: "farmersdelight:steak_and_potatoes", weight: 0.12f }
+		{ item: "farmersdelight:shepherds_pie_block", weight: 0.1f }
+		{ item: "farmersdelight:cooking_pot", weight: 0.08f }
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08f
+		}
+	]
+	title: "Farmers Delight Legendary"
+}

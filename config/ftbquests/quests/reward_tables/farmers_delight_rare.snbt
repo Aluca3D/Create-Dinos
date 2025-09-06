@@ -1,17 +1,26 @@
 {
 	icon: "artifacts:eternal_steak"
 	id: "5386C566D83883A7"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "farmers_delight_rare"
+	}
 	loot_size: 4
-	order_index: 4
+	order_index: 8
 	rewards: [
-		{ count: 4, item: "farmersdelight:stuffed_pumpkin", weight: 0.6f }
-		{ count: 3, item: "farmersdelight:roast_chicken", weight: 0.6f }
-		{ count: 3, item: "farmersdelight:hamburger", weight: 0.55f }
-		{ count: 3, item: "farmersdelight:steak_and_potatoes", weight: 0.55f }
-		{ count: 2, item: "farmersdelight:rice_roll_medley_block", weight: 0.45f }
-		{ count: 2, item: "farmersdelight:hot_cocoa", random_bonus: 2, weight: 0.5f }
-		{ count: 2, item: "farmersdelight:apple_pie", random_bonus: 1, weight: 0.45f }
-		{ item: "farmersdelight:cooking_pot", weight: 0.35f }
+		{ count: 4, item: "farmersdelight:stuffed_pumpkin", weight: 0.36f }
+		{ count: 3, item: "farmersdelight:roast_chicken", weight: 0.36f }
+		{ count: 3, item: "farmersdelight:hamburger", weight: 0.33f }
+		{ count: 3, item: "farmersdelight:steak_and_potatoes", weight: 0.33f }
+		{ count: 2, item: "farmersdelight:rice_roll_medley_block", weight: 0.27f }
+		{ count: 2, item: "farmersdelight:hot_cocoa", random_bonus: 2, weight: 0.3f }
+		{ count: 2, item: "farmersdelight:apple_pie", random_bonus: 1, weight: 0.27f }
+		{ item: "farmersdelight:cooking_pot", weight: 0.21f }
 		{
 			item: {
 				Count: 1
@@ -20,10 +29,10 @@
 					Damage: 0
 				}
 			}
-			weight: 0.35f
+			weight: 0.21f
 		}
-		{ item: "farmersdelight:basket", weight: 0.3f }
-		{ item: "farmersdelight:safety_net", weight: 0.25f }
+		{ item: "farmersdelight:basket", weight: 0.18f }
+		{ item: "farmersdelight:safety_net", weight: 0.15f }
 	]
 	title: "Farmers Delight Rare"
 }

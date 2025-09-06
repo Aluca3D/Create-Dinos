@@ -1,0 +1,25 @@
+{
+	icon: "create:precision_mechanism"
+	id: "5C0EF2C8AC6E4CF8"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "create_legendary"
+	}
+	loot_size: 6
+	order_index: 9
+	rewards: [
+		{ count: 4, item: "create:precision_mechanism", random_bonus: 2, weight: 0.2f }
+		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.15f }
+		{ item: "create:deployer", weight: 0.15f }
+		{ item: "create:gantry_carriage", weight: 0.1f }
+		{ item: "create:railway_casing", weight: 0.08f }
+		{ item: "create:steam_engine", weight: 0.12f }
+	]
+	title: "Create Legendary"
+}
