@@ -83,6 +83,7 @@ ServerEvents.recipes(event => {
 
     // Mixing
     event.recipes.create.mixing('minecraft:dripstone_block', ['minecraft:calcite', Fluid.water(200)])
+    event.recipes.create.mixing([Fluid.of('create_central_kitchen:dragon_breath', 250), "minecraft:dragon_egg"], ["minecraft:dragon_egg", Fluid.water(250)])
     event.recipes.create.mixing('minecraft:wither_rose', ['minecraft:poppy', Fluid.of('create_enchantment_industry:ink', 250)])
 
     // Sive
@@ -427,11 +428,11 @@ ServerEvents.recipes(event => {
     )
 
     // Sequenced Assembly
-    let Enter = 'kubejs:incomplete_ender_eye' // making a variable to store the transitional item makes the code more readable
+    let Enter = 'kubejs:incomplete_ender_eye'
 
     event.recipes.create.sequenced_assembly([
-        Item.of('minecraft:ender_eye').withChance(16.0), // this is the item that will appear in JEI as the result
-        Item.of("minecraft:ender_pearl").withChance(16.0), // the rest of these items will be part of the scrap
+        Item.of('minecraft:ender_eye').withChance(50.0), // this is the item that will appear in JEI as the result
+        Item.of("minecraft:ender_pearl").withChance(50.0), // the rest of these items will be part of the scrap
 
     ], 'minecraft:ender_pearl', [
         event.recipes.createFilling(Enter, [Enter, Fluid.of('create_mechanical_spawner:spawn_fluid_blaze', 500)]),
@@ -439,6 +440,16 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(Enter, [Enter, "minecraft:prismarine_shard"]),
         event.recipes.createDeploying(Enter, [Enter, "minecraft:netherite_scrap"]),
         event.recipes.createDeploying(Enter, [Enter, "createnuclear:enriched_yellowcake"]),
+        event.recipes.createPressing(Enter, Enter),
+    ]).transitionalItem(Enter).loops(1)
+
+        event.recipes.create.sequenced_assembly([
+        Item.of('minecraft:ender_eye').withChance(10.0), // this is the item that will appear in JEI as the result
+        Item.of("minecraft:ender_pearl").withChance(90.0), // the rest of these items will be part of the scrap
+
+    ], 'minecraft:ender_pearl', [
+        event.recipes.createFilling(Enter, [Enter, Fluid.of('create_central_kitchen:dragon_breath', 500)]),
+        event.recipes.createDeploying(Enter, [Enter, "minecraft:blaze_powder"]),
         event.recipes.createPressing(Enter, Enter),
     ]).transitionalItem(Enter).loops(1)
 

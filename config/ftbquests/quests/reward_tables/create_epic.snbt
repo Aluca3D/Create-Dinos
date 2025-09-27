@@ -14,7 +14,6 @@
 	order_index: 7
 	rewards: [
 		{ count: 4, item: "create:precision_mechanism", random_bonus: 2, weight: 0.3f }
-		{ count: 2, item: "create:integrated_circuit", random_bonus: 2, weight: 0.25f }
 		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.18f }
 		{ item: "create:deployer", weight: 0.2f }
 		{ item: "create:sequenced_gearshift", weight: 0.15f }

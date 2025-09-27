@@ -366,6 +366,7 @@
 				"6F904021BB294BAC"
 			]
 			description: ["You can buy the fuel tanks needed for the jetpacks and exoskeletons here."]
+			hide_until_deps_visible: true
 			id: "383161D6200DE16D"
 			tasks: [{
 				id: "70406FEEC790AF82"
@@ -895,6 +896,7 @@
 				"2C983D6637730B04"
 			]
 			description: ["Gambling"]
+			hide_until_deps_visible: true
 			id: "7773F174BF2DE25D"
 			tasks: [{
 				id: "4D3C43EA0B53334F"
