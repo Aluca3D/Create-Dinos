@@ -266,6 +266,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["58856B97390DE6BB"]
 			description: ["Well, u cant craft it so use it wisely"]
 			hide_dependency_lines: false

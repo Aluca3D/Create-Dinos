@@ -1,5 +1,8 @@
 console.info('Loaded Custom Recipes')
 
+const XP_COST = { common: 250, uncommon: 500, rare: 750, epic: 500, legendary: 1000 };
+
+
 function bulkFermentingRecipe(event, inputs, outputs, options) {
     if (!options) options = {}
 
@@ -16,6 +19,68 @@ function bulkFermentingRecipe(event, inputs, outputs, options) {
 
     event.custom(recipe)
 }
+
+function lootCrateCrafting(event, MixingItems, commonNBT, uncommonNBT, rareNBT, epicNBT, legendaryNBT) {
+
+    // Common
+    event.recipes.create.mixing(
+        [
+            Item.of('ftbquests:lootcrate', commonNBT).withChance(0.40),
+            Item.of(MixingItems[1]).withChance(0.30),
+            Item.of(MixingItems[2]).withChance(0.30),
+        ],
+        MixingItems
+    )
+
+    // Uncommon
+    event.recipes.create.mixing(
+        [
+            Item.of('ftbquests:lootcrate', uncommonNBT).withChance(0.30),
+            Item.of('ftbquests:lootcrate', commonNBT).withChance(0.70),
+        ],
+        [
+            Item.of('ftbquests:lootcrate', commonNBT).weakNBT(),
+            Fluid.of('create_enchantment_industry:experience', XP_COST.uncommon)
+        ]
+    )
+
+    // Rare
+    event.recipes.create.mixing(
+        [
+            Item.of('ftbquests:lootcrate', rareNBT).withChance(0.25),
+            Item.of('ftbquests:lootcrate', uncommonNBT).withChance(0.75),
+        ],
+        [
+            Item.of('ftbquests:lootcrate', uncommonNBT).weakNBT(),
+            Fluid.of('create_enchantment_industry:experience', XP_COST.rare)
+        ]
+    )
+
+    // Epic
+    event.recipes.create.mixing(
+        [
+            Item.of('ftbquests:lootcrate', epicNBT).withChance(0.15),
+            Item.of('ftbquests:lootcrate', rareNBT).withChance(0.85),
+        ],
+        [
+            Item.of('ftbquests:lootcrate', rareNBT).weakNBT(),
+            Fluid.of('create_enchantment_industry:hyper_experience', XP_COST.epic)
+        ]
+    )
+
+    // Legendary
+    event.recipes.create.mixing(
+        [
+            Item.of('ftbquests:lootcrate', legendaryNBT).withChance(0.10),
+            Item.of('ftbquests:lootcrate', epicNBT).withChance(0.90),
+        ],
+        [
+            Item.of('ftbquests:lootcrate', epicNBT).weakNBT(),
+            Fluid.of('create_enchantment_industry:hyper_experience', XP_COST.legendary)
+        ]
+    )
+}
+
 
 ServerEvents.recipes(event => {
     // Compacting
@@ -85,6 +150,63 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('minecraft:dripstone_block', ['minecraft:calcite', Fluid.water(200)])
     event.recipes.create.mixing([Fluid.of('create_central_kitchen:dragon_breath', 250), "minecraft:dragon_egg"], ["minecraft:dragon_egg", Fluid.water(250)])
     event.recipes.create.mixing('minecraft:wither_rose', ['minecraft:poppy', Fluid.of('create_enchantment_industry:ink', 250)])
+
+    event.recipes.create.mixing(
+        [
+            Item.of('kubejs:cad_coin').withChance(0.10),
+            Item.of('create:golden_sheet').withChance(0.45),
+            Item.of('#fossil:fossils').withChance(0.45)
+        ],
+        ['create:golden_sheet', '#fossil:fossils']
+    )
+
+    /// Create
+    lootCrateCrafting(
+        event,
+        [
+            "#forge:chests",
+            'create:andesite_alloy',
+            'create:cogwheel',
+            Fluid.of('create_enchantment_industry:experience', XP_COST.common)
+        ],
+        '{type:"create_common"}',
+        '{type:"create_uncommon"}',
+        '{type:"create_rare"}',
+        '{type:"create_epic"}',
+        '{type:"create_legendary"}'
+    );
+
+    // Vanilla
+    lootCrateCrafting(
+        event,
+        [
+            "#forge:chests",
+            "minecraft:grass_block",
+            "minecraft:gold_ingot",
+            Fluid.of('create_enchantment_industry:experience', XP_COST.common)
+        ],
+        '{type:"vanilla_common"}',
+        '{type:"vanilla_uncommon"}',
+        '{type:"vanilla_rare"}',
+        '{type:"vanilla_epic"}',
+        '{type:"vanilla_legendary"}'
+    );
+
+    // Farmers Delight
+    lootCrateCrafting(
+        event,
+        [
+            "#forge:chests",
+            "farmersdelight:tomato",
+            "farmersdelight:rice",
+            Fluid.of('create_enchantment_industry:experience', XP_COST.common)
+        ],
+        '{type:"farmers_delight_common"}',
+        '{type:"farmers_delight_uncommon"}',
+        '{type:"farmers_delight_rare"}',
+        '{type:"farmers_delight_epic"}',
+        '{type:"farmers_delight_legendary"}'
+    );
 
     // Sive
     event.recipes.createsifterSifting([
@@ -443,7 +565,7 @@ ServerEvents.recipes(event => {
         event.recipes.createPressing(Enter, Enter),
     ]).transitionalItem(Enter).loops(1)
 
-        event.recipes.create.sequenced_assembly([
+    event.recipes.create.sequenced_assembly([
         Item.of('minecraft:ender_eye').withChance(10.0), // this is the item that will appear in JEI as the result
         Item.of("minecraft:ender_pearl").withChance(90.0), // the rest of these items will be part of the scrap
 
