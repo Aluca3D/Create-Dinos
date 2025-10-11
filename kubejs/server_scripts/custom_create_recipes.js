@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
     lootCrateCrafting(
         event,
         [
-            "#forge:chests",
+            "#forge:chests/wooden",
             'create:andesite_alloy',
             'create:cogwheel',
             Fluid.of('create_enchantment_industry:experience', XP_COST.common)
@@ -180,7 +180,7 @@ ServerEvents.recipes(event => {
     lootCrateCrafting(
         event,
         [
-            "#forge:chests",
+            "#forge:chests/wooden",
             "minecraft:grass_block",
             "minecraft:gold_ingot",
             Fluid.of('create_enchantment_industry:experience', XP_COST.common)
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
     lootCrateCrafting(
         event,
         [
-            "#forge:chests",
+            "#forge:chests/wooden",
             "farmersdelight:tomato",
             "farmersdelight:rice",
             Fluid.of('create_enchantment_industry:experience', XP_COST.common)
