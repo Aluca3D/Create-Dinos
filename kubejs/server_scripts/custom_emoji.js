@@ -30,7 +30,6 @@ const emojiMap = {
   ":book:": "\uD83D\uDCD6",   // 📖
   ":map:": "\uD83D\uDDFA",    // 🗺
   ":hammer:": "\u2692",       // ⚒
-  ":trident:": "\u1F531",     // 🔱
   ":crown:": "\uD83D\uDC51",  // 👑
   ":chest:": "\uD83D\uDC5C",  // 👜
   ":scroll:": "\uD83D\uDCDC", // 📜

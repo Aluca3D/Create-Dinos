@@ -1010,6 +1010,150 @@
 			x: 0.5d
 			y: 21.0d
 		}
+		{
+			dependencies: [
+				"64A2E905E6C15241"
+				"34EDAD7511335906"
+			]
+			description: ["You can buy Chunks for you and/or your Team!"]
+			id: "1B379F086B1785F3"
+			tasks: [{
+				id: "5CC5C9CB77D1C390"
+				title: "Chunks"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B379F086B1785F3"]
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "6866F8A0A4FD909D"
+			rewards: [{
+				command: "/ftbchunks admin extra_claim_chunks @p add 1"
+				elevate_perms: true
+				icon: "minecraft:grass_block"
+				id: "0B38BBE969084560"
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "54AE757BBD512915"
+				item: { Count: 64, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "1x Chunk"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B379F086B1785F3"]
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "046A0B713B57D62D"
+			rewards: [{
+				command: "/ftbchunks admin extra_claim_chunks @p add 2"
+				elevate_perms: true
+				icon: "minecraft:grass_block"
+				id: "4D3981BAC2103B9B"
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "20C03CFB9A7DC5DD"
+				item: { Count: 128, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "2x Chunk"
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B379F086B1785F3"]
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "2AF094516286CC5E"
+			rewards: [{
+				command: "/ftbchunks admin extra_claim_chunks @p add 4"
+				elevate_perms: true
+				icon: "minecraft:grass_block"
+				id: "604E71B3934FFE92"
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "1BF10F8F5E784EC5"
+				item: { Count: 256, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "4x Chunk"
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B379F086B1785F3"]
+			icon: "minecraft:grass_block"
+			id: "3D9E0492C647F29D"
+			rewards: [{
+				command: "/ftbchunks admin extra_claim_chunks @p add 8"
+				elevate_perms: true
+				icon: "minecraft:grass_block"
+				id: "1DDFF658EC2B52DE"
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "4F4BE90679190FCB"
+				item: { Count: 512, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "8x Chunk"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B379F086B1785F3"]
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "3743D06DFD69BC31"
+			rewards: [{
+				command: "/ftbchunks admin extra_claim_chunks @p add 16"
+				elevate_perms: true
+				icon: "minecraft:grass_block"
+				id: "20D458BF3312E99D"
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "074E71996C98EE2E"
+				item: { Count: 1024, id: "kubejs:cad_coin" }
+				type: "item"
+			}]
+			title: "16x Chunk"
+			x: 1.5d
+			y: 8.0d
+		}
 	]
 	title: "Shop"
 }

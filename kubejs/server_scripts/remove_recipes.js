@@ -55,7 +55,8 @@ ServerEvents.recipes(event => {
         'hull_reinforcement',
         'improved_landing_gear',
         'bomb_bay',
-        'rotary_cannon'
+        'rotary_cannon',
+        'bamboo_hopper'
     ]
 
     immersive_aircraft.forEach(immersive => {

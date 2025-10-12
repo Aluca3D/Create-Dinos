@@ -150,6 +150,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('minecraft:dripstone_block', ['minecraft:calcite', Fluid.water(200)])
     event.recipes.create.mixing([Fluid.of('create_central_kitchen:dragon_breath', 250), "minecraft:dragon_egg"], ["minecraft:dragon_egg", Fluid.water(250)])
     event.recipes.create.mixing('minecraft:wither_rose', ['minecraft:poppy', Fluid.of('create_enchantment_industry:ink', 250)])
+    event.recipes.create.mixing([Item.of("minecraft:sculk"), Item.of("minecraft:sculk").withChance(0.5)], ['minecraft:sculk', Fluid.of('create_enchantment_industry:experience', 250)])
 
     event.recipes.create.mixing(
         [
@@ -527,6 +528,21 @@ ServerEvents.recipes(event => {
         E: 'immersive_aircraft:engine',
         P: 'immersive_aircraft:propeller',
         S: 'immersive_aircraft:sail',
+        M: '#create:seats'
+    })
+
+    event.recipes.create.mechanical_crafting('immersive_aircraft:bamboo_hopper', [
+        " BBXP",
+        "B EH ",
+        "PHMB ",
+        "B EH ",
+        " BBXP"
+    ], {
+        H: 'immersive_aircraft:hull',
+        E: 'immersive_aircraft:engine',
+        P: 'immersive_aircraft:propeller',
+        B: "minecraft:bamboo_block",
+        X: 'immersive_aircraft:biplane',
         M: '#create:seats'
     })
 
