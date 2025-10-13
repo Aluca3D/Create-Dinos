@@ -1,5 +1,5 @@
 version:3465
-resourcePacks:["vanilla","mod_resources","file/Create Immersive Aircraft Warship ResoucePack v1.2.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/CreateSophisticatedBackpacks.zip","Moonlight Mods Dynamic Assets","fabric","file/v2_REFRESH_Building_Gadgets_Create_Like.zip"]
+resourcePacks:["vanilla","mod_resources","file/Create Immersive Aircraft Warship ResoucePack v1.2.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/CreateSophisticatedBackpacks.zip","Moonlight Mods Dynamic Assets","fabric","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/Create Immersive Aircrafts Bamboo hopper Resource .zip"]
 incompatibleResourcePacks:["file/CreateSophisticatedBackpacks.zip"]
 autoJump:false
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.tab

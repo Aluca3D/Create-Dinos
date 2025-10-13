@@ -15,7 +15,6 @@
 	rewards: [
 		{ item: "minecraft:nether_star", weight: 0.1f }
 		{ item: "minecraft:enchanted_golden_apple", weight: 0.08f }
-		{ item: "minecraft:dragon_breath", random_bonus: 3, weight: 0.05f }
 		{ item: "minecraft:beacon", weight: 0.08f }
 		{ item: "minecraft:shulker_shell", random_bonus: 2, weight: 0.12f }
 		{ count: 6, item: "minecraft:end_stone", weight: 0.1f }
