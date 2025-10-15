@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
             Item.of('create:golden_sheet').withChance(0.45),
             Item.of('#fossil:fossils').withChance(0.45)
         ],
-        ['create:golden_sheet', '#fossil:fossils']
+        ['create:golden_sheet', '#fossil:fossils', Fluid.lava(100)]
     )
 
     /// Create

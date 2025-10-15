@@ -33,3 +33,5 @@ key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.special_ability:key.keyboard.g:CONTROL
 key_create_mobile_packages.keyinfo.open_portable_stock_ticker:key.keyboard.unknown
+key_key.ntgl.fire_select:key.keyboard.unknown
+key_key.emotecraft.fastchoose:key.keyboard.y

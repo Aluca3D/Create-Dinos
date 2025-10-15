@@ -1042,9 +1042,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 64L
+				count: 128L
 				id: "54AE757BBD512915"
-				item: { Count: 64, id: "kubejs:cad_coin" }
+				item: { Count: 128, id: "kubejs:cad_coin" }
 				type: "item"
 			}]
 			title: "1x Chunk"
@@ -1068,9 +1068,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 128L
+				count: 256L
 				id: "20C03CFB9A7DC5DD"
-				item: { Count: 128, id: "kubejs:cad_coin" }
+				item: { Count: 256, id: "kubejs:cad_coin" }
 				type: "item"
 			}]
 			title: "2x Chunk"
@@ -1094,9 +1094,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 256L
+				count: 512L
 				id: "1BF10F8F5E784EC5"
-				item: { Count: 256, id: "kubejs:cad_coin" }
+				item: { Count: 512, id: "kubejs:cad_coin" }
 				type: "item"
 			}]
 			title: "4x Chunk"
@@ -1119,9 +1119,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 512L
+				count: 1024L
 				id: "4F4BE90679190FCB"
-				item: { Count: 512, id: "kubejs:cad_coin" }
+				item: { Count: 1024, id: "kubejs:cad_coin" }
 				type: "item"
 			}]
 			title: "8x Chunk"
@@ -1145,9 +1145,9 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 1024L
+				count: 2048L
 				id: "074E71996C98EE2E"
-				item: { Count: 1024, id: "kubejs:cad_coin" }
+				item: { Count: 2048, id: "kubejs:cad_coin" }
 				type: "item"
 			}]
 			title: "16x Chunk"
