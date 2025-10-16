@@ -212,16 +212,24 @@ ServerEvents.recipes(event => {
     // Sive
     event.recipes.createsifterSifting([
         Item.of('fossil:amber_chunk_dominican').withChance(0.01),
-        Item.of('minecraft:beetroot_seeds').withChance(0.05),
-        Item.of('minecraft:bone_meal').withChance(0.20),
-        Item.of('minecraft:carrot').withChance(0.15),
         Item.of('fossil:fossil_bio').withChance(0.02),
         Item.of('fossil:fossil_plant').withChance(0.02),
-        Item.of('minecraft:melon_seeds').withChance(0.02),
-        Item.of('minecraft:potato').withChance(0.15),
+        Item.of('minecraft:pumpkin_seeds').withChance(0.04),
+        Item.of('minecraft:melon_seeds').withChance(0.04),
         Item.of('fossil:pottery_shard').withChance(0.05),
-        Item.of('minecraft:pumpkin_seeds').withChance(0.02),
-    ], ['#fossil:sifter_inputs', 'createsifter:advanced_brass_mesh'])
+        Item.of('minecraft:beetroot_seeds').withChance(0.05),
+        Item.of('minecraft:potato').withChance(0.15),
+        Item.of('minecraft:carrot').withChance(0.15),
+        Item.of('minecraft:bone_meal').withChance(0.20),
+    ], ['#fossil:sifter_inputs', 'kubejs:fossil_mesh'])
+
+    event.recipes.createsifterSifting([
+        Item.of("fossil:frozen_meat").withChance(0.02),
+        Item.of("minecraft:sweet_berries").withChance(0.15),
+        Item.of("minecraft:snowball").withChance(0.15),
+        Item.of("minecraft:snow_block").withChance(0.20),
+        Item.of("minecraft:ice").withChance(0.20),
+    ], ["minecraft:packed_ice", 'kubejs:fossil_mesh'])
 
     // Bulk Fermenting
     /// Flaxen Cheese
@@ -591,6 +599,13 @@ ServerEvents.recipes(event => {
         event.recipes.createPressing(Enter, Enter),
     ]).transitionalItem(Enter).loops(1)
 
+    let fossil_mesh = "kubejs:fossil_mesh"
+    event.recipes.create.sequenced_assembly([
+        Item.of(fossil_mesh)
+    ], "createsifter:advanced_brass_mesh", [
+        event.recipes.createDeploying(fossil_mesh, [fossil_mesh, "#fossil:fossils"]),
+        event.recipes.createPressing(fossil_mesh, fossil_mesh),
+    ]).transitionalItem(fossil_mesh).loops(1)
 
     // Drill
     /// Fluid

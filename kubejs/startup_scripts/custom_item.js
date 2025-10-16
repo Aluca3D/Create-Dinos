@@ -12,4 +12,11 @@ StartupEvents.registry('item', event => {
   event.create('incomplete_ender_eye')
     .maxStackSize(1)
     .texture('cad:item/incomplete_ender_eye')
-})
+  
+  // Fossile Mesh
+  event.create('fossil_mesh','createsifter:advanced_mesh')
+      .displayName('Fossil Mesh')
+      .parentModel("createsifter:block/meshes/mesh")
+      .texture("mesh","cad:item/fossil_mesh")
+  }
+)
