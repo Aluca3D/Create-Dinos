@@ -10,23 +10,25 @@
 		}
 		string_id: "farmers_delight_uncommon"
 	}
-	loot_size: 3
-	order_index: 5
+	loot_size: 1
+	order_index: 9
 	rewards: [
-		{ count: 4, item: "farmersdelight:salmon_roll", random_bonus: 2, weight: 0.65f }
-		{ count: 4, item: "farmersdelight:chicken_soup", random_bonus: 2, weight: 0.6f }
-		{ count: 2, item: "farmersdelight:stuffed_pumpkin", random_bonus: 1, weight: 0.55f }
-		{ item: "farmersdelight:basket", weight: 0.4f }
-		{
-			item: {
-				Count: 1
-				id: "farmersdelight:skillet"
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 0.35f
-		}
+		{ count: 2, item: "minecraft:potato", random_bonus: 8, weight: 7f }
+		{ count: 2, item: "minecraft:carrot", random_bonus: 8, weight: 7f }
+		{ count: 2, item: "farmersdelight:cabbage", random_bonus: 8, weight: 6f }
+		{ count: 2, item: "farmersdelight:tomato", random_bonus: 8, weight: 7f }
+		{ count: 2, item: "farmersdelight:onion", random_bonus: 8, weight: 7f }
+		{ count: 2, item: "farmersdelight:rice_panicle", random_bonus: 8, weight: 7f }
+		{ count: 2, item: "minecraft:beetroot", random_bonus: 8, weight: 7f }
+		{ count: 1, item: "minecraft:cocoa_beans", random_bonus: 5, weight: 7f }
+		{ count: 1, item: "farmersrespite:coffee_berries", random_bonus: 2, weight: 8f }
+		{ count: 1, item: "farmersrespite:coffee_beans", random_bonus: 2, weight: 6f }
+		{ count: 1, item: "farmersrespite:green_tea_leaves", random_bonus: 2, weight: 6f }
+		{ count: 1, item: "farmersrespite:yellow_tea_leaves", random_bonus: 2, weight: 6f }
+		{ count: 1, item: "farmersrespite:black_tea_leaves", random_bonus: 2, weight: 6f }
+		{ count: 1, item: "farmersdelight:organic_compost", random_bonus: 2, weight: 8f }
+		{ count: 1, item: "brewinandchewin:unripe_flaxen_cheese_wheel", random_bonus: 0, weight: 2f }
+		{ count: 1, item: "brewinandchewin:flaxen_cheese_wedge", random_bonus: 2, weight: 3f }
 	]
 	title: "Farmers Delight Uncommon"
 }

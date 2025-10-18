@@ -12,7 +12,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 0.7f
+			weight: 45f
 		}
 		{
 			item: {
@@ -23,7 +23,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 0.5f
+			weight: 30f
 		}
 		{
 			item: {
@@ -34,7 +34,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 0.3f
+			weight: 20f
 		}
 		{
 			item: {
@@ -45,7 +45,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 0.15f
+			weight: 4f
 		}
 		{
 			item: {
@@ -56,7 +56,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 0.08f
+			weight: 1f
 		}
 	]
 	title: "Vanilla"

@@ -10,29 +10,43 @@
 		}
 		string_id: "farmers_delight_rare"
 	}
-	loot_size: 4
-	order_index: 8
+	loot_size: 1
+	order_index: 10
 	rewards: [
-		{ count: 4, item: "farmersdelight:stuffed_pumpkin", weight: 0.36f }
-		{ count: 3, item: "farmersdelight:roast_chicken", weight: 0.36f }
-		{ count: 3, item: "farmersdelight:hamburger", weight: 0.33f }
-		{ count: 3, item: "farmersdelight:steak_and_potatoes", weight: 0.33f }
-		{ count: 2, item: "farmersdelight:rice_roll_medley_block", weight: 0.27f }
-		{ count: 2, item: "farmersdelight:hot_cocoa", random_bonus: 2, weight: 0.3f }
-		{ count: 2, item: "farmersdelight:apple_pie", random_bonus: 1, weight: 0.27f }
-		{ item: "farmersdelight:cooking_pot", weight: 0.21f }
-		{
-			item: {
-				Count: 1
-				id: "farmersdelight:skillet"
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 0.21f
-		}
-		{ item: "farmersdelight:basket", weight: 0.18f }
-		{ item: "farmersdelight:safety_net", weight: 0.15f }
+		{ count: 2, item: "minecraft:potato", random_bonus: 8, weight: 4f }
+		{ count: 2, item: "minecraft:carrot", random_bonus: 8, weight: 4f }
+		{ count: 2, item: "farmersdelight:cabbage", random_bonus: 8, weight: 3f }
+		{ count: 2, item: "farmersdelight:tomato", random_bonus: 8, weight: 4f }
+		{ count: 2, item: "farmersdelight:onion", random_bonus: 8, weight: 4f }
+		{ count: 2, item: "farmersdelight:rice_panicle", random_bonus: 8, weight: 4f }
+		{ count: 2, item: "minecraft:beetroot", random_bonus: 8, weight: 4f }
+		{ count: 1, item: "minecraft:cocoa_beans", random_bonus: 5, weight: 4f }
+		{ count: 1, item: "farmersrespite:coffee_berries", random_bonus: 2, weight: 4f }
+		{ count: 1, item: "farmersrespite:coffee_beans", random_bonus: 2, weight: 4f }
+		{ count: 1, item: "farmersrespite:green_tea_leaves", random_bonus: 2, weight: 4f }
+		{ count: 1, item: "farmersrespite:yellow_tea_leaves", random_bonus: 2, weight: 4f }
+		{ count: 1, item: "farmersrespite:black_tea_leaves", random_bonus: 2, weight: 4f }
+		{ count: 1, item: "brewinandchewin:unripe_flaxen_cheese_wheel", random_bonus: 0, weight: 2f }
+		{ count: 1, item: "brewinandchewin:unripe_scarlet_cheese_wheel", random_bonus: 0, weight: 2f }
+		{ count: 1, item: "brewinandchewin:flaxen_cheese_wheel", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "brewinandchewin:scarlet_cheese_wheel", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "farmersdelight:carrot_crate", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:potato_crate", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:beetroot_crate", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:cabbage_crate", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:tomato_crate", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:onion_crate", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:rice_bale", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "minecraft:hay_block", random_bonus: 11, weight: 2f }
+		{ count: 1, item: "farmersrespite:coffee_beans_sack", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersrespite:black_tea_leaves_sack", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersrespite:yellow_tea_leaves_sack", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersrespite:green_tea_leaves_sack", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "farmersdelight:organic_compost", random_bonus: 5, weight: 2f }
+		{ count: 1, item: "quark:cocoa_beans_sack", random_bonus: 5, weight: 2f }
+		{ count: 2, item: "farmersdelight:straw_bale", random_bonus: 5, weight: 5f }
+		{ count: 2, item: "farmersdelight:rope", random_bonus: 10, weight: 5f }
+		{ count: 2, item: "farmersdelight:canvas", random_bonus: 4, weight: 5f }
 	]
 	title: "Farmers Delight Rare"
 }

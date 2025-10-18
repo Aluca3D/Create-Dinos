@@ -1,6 +1,6 @@
 console.info('Loaded Custom Recipes')
 
-const XP_COST = { common: 250, uncommon: 500, rare: 750, epic: 500, legendary: 1000 };
+const XP_COST = { common: 250, uncommon: 500, rare: 750, epic: 250, legendary: 500 };
 
 
 function bulkFermentingRecipe(event, inputs, outputs, options) {
