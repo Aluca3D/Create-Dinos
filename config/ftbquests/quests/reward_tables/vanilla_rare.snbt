@@ -10,14 +10,25 @@
 		}
 		string_id: "vanilla_rare"
 	}
-	loot_size: 4
-	order_index: 6
+	loot_size: 1
+	order_index: 4
 	rewards: [
-		{ count: 2, item: "minecraft:netherite_scrap", random_bonus: 1, weight: 0.15f }
-		{ count: 4, item: "minecraft:blaze_rod", random_bonus: 2, weight: 0.1f }
-		{ count: 6, item: "minecraft:quartz", random_bonus: 4, weight: 0.12f }
-		{ count: 3, item: "minecraft:ghast_tear", random_bonus: 1, weight: 0.08f }
-		{ count: 2, item: "minecraft:magma_block", weight: 0.07f }
+		{ count: 4, item: "minecraft:iron_ingot", random_bonus: 28, weight: 4f }
+		{ count: 4, item: "minecraft:gold_ingot", random_bonus: 28, weight: 4f }
+		{ count: 6, item: "minecraft:copper_ingot", random_bonus: 42, weight: 4f }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 6, weight: 3f }
+		{ count: 2, item: "minecraft:emerald", random_bonus: 10, weight: 3f }
+		{ count: 1, item: "minecraft:heart_of_the_sea", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "minecraft:nautilus_shell", random_bonus: 3, weight: 4f }
+		{ count: 2, item: "minecraft:prismarine_crystals", random_bonus: 10, weight: 10f }
+		{ count: 2, item: "minecraft:prismarine_shard", random_bonus: 10, weight: 10f }
+		{ count: 2, item: "minecraft:prismarine", random_bonus: 6, weight: 12f }
+		{ count: 2, item: "minecraft:prismarine_bricks", random_bonus: 6, weight: 12f }
+		{ count: 2, item: "minecraft:dark_prismarine", random_bonus: 6, weight: 12f }
+		{ count: 4, item: "minecraft:sculk", random_bonus: 6, weight: 10f }
+		{ count: 1, item: "minecraft:sculk_catalyst", random_bonus: 2, weight: 5f }
+		{ count: 1, item: "minecraft:sculk_shrieker", random_bonus: 0, weight: 3f }
+		{ count: 1, item: "minecraft:sculk_sensor", random_bonus: 1, weight: 3f }
 	]
 	title: "Vanilla Rare"
 }

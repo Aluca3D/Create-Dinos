@@ -11,16 +11,25 @@
 		glow: 1b
 		string_id: "vanilla_legendary"
 	}
-	loot_size: 6
-	order_index: 14
+	loot_size: 1
+	order_index: 6
 	rewards: [
-		{ item: "minecraft:dragon_egg", weight: 0.001f }
-		{ item: "minecraft:totem_of_undying", random_bonus: 2, weight: 0.3f }
-		{ item: "minecraft:enchanted_golden_apple", weight: 0.05f }
-		{ item: "minecraft:beacon", weight: 0.08f }
-		{ item: "minecraft:nether_star", weight: 0.08f }
-		{ item: "minecraft:dragon_head", weight: 0.06f }
-		{ item: "minecraft:end_crystal", weight: 0.07f }
+		{ count: 1, item: "minecraft:totem_of_undying", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "minecraft:dragon_egg", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "minecraft:nether_star", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "minecraft:netherite_scrap", random_bonus: 3, weight: 2f }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 8, weight: 6f }
+		{ count: 1, item: "minecraft:enchanted_golden_apple", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "minecraft:golden_apple", random_bonus: 3, weight: 4f }
+		{ count: 2, item: "minecraft:end_stone", random_bonus: 12, weight: 20f }
+		{ count: 2, item: "minecraft:chorus_fruit", random_bonus: 6, weight: 20f }
+		{ count: 2, item: "minecraft:purpur_block", random_bonus: 6, weight: 20f }
+		{ count: 1, item: "minecraft:ender_pearl", random_bonus: 2, weight: 10f }
+		{ count: 1, item: "minecraft:netherite_ingot", random_bonus: 0, weight: 1f }
+		{ count: 1, item: "minecraft:ancient_debris", random_bonus: 2, weight: 2f }
+		{ count: 1, item: "minecraft:shulker_shell", random_bonus: 3, weight: 10f }
+		{ count: 1, item: "minecraft:dragon_breath", random_bonus: 0, weight: 1f }
+		
 	]
 	title: "Vanilla Legendary"
 }

@@ -1,7 +1,7 @@
 {
 	id: "7AF4B72867D026FD"
 	loot_size: 1
-	order_index: 15
+	order_index: 1
 	rewards: [
 		{
 			item: {
