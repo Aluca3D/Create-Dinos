@@ -10,31 +10,24 @@
 		}
 		string_id: "create_common"
 	}
-	loot_size: 3
-	order_index: 0
+	loot_size: 1
+	order_index: 14
 	rewards: [
-		{ count: 4, item: "create:andesite_alloy", random_bonus: 2 }
-		{ count: 3, item: "create:brass_ingot", random_bonus: 1, weight: 0.75f }
-		{ count: 4, item: "create:andesite_casing", random_bonus: 4, weight: 0.75f }
-		{ count: 2, item: "create:brass_casing", random_bonus: 4, weight: 0.5f }
-		{ count: 6, item: "create:cogwheel", random_bonus: 3, weight: 0.85f }
-		{ count: 4, item: "create:large_cogwheel", random_bonus: 2, weight: 0.75f }
-		{ count: 2, item: "create:shaft", random_bonus: 4, weight: 0.85f }
-		{ item: "create:hand_crank", weight: 0.6f }
-		{ count: 2, item: "create:gearbox", weight: 0.5f }
-		{ item: "create:depot", weight: 0.5f }
-		{ count: 2, item: "create:chute", random_bonus: 2, weight: 0.65f }
-		{ item: "create:spout", weight: 0.4f }
-		{ item: "create:mechanical_press", weight: 0.25f }
-		{
-			item: {
+		{ count: 2, item: "create:andesite_alloy", random_bonus: 6, weight: 20f }
+		{ count: 1, item: "create:andesite_casing", random_bonus: 3, weight: 20f }
+		{ count: 2, item: "create:cogwheel", random_bonus: 4, weight: 15f }
+		{ count: 1, item: "create:large_cogwheel", random_bonus: 2, weight: 15f }
+		{ count: 2, item: "create:shaft", random_bonus: 4, weight: 6f }
+		{ count: 1, item: "create:hand_crank", random_bonus: 0, weight: 6f }
+		{ count: 1, item: "create:depot", random_bonus: 1, weight: 6f }
+		{ count: 1, item: "create:chute", random_bonus: 3, weight: 6f }
+		{ count: 1, item: {
 				Count: 1
 				id: "create:super_glue"
 				tag: {
 					Damage: 50
 				}
-			}
-		}
+			}, random_bonus: 3, weight: 6f }
 	]
 	title: "Create Common"
 }

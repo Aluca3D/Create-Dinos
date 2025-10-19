@@ -10,22 +10,42 @@
 		}
 		string_id: "create_rare"
 	}
-	loot_size: 4
-	order_index: 4
+	loot_size: 1
+	order_index: 16
 	rewards: [
-		{ count: 8, item: "create:brass_ingot", random_bonus: 4, weight: 0.54f }
-		{ count: 4, item: "create:brass_casing", random_bonus: 2, weight: 0.45f }
-		{ count: 2, item: "create:electron_tube", random_bonus: 3, weight: 0.42f }
-		{ count: 2, item: "create:precision_mechanism", random_bonus: 1, weight: 0.36f }
-		{ count: 2, item: "create:rose_quartz", random_bonus: 3, weight: 0.42f }
-		{ item: "create:blaze_burner", weight: 0.24f }
-		{ item: "create:mechanical_mixer", weight: 0.27f }
-		{ item: "create:mechanical_press", weight: 0.27f }
-		{ item: "create:mechanical_saw", weight: 0.21f }
-		{ item: "create:mechanical_drill", weight: 0.21f }
-		{ item: "create:encased_fan", weight: 0.18f }
-		{ item: "create:sequenced_gearshift", weight: 0.15f }
-		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.12f }
+		{ count: 2, item: "create:andesite_alloy", random_bonus: 10, weight: 5f }
+		{ count: 1, item: "create:andesite_casing", random_bonus: 6, weight: 5f }
+		{ count: 2, item: "create:cogwheel", random_bonus: 8, weight:3f }
+		{ count: 1, item: "create:large_cogwheel", random_bonus: 4, weight: 3f }
+		{ count: 2, item: "create:shaft", random_bonus: 8, weight: 4f }
+		{ count: 1, item: "create:hand_crank", random_bonus: 0, weight: 3f }
+		{ count: 1, item: "create:depot", random_bonus: 2, weight: 4f }
+		{ count: 1, item: "create:chute", random_bonus: 4, weight: 4f }
+		{ count: 2, item: "create:belt_connector", random_bonus: 4, weight: 4f }
+		{ count: 1, item: "create:super_glue", random_bonus: 0, weight: 4f }
+		{ count: 1, item: "create:mechanical_mixer", random_bonus: 0, weight: 2f }
+		{ count: 1, item: "create:encased_fan", random_bonus: 2, weight: 2f }
+		{ count: 1, item: "create:mechanical_press", random_bonus: 0, weight: 2f }
+		{ count: 1, item: "create:mechanical_saw", random_bonus: 2, weight: 2f }
+		{ count: 1, item: "create:mechanical_drill", random_bonus: 2, weight: 2f }
+		{ count: 1, item: "create:basin", random_bonus: 0, weight: 2f }
+		{ count: 2, item: "create:andesite_funnel", random_bonus: 4, weight: 2f }
+		{ count: 1, item: "create:andesite_tunnel", random_bonus: 2, weight: 2f }
+		{ count: 2, item: "create:brass_ingot", random_bonus: 4 weight: 5f }
+		{ count: 2, item: "create:brass_casing", random_bonus: 4 weight: 5f }
+		{ count: 1, item: "create:electron_tube", random_bonus: 2 weight: 3f }
+		{ count: 4, item: "create:rose_quartz", random_bonus: 6 weight: 5f }
+		{ count: 1, item: "create:precision_mechanism", random_bonus: 3 weight: 1f }
+		{ count: 1, item: "create:mechanical_crafter", random_bonus: 3 weight: 2f }
+		{ count: 1, item: "create:empty_blaze_burner", random_bonus: 2 weight: 3f }
+		{ count: 1, item: "create:mechanical_arm", random_bonus: 0 weight: 2f }
+		{ count: 1, item: "create:rotation_speed_controller", random_bonus: 0 weight: 1f }
+		{ count: 2, item: "create:brass_funnel", random_bonus: 4 weight: 3f }
+		{ count: 1, item: "create:blaze_cake", random_bonus: 2 weight: 1f }
+		{ count: 4, item: "create:fluid_tank", random_bonus: 8 weight: 4f }
+		{ count: 4, item: "create:item_vault", random_bonus: 8 weight: 4f }
+		{ count: 2, item: "create:fluid_pipe", random_bonus: 4 weight: 3f }
+		{ count: 1, item: "create:brass_tunnel", random_bonus: 2 weight: 3f }
 	]
 	title: "Create Rare"
 }

@@ -10,13 +10,37 @@
 		}
 		string_id: "create_epic"
 	}
-	loot_size: 5
-	order_index: 7
+	loot_size: 1
+	order_index: 17
 	rewards: [
-		{ count: 4, item: "create:precision_mechanism", random_bonus: 2, weight: 0.3f }
-		{ item: "create:mechanical_crafter", random_bonus: 2, weight: 0.18f }
-		{ item: "create:deployer", weight: 0.2f }
-		{ item: "create:sequenced_gearshift", weight: 0.15f }
+		{ count: 3, item: "create:brass_ingot", random_bonus: 14 weight: 6f }
+		{ count: 4, item: "create:brass_casing", random_bonus: 8 weight: 6f }
+		{ count: 2, item: "create:electron_tube", random_bonus: 4 weight: 3f }
+		{ count: 4, item: "create:rose_quartz", random_bonus: 6 weight: 6f }
+		{ count: 2, item: "create:precision_mechanism", random_bonus: 6 weight: 2f }
+		{ count: 2, item: "create:mechanical_crafter", random_bonus: 6 weight: 2f }
+		{ count: 1, item: "create:empty_blaze_burner", random_bonus: 2 weight: 3f }
+		{ count: 1, item: "create:mechanical_arm", random_bonus: 2 weight: 3f }
+		{ count: 1, item: "create:rotation_speed_controller", random_bonus: 0 weight: 3f }
+		{ count: 2, item: "create:brass_funnel", random_bonus: 4 weight: 4f }
+		{ count: 1, item: "create:blaze_cake", random_bonus: 2 weight: 2f }
+		{ count: 4, item: "create:fluid_tank", random_bonus: 8 weight: 4f }
+		{ count: 4, item: "create:item_vault", random_bonus: 8 weight: 4f }
+		{ count: 2, item: "create:fluid_pipe", random_bonus: 4 weight: 4f }
+		{ count: 1, item: "create:brass_tunnel", random_bonus: 2 weight: 4f }
+		{ count: 1, item: "create:smart_chute", random_bonus: 3 weight: 4f }
+		{ count: 2, item: "create:steam_engine", random_bonus: 4 weight: 4f }
+		{ count: 1, item: "create:blaze_burner", random_bonus: 0 weight: 2f }
+		{ count: 1, item: "create:stock_ticker", random_bonus: 2 weight: 3f }
+		{ count: 2, item: "create:stock_link", random_bonus: 4 weight: 3f }
+		{ count: 1, item: "create:package_frogport", random_bonus: 2 weight: 3f }
+		{ count: 1, item: "create:packager", random_bonus: 4 weight: 3f }
+		{ count: 1, item: "create:clipboard", random_bonus: 2 weight: 5f }
+		{ count: 1, item: "create:super_glue", random_bonus: 1 weight: 3f }
+		{ count: 1, item: "create:content_observer", random_bonus: 2 weight: 3f }
+		{ count: 1, item: "create:stockpile_switch", random_bonus: 4 weight: 3f }
+		{ count: 4, item: "create:factory_gauge", random_bonus: 8 weight: 3f }
+		{ count: 8, item: "create:belt_connector", random_bonus: 16 weight: 5f }
 	]
 	title: "Create Epic"
 }
