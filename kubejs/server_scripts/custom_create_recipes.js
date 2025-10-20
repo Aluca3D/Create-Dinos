@@ -599,9 +599,9 @@ ServerEvents.recipes(event => {
         event.recipes.createPressing(Enter, Enter),
     ]).transitionalItem(Enter).loops(1)
 
-    let fossil_mesh = "kubejs:fossil_mesh"
+    let fossil_mesh = "createsifter:advanced_brass_mesh"
     event.recipes.create.sequenced_assembly([
-        Item.of(fossil_mesh)
+        Item.of("kubejs:fossil_mesh")
     ], "createsifter:advanced_brass_mesh", [
         event.recipes.createDeploying(fossil_mesh, [fossil_mesh, "#fossil:fossils"]),
         event.recipes.createPressing(fossil_mesh, fossil_mesh),
