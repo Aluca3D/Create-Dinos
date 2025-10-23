@@ -1,6 +1,6 @@
 console.info('Loaded Custom Recipes')
 
-const XP_COST = { common: 250, uncommon: 500, rare: 750, epic: 250, legendary: 500 };
+const XP_COST = { common: 50, uncommon: 75, rare: 100, epic: 25, legendary: 50 };
 
 
 function bulkFermentingRecipe(event, inputs, outputs, options) {
@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('minecraft:dripstone_block', ['minecraft:calcite', Fluid.water(200)])
     event.recipes.create.mixing([Fluid.of('create_central_kitchen:dragon_breath', 250), "minecraft:dragon_egg"], ["minecraft:dragon_egg", Fluid.water(250)])
     event.recipes.create.mixing('minecraft:wither_rose', ['minecraft:poppy', Fluid.of('create_enchantment_industry:ink', 250)])
-    event.recipes.create.mixing([Item.of("minecraft:sculk"), Item.of("minecraft:sculk").withChance(0.5)], ['minecraft:sculk', Fluid.of('create_enchantment_industry:experience', 250)])
+    event.recipes.create.mixing([Item.of("minecraft:sculk"), Item.of("minecraft:sculk").withChance(0.5)], ['minecraft:sculk', Fluid.of('create_enchantment_industry:experience', 25)])
 
     event.recipes.create.mixing(
         [
