@@ -18,52 +18,68 @@
 		string_id: "farmers_delight_legendary"
 	}
 	loot_size: 1
-	order_index: 12
+	order_index: 11
 	rewards: [
-		{ count: 1, item: "farmersdelight:carrot_crate", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:potato_crate", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:beetroot_crate", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:cabbage_crate", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:tomato_crate", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:onion_crate", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:rice_bale", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "minecraft:hay_block", random_bonus: 5, weight: 2f }
-		{ count: 1, item: "farmersrespite:coffee_beans_sack", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersrespite:black_tea_leaves_sack", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersrespite:yellow_tea_leaves_sack", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersrespite:green_tea_leaves_sack", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "quark:cocoa_beans_sack", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "farmersdelight:straw_bale", random_bonus: 4, weight: 3f }
-		{ count: 1, item: "farmersdelight:rope", random_bonus: 6, weight: 3f }
-		{ count: 2, item: "farmersdelight:canvas", random_bonus: 4, weight: 3f }
-		{ count: 1, item: "farmersdelight:cooking_pot", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "farmersdelight:skillet", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "farmersdelight:iron_knife", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "farmersrespite:kettle", random_bonus: 0, weight: 1f }
-		{ count: 2, item: "farmersdelight:organic_compost", random_bonus: 4, weight: 2f }
-		{ count: 1, item: "farmersdelight:rich_soil", random_bonus: 4, weight: 2f }
-		{ count: 1, item: "farmersdelight:basket", random_bonus: 2, weight: 4f }
-		{ count: 2, item: "brewinandchewin:coaster", random_bonus: 4, weight: 4f }
-		{ count: 1, item: "brewinandchewin:tankard", random_bonus: 2, weight: 4f }
-		{ count: 2, item: "minecraft:beef", random_bonus: 6, weight: 3f }
-		{ count: 2, item: "minecraft:porkchop", random_bonus: 6, weight: 3f }
-		{ count: 2, item: "minecraft:mutton", random_bonus: 6, weight: 3f }
-		{ count: 2, item: "minecraft:chicken", random_bonus: 6, weight: 3f }
-		{ count: 2, item: "minecraft:rabbit", random_bonus: 4, weight: 3f }
-		{ count: 2, item: "minecraft:cod", random_bonus: 6, weight: 3f }
-		{ count: 2, item: "minecraft:salmon", random_bonus: 6, weight: 3f }
-		{ count: 1, item: "quark:crab_leg", random_bonus: 4, weight: 3f }
-		{ count: 1, item: "brewinandchewin:flaxen_cheese_wheel", random_bonus: 1, weight: 1f }
-		{ count: 1, item: "brewinandchewin:scarlet_cheese_wheel", random_bonus: 1, weight: 1f }
-		{ count: 1, item: "farmersdelight:shepherds_pie_block", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "farmersdelight:roast_chicken_block", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "farmersdelight:stuffed_pumpkin_block", random_bonus: 0, weight: 1f }
-		{ count: 4, item: "farmersdelight:hamburger", random_bonus: 8, weight: 3f }
-		{ count: 1, item: "farmersdelight:steak_and_potatoes", random_bonus: 3, weight: 3f }
-		{ count: 2, item: "farmersdelight:hot_cocoa", random_bonus: 8, weight: 3f }
-		{ count: 1, item: "farmersdelight:rice_roll_medley_block", random_bonus: 0, weight: 1f }
-		{ count: 4, item: "farmersdelight:chicken_soup", random_bonus: 6, weight: 3f }
-		{ count: 4, item: "farmersdelight:salmon_roll", random_bonus: 8, weight: 3f }
+		{ item: "farmersdelight:carrot_crate", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:potato_crate", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:beetroot_crate", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:cabbage_crate", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:tomato_crate", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:onion_crate", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:rice_bale", random_bonus: 2, weight: 2.0f }
+		{ item: "minecraft:hay_block", random_bonus: 5, weight: 2.0f }
+		{ item: "farmersrespite:coffee_beans_sack", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersrespite:black_tea_leaves_sack", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersrespite:yellow_tea_leaves_sack", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersrespite:green_tea_leaves_sack", random_bonus: 2, weight: 2.0f }
+		{ item: "quark:cocoa_beans_sack", random_bonus: 2, weight: 2.0f }
+		{ item: "farmersdelight:straw_bale", random_bonus: 4, weight: 3.0f }
+		{ item: "farmersdelight:rope", random_bonus: 6, weight: 3.0f }
+		{ count: 2, item: "farmersdelight:canvas", random_bonus: 4, weight: 3.0f }
+		{ item: "farmersdelight:cooking_pot" }
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersrespite:kettle" }
+		{ count: 2, item: "farmersdelight:organic_compost", random_bonus: 4, weight: 2.0f }
+		{ item: "farmersdelight:rich_soil", random_bonus: 4, weight: 2.0f }
+		{ item: "farmersdelight:basket", random_bonus: 2, weight: 4.0f }
+		{ count: 2, item: "brewinandchewin:coaster", random_bonus: 4, weight: 4.0f }
+		{ item: "brewinandchewin:tankard", random_bonus: 2, weight: 4.0f }
+		{ count: 2, item: "minecraft:beef", random_bonus: 6, weight: 3.0f }
+		{ count: 2, item: "minecraft:porkchop", random_bonus: 6, weight: 3.0f }
+		{ count: 2, item: "minecraft:mutton", random_bonus: 6, weight: 3.0f }
+		{ count: 2, item: "minecraft:chicken", random_bonus: 6, weight: 3.0f }
+		{ count: 2, item: "minecraft:rabbit", random_bonus: 4, weight: 3.0f }
+		{ count: 2, item: "minecraft:cod", random_bonus: 6, weight: 3.0f }
+		{ count: 2, item: "minecraft:salmon", random_bonus: 6, weight: 3.0f }
+		{ item: "quark:crab_leg", random_bonus: 4, weight: 3.0f }
+		{ item: "brewinandchewin:flaxen_cheese_wheel", random_bonus: 1 }
+		{ item: "brewinandchewin:scarlet_cheese_wheel", random_bonus: 1 }
+		{ item: "farmersdelight:shepherds_pie_block" }
+		{ item: "farmersdelight:roast_chicken_block" }
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{ count: 4, item: "farmersdelight:hamburger", random_bonus: 8, weight: 3.0f }
+		{ item: "farmersdelight:steak_and_potatoes", random_bonus: 3, weight: 3.0f }
+		{ count: 2, item: "farmersdelight:hot_cocoa", random_bonus: 8, weight: 3.0f }
+		{ item: "farmersdelight:rice_roll_medley_block" }
+		{ count: 4, item: "farmersdelight:chicken_soup", random_bonus: 6, weight: 3.0f }
+		{ count: 4, item: "farmersdelight:salmon_roll", random_bonus: 8, weight: 3.0f }
 	]
 	title: "Farmers Delight Legendary"
 }

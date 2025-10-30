@@ -12,24 +12,23 @@
 		string_id: "vanilla_legendary"
 	}
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
-		{ count: 1, item: "minecraft:totem_of_undying", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "minecraft:dragon_egg", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "minecraft:nether_star", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "minecraft:netherite_scrap", random_bonus: 3, weight: 2f }
-		{ count: 2, item: "minecraft:diamond", random_bonus: 8, weight: 6f }
-		{ count: 1, item: "minecraft:enchanted_golden_apple", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "minecraft:golden_apple", random_bonus: 3, weight: 4f }
-		{ count: 2, item: "minecraft:end_stone", random_bonus: 12, weight: 20f }
-		{ count: 2, item: "minecraft:chorus_fruit", random_bonus: 6, weight: 20f }
-		{ count: 2, item: "minecraft:purpur_block", random_bonus: 6, weight: 20f }
-		{ count: 1, item: "minecraft:ender_pearl", random_bonus: 2, weight: 10f }
-		{ count: 1, item: "minecraft:netherite_ingot", random_bonus: 0, weight: 1f }
-		{ count: 1, item: "minecraft:ancient_debris", random_bonus: 2, weight: 2f }
-		{ count: 1, item: "minecraft:shulker_shell", random_bonus: 3, weight: 10f }
-		{ count: 1, item: "minecraft:dragon_breath", random_bonus: 0, weight: 1f }
-		
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "minecraft:dragon_egg" }
+		{ item: "minecraft:nether_star" }
+		{ item: "minecraft:netherite_scrap", random_bonus: 3, weight: 2.0f }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 8, weight: 6.0f }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:golden_apple", random_bonus: 3, weight: 4.0f }
+		{ count: 2, item: "minecraft:end_stone", random_bonus: 12, weight: 20.0f }
+		{ count: 2, item: "minecraft:chorus_fruit", random_bonus: 6, weight: 20.0f }
+		{ count: 2, item: "minecraft:purpur_block", random_bonus: 6, weight: 20.0f }
+		{ item: "minecraft:ender_pearl", random_bonus: 2, weight: 10.0f }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "minecraft:ancient_debris", random_bonus: 2, weight: 2.0f }
+		{ item: "minecraft:shulker_shell", random_bonus: 3, weight: 10.0f }
+		{ item: "minecraft:dragon_breath" }
 	]
 	title: "Vanilla Legendary"
 }

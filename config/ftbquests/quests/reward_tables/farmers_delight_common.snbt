@@ -11,26 +11,26 @@
 		string_id: "farmers_delight_common"
 	}
 	loot_size: 1
-	order_index: 8
+	order_index: 7
 	rewards: [
-		{ count: 2, item: "minecraft:apple", random_bonus: 2, weight: 4f }
-		{ count: 2, item: "minecraft:carrot", random_bonus: 4, weight: 4f }
-		{ count: 2, item: "minecraft:potato", random_bonus: 4, weight: 4f }
-		{ count: 2, item: "farmersdelight:cabbage", random_bonus: 4, weight: 4f }
-		{ count: 2, item: "farmersdelight:cabbage_leaf", random_bonus: 5, weight: 6f }
-		{ count: 2, item: "farmersdelight:tomato", random_bonus: 6, weight: 4f }
-		{ count: 2, item: "farmersdelight:onion", random_bonus: 4, weight: 4f }
-		{ count: 2, item: "farmersdelight:rice_panicle", random_bonus: 6, weight: 4f }
-		{ count: 2, item: "minecraft:beetroot", random_bonus: 4, weight: 5f }
-		{ count: 2, item: "minecraft:wheat", random_bonus: 8, weight: 6f }
-		{ count: 1, item: "minecraft:sweet_berries", random_bonus: 8, weight: 6f }
-		{ count: 4, item: "minecraft:wheat_seeds", random_bonus: 12, weight: 7f }
-		{ count: 2, item: "minecraft:pumpkin_seeds", random_bonus: 4, weight: 7f }
-		{ count: 2, item: "minecraft:melon_seeds", random_bonus: 4, weight: 7f }
-		{ count: 4, item: "minecraft:beetroot_seeds", random_bonus: 6, weight: 7f }
-		{ count: 2, item: "farmersdelight:tomato_seeds", random_bonus: 4, weight: 7f }
-		{ count: 2, item: "farmersdelight:cabbage_seeds", random_bonus: 4, weight: 7f }
-		{ count: 2, item: "farmersrespite:tea_seeds", random_bonus: 4, weight: 7f }
+		{ count: 2, item: "minecraft:apple", random_bonus: 2, weight: 4.0f }
+		{ count: 2, item: "minecraft:carrot", random_bonus: 4, weight: 4.0f }
+		{ count: 2, item: "minecraft:potato", random_bonus: 4, weight: 4.0f }
+		{ count: 2, item: "farmersdelight:cabbage", random_bonus: 4, weight: 4.0f }
+		{ count: 2, item: "farmersdelight:cabbage_leaf", random_bonus: 5, weight: 6.0f }
+		{ count: 2, item: "farmersdelight:tomato", random_bonus: 6, weight: 4.0f }
+		{ count: 2, item: "farmersdelight:onion", random_bonus: 4, weight: 4.0f }
+		{ count: 2, item: "farmersdelight:rice_panicle", random_bonus: 6, weight: 4.0f }
+		{ count: 2, item: "minecraft:beetroot", random_bonus: 4, weight: 5.0f }
+		{ count: 2, item: "minecraft:wheat", random_bonus: 8, weight: 6.0f }
+		{ item: "minecraft:sweet_berries", random_bonus: 8, weight: 6.0f }
+		{ count: 4, item: "minecraft:wheat_seeds", random_bonus: 12, weight: 7.0f }
+		{ count: 2, item: "minecraft:pumpkin_seeds", random_bonus: 4, weight: 7.0f }
+		{ count: 2, item: "minecraft:melon_seeds", random_bonus: 4, weight: 7.0f }
+		{ count: 4, item: "minecraft:beetroot_seeds", random_bonus: 6, weight: 7.0f }
+		{ count: 2, item: "farmersdelight:tomato_seeds", random_bonus: 4, weight: 7.0f }
+		{ count: 2, item: "farmersdelight:cabbage_seeds", random_bonus: 4, weight: 7.0f }
+		{ count: 2, item: "farmersrespite:tea_seeds", random_bonus: 4, weight: 7.0f }
 	]
 	title: "Farmers Delight Common"
 }

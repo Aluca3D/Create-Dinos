@@ -1366,52 +1366,6 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["582B00FD9C2BEA77"]
-			dependency_requirement: "all_started"
-			description: ["Figure it out yourself."]
-			id: "7258F2CDBE578F98"
-			rewards: [{
-				count: 16
-				id: "3D8C460BF493CF1F"
-				item: {
-					Count: 1
-					id: "kubejs:cad_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1FCC26A0B69C1C1F"
-					item: "extra_gauges:integer_gauge"
-					type: "item"
-				}
-				{
-					id: "13365BB9CF8F657D"
-					item: "extra_gauges:logic_gauge"
-					type: "item"
-				}
-				{
-					id: "142DCC87C5A0F8D7"
-					item: "extra_gauges:comparator_gauge"
-					type: "item"
-				}
-				{
-					id: "6B915A4E769EF307"
-					item: "extra_gauges:counter_gauge"
-					type: "item"
-				}
-				{
-					id: "38C8EBD18404280F"
-					item: "create_factory_logistics:network_link"
-					type: "item"
-				}
-			]
-			title: "Logistic++"
-			x: 0.5d
-			y: 9.0d
-		}
-		{
 			dependencies: ["441083D0BB41F46D"]
 			dependency_requirement: "all_started"
 			id: "2B0C5DD877952D5E"
@@ -1565,7 +1519,7 @@
 				}
 			]
 			title: "Fluids"
-			x: 2.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{

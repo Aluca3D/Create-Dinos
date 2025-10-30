@@ -11,26 +11,25 @@
 		string_id: "vanilla_epic"
 	}
 	loot_size: 1
-	order_index: 5
+	order_index: 4
 	rewards: [
-		{ count: 1, item: "minecraft:netherite_scrap", random_bonus: 1, weight: 1f }
-		{ count: 2, item: "minecraft:diamond", random_bonus: 10, weight: 4f }
-		{ count: 2, item: "minecraft:magma_block", random_bonus: 4, weight: 8f }
-		{ count: 2, item: "minecraft:blaze_rod", random_bonus: 8, weight: 4f }
-		{ count: 6, item: "minecraft:quartz", random_bonus: 26, weight: 8f }
-		{ count: 1, item: "minecraft:ghast_tear", random_bonus: 0, weight: 4f }
-		{ count: 2, item: "minecraft:netherrack", random_bonus: 12, weight: 20f }
-		{ count: 1, item: "minecraft:golden_apple", random_bonus: 0, weight: 1f }
-		{ count: 2, item: "minecraft:nether_bricks", random_bonus: 6, weight: 10f }
-		{ count: 2, item: "minecraft:red_nether_bricks", random_bonus: 4, weight: 8f }
-		{ count: 8, item: "minecraft:blackstone", random_bonus: 24, weight: 8f }
-		{ count: 2, item: "minecraft:glowstone_dust", random_bonus: 6, weight: 5f }
-		{ count: 2, item: "minecraft:nether_wart", random_bonus: 8, weight: 5f }
-		{ count: 1, item: "minecraft:glowstone", random_bonus: 4, weight: 5f }
-		{ count: 2, item: "minecraft:fire_charge", random_bonus: 2, weight: 4f }
-		{ count: 4, item: "minecraft:magma_cream", random_bonus: 6, weight: 4f }
-		{ count: 1, item: "minecraft:ancient_debris", random_bonus: 2, weight: 1f }
-		
+		{ item: "minecraft:netherite_scrap", random_bonus: 1 }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 10, weight: 4.0f }
+		{ count: 2, item: "minecraft:magma_block", random_bonus: 4, weight: 8.0f }
+		{ count: 2, item: "minecraft:blaze_rod", random_bonus: 8, weight: 4.0f }
+		{ count: 6, item: "minecraft:quartz", random_bonus: 26, weight: 8.0f }
+		{ item: "minecraft:ghast_tear", weight: 4.0f }
+		{ count: 2, item: "minecraft:netherrack", random_bonus: 12, weight: 20.0f }
+		{ item: "minecraft:golden_apple" }
+		{ count: 2, item: "minecraft:nether_bricks", random_bonus: 6, weight: 10.0f }
+		{ count: 2, item: "minecraft:red_nether_bricks", random_bonus: 4, weight: 8.0f }
+		{ count: 8, item: "minecraft:blackstone", random_bonus: 24, weight: 8.0f }
+		{ count: 2, item: "minecraft:glowstone_dust", random_bonus: 6, weight: 5.0f }
+		{ count: 2, item: "minecraft:nether_wart", random_bonus: 8, weight: 5.0f }
+		{ item: "minecraft:glowstone", random_bonus: 4, weight: 5.0f }
+		{ count: 2, item: "minecraft:fire_charge", random_bonus: 2, weight: 4.0f }
+		{ count: 4, item: "minecraft:magma_cream", random_bonus: 6, weight: 4.0f }
+		{ item: "minecraft:ancient_debris", random_bonus: 2 }
 	]
 	title: "Vanilla Epic"
 }

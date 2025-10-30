@@ -1011,10 +1011,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"64A2E905E6C15241"
-				"34EDAD7511335906"
-			]
+			dependencies: ["64A2E905E6C15241"]
 			description: ["You can buy Chunks for you and/or your Team!"]
 			id: "1B379F086B1785F3"
 			tasks: [{

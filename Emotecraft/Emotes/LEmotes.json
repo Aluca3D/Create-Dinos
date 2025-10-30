@@ -287,6 +287,7 @@
 			}
 		},
 		"Rotate": {
+			"loop": true,
 			"animation_length": 0.5,
 			"bones": {
 				"body": {
@@ -316,6 +317,7 @@
 			}
 		},
 		"Long Rotate": {
+			"loop": true,
 			"animation_length": 3,
 			"bones": {
 				"body": {

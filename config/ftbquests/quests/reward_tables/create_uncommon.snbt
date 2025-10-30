@@ -11,30 +11,34 @@
 		string_id: "create_uncommon"
 	}
 	loot_size: 1
-	order_index: 15
+	order_index: 14
 	rewards: [
-		{ count: 2, item: "create:andesite_alloy", random_bonus: 10, weight: 13f }
-		{ count: 1, item: "create:andesite_casing", random_bonus: 6, weight: 13f }
-		{ count: 2, item: "create:cogwheel", random_bonus: 8, weight: 12f }
-		{ count: 1, item: "create:large_cogwheel", random_bonus: 4, weight: 12f }
-		{ count: 2, item: "create:shaft", random_bonus: 8, weight: 6f }
-		{ count: 1, item: "create:hand_crank", random_bonus: 0, weight: 6f }
-		{ count: 1, item: "create:depot", random_bonus: 2, weight: 6f }
-		{ count: 1, item: "create:chute", random_bonus: 4, weight: 5f }
-		{ count: 2, item: "create:belt_connector", random_bonus: 4, weight: 5f }
-		{ count: 1, item: {
+		{ count: 2, item: "create:andesite_alloy", random_bonus: 10, weight: 13.0f }
+		{ item: "create:andesite_casing", random_bonus: 6, weight: 13.0f }
+		{ count: 2, item: "create:cogwheel", random_bonus: 8, weight: 12.0f }
+		{ item: "create:large_cogwheel", random_bonus: 4, weight: 12.0f }
+		{ count: 2, item: "create:shaft", random_bonus: 8, weight: 6.0f }
+		{ item: "create:hand_crank", weight: 6.0f }
+		{ item: "create:depot", random_bonus: 2, weight: 6.0f }
+		{ item: "create:chute", random_bonus: 4, weight: 5.0f }
+		{ count: 2, item: "create:belt_connector", random_bonus: 4, weight: 5.0f }
+		{
+			item: {
 				Count: 1
 				id: "create:super_glue"
 				tag: {
 					Damage: 25
 				}
-			}, random_bonus: 3, weight: 4f }
-		{ count: 1, item: "create:mechanical_mixer", random_bonus: 0, weight: 2f }
-		{ count: 1, item: "create:encased_fan", random_bonus: 2, weight: 4f }
-		{ count: 1, item: "create:mechanical_press", random_bonus: 0, weight: 2f }
-		{ count: 1, item: "create:mechanical_saw", random_bonus: 2, weight: 4f }
-		{ count: 1, item: "create:mechanical_drill", random_bonus: 2, weight: 4f }
-		{ count: 1, item: "create:basin", random_bonus: 0, weight: 2f }
+			}
+			random_bonus: 3
+			weight: 4.0f
+		}
+		{ item: "create:mechanical_mixer", weight: 2.0f }
+		{ item: "create:encased_fan", random_bonus: 2, weight: 4.0f }
+		{ item: "create:mechanical_press", weight: 2.0f }
+		{ item: "create:mechanical_saw", random_bonus: 2, weight: 4.0f }
+		{ item: "create:mechanical_drill", random_bonus: 2, weight: 4.0f }
+		{ item: "create:basin", weight: 2.0f }
 	]
 	title: "Create Uncommon"
 }

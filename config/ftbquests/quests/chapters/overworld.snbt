@@ -35,34 +35,6 @@
 		}
 		{
 			dependencies: ["1A646FAC6DE176F4"]
-			description: ["Build a Nature’s and Explorer’s Compass to quickly locate specific biomes and structures."]
-			id: "5DE9A5B0E14C509A"
-			tasks: [
-				{
-					id: "0F1D5439162F5199"
-					item: {
-						Count: 1
-						id: "naturescompass:naturescompass"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "681621D6FE7CE86C"
-					item: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "Compass"
-			x: 3.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1A646FAC6DE176F4"]
 			icon: {
 				Count: 1
 				id: "minecraft:fletching_table"

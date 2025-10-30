@@ -1,7 +1,7 @@
 {
 	id: "619E326CEE52B0AF"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{
 			item: {
@@ -12,7 +12,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 45f
+			weight: 45.0f
 		}
 		{
 			item: {
@@ -23,7 +23,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 30f
+			weight: 30.0f
 		}
 		{
 			item: {
@@ -34,7 +34,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 20f
+			weight: 20.0f
 		}
 		{
 			item: {
@@ -45,7 +45,7 @@
 				}
 			}
 			random_bonus: 1
-			weight: 4f
+			weight: 4.0f
 		}
 		{
 			item: {
@@ -56,7 +56,6 @@
 				}
 			}
 			random_bonus: 1
-			weight: 1f
 		}
 	]
 	title: "Farmers Delight"
