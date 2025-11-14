@@ -68,4 +68,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: "fossil:sifter/gravel" })
     event.remove({ output: "fossil:sifter/sifter_inputs" })
     event.remove({ output: "minecraft:ender_eye" })
+
+    event.remove({ id: "cgs:steel_ingot" })
+    event.remove({ id: "cgs:steel_block_from_steel_ingot" })
+    event.remove({ id: "cgs:mixing/steel_ingot" })
+    event.remove({ id: "cgs:crushing/charcoal" })
+    event.remove({ id: "cgs:pressing/steel_ingot" })
 })

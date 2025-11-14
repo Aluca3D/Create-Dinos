@@ -161,6 +161,9 @@ ServerEvents.recipes(event => {
         ['create:golden_sheet', '#fossil:fossils', Fluid.lava(100)]
     )
 
+    // Pressing
+    event.recipes.create.pressing('cgs:steel_sheet', 'createnuclear:steel_ingot');
+
     /// Create
     lootCrateCrafting(
         event,
