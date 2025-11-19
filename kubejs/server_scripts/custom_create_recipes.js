@@ -384,6 +384,16 @@ ServerEvents.recipes(event => {
         { fluid: "brewinandchewin:mead", amount: 1000 },
         { time: 7200, heat: "none" }
     )
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:wheat" },
+            { item: "minecraft:wheat_seeds" },
+            { item: "minecraft:sweet_berries" },
+            { fluid: "create:honey", amount: 1000 }
+        ],
+        { fluid: "brewinandchewin:mead", amount: 1000 },
+        { time: 7200, heat: "none" }
+    )
 
     // Pale Jane
     bulkFermentingRecipe(event,
@@ -405,6 +415,20 @@ ServerEvents.recipes(event => {
             { item: "minecraft:sea_pickle" },
             { item: "minecraft:glow_berries" },
             { fluid: "brewinandchewin:honey", amount: 250 }
+        ],
+        [
+            { item: "brewinandchewin:pickled_pickles" },
+            { item: "brewinandchewin:pickled_pickles" },
+            { item: "brewinandchewin:pickled_pickles", chance: 0.25 }
+        ],
+        { time: 7200, heat: "none" }
+    )
+    bulkFermentingRecipe(event,
+        [
+            { item: "minecraft:sea_pickle" },
+            { item: "minecraft:sea_pickle" },
+            { item: "minecraft:glow_berries" },
+            { fluid: "create:honey", amount: 250 }
         ],
         [
             { item: "brewinandchewin:pickled_pickles" },

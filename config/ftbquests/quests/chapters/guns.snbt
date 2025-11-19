@@ -64,11 +64,7 @@
 				{
 					count: 16
 					id: "030CB847CB4BEB2F"
-					item: {
-						Count: 1
-						id: "cgs:round_10mm"
-						tag: { }
-					}
+					item: "cgs:round_revolver"
 					type: "item"
 				}
 			]
@@ -184,11 +180,7 @@
 				{
 					count: 16
 					id: "365D36752EE4BC3B"
-					item: {
-						Count: 1
-						id: "cgs:round_7mm"
-						tag: { }
-					}
+					item: "cgs:round_gatling"
 					type: "item"
 				}
 			]
