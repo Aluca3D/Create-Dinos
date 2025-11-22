@@ -188,8 +188,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["630339A42A549F70"]
@@ -219,6 +219,35 @@
 			}]
 			x: 3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["12B2B50030EB7BCA"]
+			description: [""]
+			id: "213906C4282DA97D"
+			rewards: [{
+				count: 16
+				id: "5D4F9857D3334876"
+				item: {
+					Count: 1
+					id: "kubejs:cad_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E74DEDDC3AC2DF0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(icarus:wings)"
+					}
+				}
+				type: "item"
+			}]
+			title: "Wings!"
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 	title: "End"
